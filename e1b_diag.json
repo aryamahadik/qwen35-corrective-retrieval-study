@@ -1,0 +1,157 @@
+[
+  {
+    "id": "pallets__flask-5014",
+    "install_rc": 0,
+    "patch_rc": 0,
+    "pytest_rc": 1,
+    "n_f2p": 1,
+    "summary": [
+      [
+        "1",
+        "error"
+      ]
+    ],
+    "class": "collection/import error",
+    "f2p0": "tests/test_blueprints.py::test_empty_name_not_allowed",
+    "tail": "base = {\n            \"REMOTE_ADDR\": \"127.0.0.1\",\n>           \"HTTP_USER_AGENT\": f\"werkzeug/{werkzeug.__version__}\",\n        }\nE       AttributeError: module 'werkzeug' has no attribute '__version__'\n\nsrc/flask/testing.py:117: AttributeError\n=========================== short test summary info ============================\nERROR tests/test_blueprints.py::test_empty_name_not_allowed - AttributeError:...\n1 error in 0.25s\n"
+  },
+  {
+    "id": "psf__requests-1142",
+    "install_rc": 1,
+    "patch_rc": 0,
+    "pytest_rc": 4,
+    "n_f2p": 1,
+    "summary": [
+      [
+        "1",
+        "error"
+      ]
+    ],
+    "class": "collection/import error",
+    "f2p0": "test_requests.py::RequestsTestCase::test_no_content_length",
+    "tail": "tils.py:12: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13\n    import cgi\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR test_requests.py\n1 warning, 1 error in 0.18s\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_no_content_length\n\n"
+  },
+  {
+    "id": "psf__requests-1724",
+    "install_rc": 1,
+    "patch_rc": 0,
+    "pytest_rc": 4,
+    "n_f2p": 6,
+    "summary": [
+      [
+        "1",
+        "error"
+      ]
+    ],
+    "class": "collection/import error",
+    "f2p0": "test_requests.py::RequestsTestCase::test_DIGEST_AUTH_RETURNS_COOKIE",
+    "tail": "ocs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR test_requests.py\n1 warning, 1 error in 0.35s\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_DIGEST_AUTH_RETURNS_COOKIE\n\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_DIGEST_HTTP_200_OK_GET\n\n"
+  },
+  {
+    "id": "psf__requests-1766",
+    "install_rc": 1,
+    "patch_rc": 0,
+    "pytest_rc": 4,
+    "n_f2p": 6,
+    "summary": [
+      [
+        "1",
+        "error"
+      ]
+    ],
+    "class": "collection/import error",
+    "f2p0": "test_requests.py::RequestsTestCase::test_DIGESTAUTH_QUOTES_QOP_VALUE",
+    "tail": "test.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR test_requests.py\n1 warning, 1 error in 0.34s\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_DIGESTAUTH_QUOTES_QOP_VALUE\n\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_HTTP_200_OK_GET_ALTERNATIVE\n\n"
+  },
+  {
+    "id": "psf__requests-1921",
+    "install_rc": 1,
+    "patch_rc": 0,
+    "pytest_rc": 4,
+    "n_f2p": 6,
+    "summary": [
+      [
+        "1",
+        "error"
+      ]
+    ],
+    "class": "collection/import error",
+    "f2p0": "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET",
+    "tail": ".pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR test_requests.py\n1 warning, 1 error in 0.42s\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET\n\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_POSTBIN_GET_POST_FILES\n\n"
+  },
+  {
+    "id": "psf__requests-2317",
+    "install_rc": 1,
+    "patch_rc": 0,
+    "pytest_rc": 4,
+    "n_f2p": 8,
+    "summary": [
+      [
+        "1",
+        "error"
+      ]
+    ],
+    "class": "collection/import error",
+    "f2p0": "test_requests.py::RequestsTestCase::test_HTTP_302_ALLOW_REDIRECT_GET",
+    "tail": "cs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR test_requests.py\n1 warning, 1 error in 0.48s\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_HTTP_302_ALLOW_REDIRECT_GET\n\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::RequestsTestCase::test_POSTBIN_GET_POST_FILES\n\n"
+  },
+  {
+    "id": "psf__requests-2931",
+    "install_rc": 0,
+    "patch_rc": 0,
+    "pytest_rc": 4,
+    "n_f2p": 1,
+    "summary": [
+      [
+        "1",
+        "error"
+      ]
+    ],
+    "class": "collection/import error",
+    "f2p0": "test_requests.py::TestRequests::test_binary_put",
+    "tail": "ted and slated for removal in Python 3.13\n    import cgi\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR test_requests.py - AttributeError: module 'collections' has no attribut...\n4 warnings, 1 error in 0.67s\nERROR: found no collectors for /tmp/psf__requests/test_requests.py::TestRequests::test_binary_put\n\n"
+  },
+  {
+    "id": "psf__requests-5414",
+    "install_rc": 0,
+    "patch_rc": 0,
+    "pytest_rc": 1,
+    "n_f2p": 1,
+    "summary": [
+      [
+        "1",
+        "failed"
+      ]
+    ],
+    "class": "assertion FAILED (good)",
+    "f2p0": "tests/test_requests.py::TestRequests::test_invalid_url[InvalidURL-http://.example.com]",
+    "tail": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = None, from_value = None\n\n>   ???\nE   urllib3.exceptions.LocationParseError: Failed to parse: '.example.com', label empty or too long\n\n<string>:3: LocationParseError\n=========================== short test summary info ============================\nFAILED tests/test_requests.py::TestRequests::test_invalid_url[InvalidURL-http://.example.com]\n1 failed in 0.83s\n"
+  },
+  {
+    "id": "psf__requests-6028",
+    "install_rc": 0,
+    "patch_rc": 0,
+    "pytest_rc": 1,
+    "n_f2p": 2,
+    "summary": [
+      [
+        "2",
+        "failed"
+      ]
+    ],
+    "class": "assertion FAILED (good)",
+    "f2p0": "tests/test_utils.py::test_prepend_scheme_if_needed[http://user:pass@example.com/path?query-http://user:pass@example.com/path?query]",
+    "tail": "/path?query\n\ntests/test_utils.py:615: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_utils.py::test_prepend_scheme_if_needed[http://user:pass@example.com/path?query-http://user:pass@example.com/path?query]\nFAILED tests/test_utils.py::test_prepend_scheme_if_needed[http://user@example.com/path?query-http://user@example.com/path?query]\n2 failed in 0.23s\n"
+  },
+  {
+    "id": "pylint-dev__pylint-4551",
+    "install_rc": 0,
+    "patch_rc": 0,
+    "pytest_rc": 4,
+    "n_f2p": 10,
+    "summary": [],
+    "class": "collection/import error",
+    "f2p0": "tests/unittest_pyreverse_writer.py::test_dot_files[packages_No_Name.dot]",
+    "tail": ":33: in <module>\n    import wrapt\n/usr/local/lib/python3.11/site-packages/wrapt/__init__.py:10: in <module>\n    from .decorators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+  }
+]

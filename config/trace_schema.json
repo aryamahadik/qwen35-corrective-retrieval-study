@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Externally reviewed EnterpriseOps training trajectory",
+  "$comment": "Receipt contract v2 migration: existing count-only receipts are insufficient. Obtain actual indexed verifier outcomes and bind the canonical public task input. Do not invent outcomes or merely backfill hashes to mark old receipts accepted.",
+  "description": "One real complete trajectory per frozen training task. This schema supplies no demonstrations. Top-level administrative metadata is never model input. prepare_sft.py performs additional role/tool, receipt, membership, mask and rendering checks.",
+  "type": "object",
+  "required": ["source_task_id", "messages", "tools", "review", "provenance"],
+  "properties": {
+    "source_task_id": {"type": "string", "minLength": 1},
+    "messages": {
+      "type": "array", "minItems": 3,
+      "description": "Must begin with the exact system_prompt and user_prompt from the canonical training task. Later messages may only be assistant/tool turns; no substituted or additional user instructions.",
+      "items": {
+        "type": "object", "required": ["role"],
+        "properties": {
+          "role": {"enum": ["system", "user", "assistant", "tool"]},
+          "content": {"type": "string"},
+          "reasoning_content": {"type": "string"},
+          "tool_calls": {"type": "array"},
+          "tool_call_id": {"type": "string"},
+          "name": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "tools": {"type": "array", "description": "Actual native tool schemas visible to the agent. The unique function-name set must equal the canonical selected_tools exactly. Preserve native descriptions; live server/schema and argument correctness still require environment verification. Never include SQL verifiers or hidden administrative tools."},
+    "review": {
+      "type": "object",
+      "required": ["status", "reviewer", "reviewed_at", "no_evaluation_or_privileged_content", "model_visible_sha256", "task_input_sha256", "verifier_receipt"],
+      "properties": {
+        "status": {"const": "accepted"},
+        "reviewer": {"type": "string", "minLength": 1},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "no_evaluation_or_privileged_content": {"const": true},
+        "model_visible_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA256 of UTF8 canonical JSON {messages,tools}: sorted keys, compact separators, ensure_ascii=False, no NaN. The supplied review must attest to this exact payload."},
+        "task_input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA256 of the canonical public training input object with exactly task_id, domain, system_prompt, user_prompt, selected_tools and restricted_tools. Use the same UTF8 canonical JSON settings as model_visible_sha256."},
+        "verifier_receipt": {
+          "type": "object", "required": ["path", "sha256"],
+          "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+          "description": "Existing v2 JSON receipt; relative paths resolve beside the source JSONL. Must bind the canonical public task input, full normalized verifier-list hash, and every indexed verifier outcome. See verifier_receipt.schema.json. Merely writing passed/accepted does not independently verify correctness."
+        }
+      }
+    },
+    "provenance": {
+      "type": "object", "required": ["teacher_model", "generator_revision", "environment_revision", "source_trace_id"],
+      "properties": {
+        "teacher_model": {"type": "string", "minLength": 1},
+        "generator_revision": {"type": "string", "minLength": 1},
+        "environment_revision": {"type": "string", "minLength": 1},
+        "source_trace_id": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

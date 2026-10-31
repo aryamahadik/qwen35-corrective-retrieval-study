@@ -1,0 +1,7 @@
+{
+  "registry_tag": "12.8.1-devel-ubuntu22.04",
+  "status": "active",
+  "linux_amd64": true,
+  "digest": "sha256:a99a1860ba8e2916e5c3e73b72ec4c4301653a84586e05bfc9a2aa2d58027e97",
+  "source_url": "https://hub.docker.com/v2/repositories/nvidia/cuda/tags/12.8.1-devel-ubuntu22.04"
+}

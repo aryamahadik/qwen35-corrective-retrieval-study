@@ -1,0 +1,13 @@
+{
+  "gen": {
+    "n": 557,
+    "sample": "```python\ndef parse_server_name(server_name):\n    \"\"\"\n    Parse the server name to determine if it is an IPv6 address and handle it accordingly.\n\n    :param server_name: The server name to parse.\n    :type server_name: str\n    :return: The parsed server name or address.\n    :rtype: str\n    \"\"\"\n    import re\n\n    # Check if the server name is an IPv6 address\n    if re.match(r'\\[([0-9a-fA-F:]+)\\]', "
+  },
+  "eval": {
+    "REPORT": 303,
+    "HYDE": 285,
+    "RRF": 308,
+    "UNION": 347,
+    "n": 480
+  }
+}

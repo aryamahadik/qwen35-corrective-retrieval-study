@@ -1,0 +1,2479 @@
+[
+  {
+    "id": "astropy__astropy-14096",
+    "repo": "astropy/astropy",
+    "gold": [
+      "sky_coordinate.py::SkyCoord",
+      "sky_coordinate.py::__getattr__"
+    ],
+    "gold_files": [
+      "sky_coordinate.py"
+    ],
+    "frames_deep": [
+      "sky_coordinate.py::__getattr__",
+      "test.py::<module>"
+    ],
+    "frames_shallow": [
+      "test.py::<module>",
+      "sky_coordinate.py::__getattr__"
+    ],
+    "frame_files_deep": [
+      "sky_coordinate.py",
+      "test.py"
+    ]
+  },
+  {
+    "id": "astropy__astropy-14182",
+    "repo": "astropy/astropy",
+    "gold": [
+      "rst.py::RST",
+      "rst.py::SimpleRSTData",
+      "rst.py::__init__",
+      "rst.py::write"
+    ],
+    "gold_files": [
+      "rst.py"
+    ],
+    "frames_deep": [
+      "core.py::_get_writer",
+      "ui.py::get_writer",
+      "ui.py::write",
+      "connect.py::io_write",
+      "core.py::write",
+      "connect.py::__call__",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "connect.py::__call__",
+      "core.py::write",
+      "connect.py::io_write",
+      "ui.py::write",
+      "ui.py::get_writer",
+      "core.py::_get_writer"
+    ],
+    "frame_files_deep": [
+      "core.py",
+      "ui.py",
+      "ui.py",
+      "connect.py",
+      "core.py",
+      "connect.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "astropy__astropy-14309",
+    "repo": "astropy/astropy",
+    "gold": [
+      "connect.py::is_fits"
+    ],
+    "gold_files": [
+      "connect.py"
+    ],
+    "frames_deep": [
+      "connect.py::is_fits",
+      "base.py::identify_format",
+      "compat.py::wrapper",
+      "io.py::get_file_format"
+    ],
+    "frames_shallow": [
+      "io.py::get_file_format",
+      "compat.py::wrapper",
+      "base.py::identify_format",
+      "connect.py::is_fits"
+    ],
+    "frame_files_deep": [
+      "connect.py",
+      "base.py",
+      "compat.py",
+      "io.py"
+    ]
+  },
+  {
+    "id": "astropy__astropy-7336",
+    "repo": "astropy/astropy",
+    "gold": [
+      "decorators.py::wrapper"
+    ],
+    "gold_files": [
+      "decorators.py"
+    ],
+    "frames_deep": [
+      "decorators.py::wrapper",
+      "decorators.py::__init__",
+      "poc.py::<module>"
+    ],
+    "frames_shallow": [
+      "poc.py::<module>",
+      "decorators.py::__init__",
+      "decorators.py::wrapper"
+    ],
+    "frame_files_deep": [
+      "decorators.py",
+      "decorators.py",
+      "poc.py"
+    ]
+  },
+  {
+    "id": "django__django-10554",
+    "repo": "django/django",
+    "gold": [
+      "compiler.py::get_order_by",
+      "query.py::Query",
+      "query.py::add_distinct_fields",
+      "query.py::clear_select_fields",
+      "query.py::set_select"
+    ],
+    "gold_files": [
+      "compiler.py",
+      "query.py"
+    ],
+    "frames_deep": [
+      "utils.py::_execute",
+      "utils.py::__exit__",
+      "utils.py::_execute",
+      "utils.py::_execute_with_wrappers",
+      "utils.py::execute",
+      "utils.py::execute",
+      "compiler.py::execute_sql",
+      "query.py::__iter__",
+      "query.py::_fetch_all",
+      "query.py::__iter__",
+      "query.py::__repr__",
+      "<input>::<module>"
+    ],
+    "frames_shallow": [
+      "<input>::<module>",
+      "query.py::__repr__",
+      "query.py::__iter__",
+      "query.py::_fetch_all",
+      "query.py::__iter__",
+      "compiler.py::execute_sql",
+      "utils.py::execute",
+      "utils.py::execute",
+      "utils.py::_execute_with_wrappers",
+      "utils.py::_execute",
+      "utils.py::__exit__",
+      "utils.py::_execute"
+    ],
+    "frame_files_deep": [
+      "utils.py",
+      "utils.py",
+      "utils.py",
+      "utils.py",
+      "utils.py",
+      "utils.py",
+      "compiler.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "<input>"
+    ]
+  },
+  {
+    "id": "django__django-11087",
+    "repo": "django/django",
+    "gold": [
+      "deletion.py::Collector",
+      "deletion.py::add_field_update",
+      "deletion.py::can_fast_delete",
+      "deletion.py::collect",
+      "deletion.py::instances_with_model",
+      "deletion.py::related_objects",
+      "deletion.py::sort"
+    ],
+    "gold_files": [
+      "deletion.py"
+    ],
+    "frames_deep": [
+      "connections.py::string_decoder",
+      "cursors.py::_fetch_row",
+      "cursors.py::_post_get_result",
+      "cursors.py::_query",
+      "cursors.py::execute",
+      "connections.py::defaulterrorhandler",
+      "cursors.py::execute",
+      "database_dbapi2.py::execute",
+      "base.py::execute",
+      "utils.py::execute",
+      "compiler.py::execute_sql",
+      "compiler.py::execute_sql",
+      "query.py::__iter__",
+      "query.py::_fetch_all",
+      "query.py::__bool__",
+      "deletion.py::collect",
+      "deletion.py::CASCADE",
+      "deletion.py::collect",
+      "query.py::delete",
+      "models.py::cycle_data",
+      "cycle_data.py::handle",
+      "function_trace.py::literal_wrapper",
+      "base.py::execute",
+      "base.py::run_from_argv",
+      "framework_django.py::_nr_wrapper_BaseCommand_run_from_argv_",
+      "__init__.py::execute",
+      "__init__.py::execute_from_command_line",
+      "manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "manage.py::<module>",
+      "__init__.py::execute_from_command_line",
+      "__init__.py::execute",
+      "framework_django.py::_nr_wrapper_BaseCommand_run_from_argv_",
+      "base.py::run_from_argv",
+      "base.py::execute",
+      "function_trace.py::literal_wrapper",
+      "cycle_data.py::handle",
+      "models.py::cycle_data",
+      "query.py::delete",
+      "deletion.py::collect",
+      "deletion.py::CASCADE",
+      "deletion.py::collect",
+      "query.py::__bool__",
+      "query.py::_fetch_all",
+      "query.py::__iter__",
+      "compiler.py::execute_sql",
+      "compiler.py::execute_sql",
+      "utils.py::execute",
+      "base.py::execute",
+      "database_dbapi2.py::execute",
+      "cursors.py::execute",
+      "connections.py::defaulterrorhandler",
+      "cursors.py::execute",
+      "cursors.py::_query",
+      "cursors.py::_post_get_result",
+      "cursors.py::_fetch_row",
+      "connections.py::string_decoder"
+    ],
+    "frame_files_deep": [
+      "connections.py",
+      "cursors.py",
+      "cursors.py",
+      "cursors.py",
+      "cursors.py",
+      "connections.py",
+      "cursors.py",
+      "database_dbapi2.py",
+      "base.py",
+      "utils.py",
+      "compiler.py",
+      "compiler.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "deletion.py",
+      "deletion.py",
+      "deletion.py",
+      "query.py",
+      "models.py",
+      "cycle_data.py",
+      "function_trace.py",
+      "base.py",
+      "base.py",
+      "framework_django.py",
+      "__init__.py",
+      "__init__.py",
+      "manage.py"
+    ]
+  },
+  {
+    "id": "django__django-11265",
+    "repo": "django/django",
+    "gold": [
+      "query.py::split_exclude",
+      "query.py::trim_start"
+    ],
+    "gold_files": [
+      "query.py"
+    ],
+    "frames_deep": [
+      "query.py::names_to_path",
+      "query.py::solve_lookup_type",
+      "query.py::build_filter",
+      "query.py::_add_q",
+      "query.py::add_q",
+      "query.py::add_filter",
+      "query.py::split_exclude",
+      "query.py::build_filter",
+      "query.py::_add_q",
+      "query.py::_add_q",
+      "query.py::add_q",
+      "query.py::_filter_or_exclude",
+      "query.py::filter",
+      "tests.py::test_with_join_exclude",
+      "case.py::run",
+      "case.py::testPartExecutor"
+    ],
+    "frames_shallow": [
+      "case.py::testPartExecutor",
+      "case.py::run",
+      "tests.py::test_with_join_exclude",
+      "query.py::filter",
+      "query.py::_filter_or_exclude",
+      "query.py::add_q",
+      "query.py::_add_q",
+      "query.py::_add_q",
+      "query.py::build_filter",
+      "query.py::split_exclude",
+      "query.py::add_filter",
+      "query.py::add_q",
+      "query.py::_add_q",
+      "query.py::build_filter",
+      "query.py::solve_lookup_type",
+      "query.py::names_to_path"
+    ],
+    "frame_files_deep": [
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "tests.py",
+      "case.py",
+      "case.py"
+    ]
+  },
+  {
+    "id": "django__django-11532",
+    "repo": "django/django",
+    "gold": [
+      "encoding.py::escape_uri_path",
+      "encoding.py::repercent_broken_unicode",
+      "html.py::smart_urlquote",
+      "html.py::urlize",
+      "message.py::sanitize_address",
+      "utils.py::CachedDnsName",
+      "utils.py::__str__",
+      "utils.py::get_fqdn",
+      "validators.py::__call__"
+    ],
+    "gold_files": [
+      "encoding.py",
+      "html.py",
+      "message.py",
+      "utils.py",
+      "validators.py"
+    ],
+    "frames_deep": [
+      "header.py::append",
+      "header.py::__init__",
+      "message.py::forbid_multi_line_headers",
+      "message.py::__setitem__",
+      "message.py::message",
+      "tests.py::test_unicode_dns",
+      "mock.py::patched",
+      "message.py::forbid_multi_line_headers"
+    ],
+    "frames_shallow": [
+      "message.py::forbid_multi_line_headers",
+      "mock.py::patched",
+      "tests.py::test_unicode_dns",
+      "message.py::message",
+      "message.py::__setitem__",
+      "message.py::forbid_multi_line_headers",
+      "header.py::__init__",
+      "header.py::append"
+    ],
+    "frame_files_deep": [
+      "header.py",
+      "header.py",
+      "message.py",
+      "message.py",
+      "message.py",
+      "tests.py",
+      "mock.py",
+      "message.py"
+    ]
+  },
+  {
+    "id": "django__django-11964",
+    "repo": "django/django",
+    "gold": [
+      "enums.py::Choices",
+      "enums.py::IntegerChoices",
+      "enums.py::TextChoices"
+    ],
+    "gold_files": [
+      "enums.py"
+    ],
+    "frames_deep": [
+      "tests.py::test_created_object_is_str"
+    ],
+    "frames_shallow": [
+      "tests.py::test_created_object_is_str"
+    ],
+    "frame_files_deep": [
+      "tests.py"
+    ]
+  },
+  {
+    "id": "django__django-12663",
+    "repo": "django/django",
+    "gold": [
+      "query.py::Query",
+      "query.py::output_field"
+    ],
+    "gold_files": [
+      "query.py"
+    ],
+    "frames_deep": [
+      "__init__.py::get_prep_value",
+      "lookups.py::get_prep_lookup",
+      "lookups.py::__init__",
+      "query.py::build_lookup",
+      "query.py::build_filter",
+      "query.py::_add_q",
+      "query.py::add_q",
+      "query.py::_filter_or_exclude",
+      "query.py::filter",
+      "test_bug.py::test_bug"
+    ],
+    "frames_shallow": [
+      "test_bug.py::test_bug",
+      "query.py::filter",
+      "query.py::_filter_or_exclude",
+      "query.py::add_q",
+      "query.py::_add_q",
+      "query.py::build_filter",
+      "query.py::build_lookup",
+      "lookups.py::__init__",
+      "lookups.py::get_prep_lookup",
+      "__init__.py::get_prep_value"
+    ],
+    "frame_files_deep": [
+      "__init__.py",
+      "lookups.py",
+      "lookups.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "test_bug.py"
+    ]
+  },
+  {
+    "id": "django__django-12774",
+    "repo": "django/django",
+    "gold": [
+      "query.py::in_bulk"
+    ],
+    "gold_files": [
+      "query.py"
+    ],
+    "frames_deep": [
+      "query.py::in_bulk",
+      "manager.py::manager_method",
+      "<console>::<module>",
+      "code.py::runcode"
+    ],
+    "frames_shallow": [
+      "code.py::runcode",
+      "<console>::<module>",
+      "manager.py::manager_method",
+      "query.py::in_bulk"
+    ],
+    "frame_files_deep": [
+      "query.py",
+      "manager.py",
+      "<console>",
+      "code.py"
+    ]
+  },
+  {
+    "id": "django__django-13028",
+    "repo": "django/django",
+    "gold": [
+      "query.py::Query",
+      "query.py::check_filterable"
+    ],
+    "gold_files": [
+      "query.py"
+    ],
+    "frames_deep": [
+      "query.py::check_filterable",
+      "query.py::build_filter",
+      "query.py::_add_q",
+      "query.py::add_q",
+      "query.py::_filter_or_exclude",
+      "query.py::filter",
+      "manager.py::manager_method",
+      "test_pw.py::test_checkpolicywarning_by_fields"
+    ],
+    "frames_shallow": [
+      "test_pw.py::test_checkpolicywarning_by_fields",
+      "manager.py::manager_method",
+      "query.py::filter",
+      "query.py::_filter_or_exclude",
+      "query.py::add_q",
+      "query.py::_add_q",
+      "query.py::build_filter",
+      "query.py::check_filterable"
+    ],
+    "frame_files_deep": [
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "manager.py",
+      "test_pw.py"
+    ]
+  },
+  {
+    "id": "django__django-13121",
+    "repo": "django/django",
+    "gold": [
+      "expressions.py::Combinable",
+      "expressions.py::DurationExpression",
+      "expressions.py::DurationValue",
+      "expressions.py::_combine",
+      "expressions.py::as_sql",
+      "expressions.py::compile",
+      "operations.py::BaseDatabaseOperations",
+      "operations.py::DatabaseOperations",
+      "operations.py::date_extract_sql",
+      "operations.py::date_interval_sql",
+      "operations.py::time_trunc_sql"
+    ],
+    "gold_files": [
+      "expressions.py",
+      "operations.py"
+    ],
+    "frames_deep": [
+      "operations.py::convert_durationfield_value",
+      "compiler.py::apply_converters",
+      "query.py::__iter__",
+      "query.py::_fetch_all",
+      "query.py::__iter__",
+      "tests.py::test_duration_expressions"
+    ],
+    "frames_shallow": [
+      "tests.py::test_duration_expressions",
+      "query.py::__iter__",
+      "query.py::_fetch_all",
+      "query.py::__iter__",
+      "compiler.py::apply_converters",
+      "operations.py::convert_durationfield_value"
+    ],
+    "frame_files_deep": [
+      "operations.py",
+      "compiler.py",
+      "query.py",
+      "query.py",
+      "query.py",
+      "tests.py"
+    ]
+  },
+  {
+    "id": "django__django-13406",
+    "repo": "django/django",
+    "gold": [
+      "query.py::QuerySet",
+      "query.py::as_manager",
+      "query.py::query"
+    ],
+    "gold_files": [
+      "query.py"
+    ],
+    "frames_deep": [
+      "query_utils.py::_check_parent_chain",
+      "query_utils.py::__get__",
+      "base.py::_get_pk_val",
+      "base.py::__str__",
+      "base.py::__repr__",
+      "query.py::__repr__",
+      "scratch_20.py::<module>"
+    ],
+    "frames_shallow": [
+      "scratch_20.py::<module>",
+      "query.py::__repr__",
+      "base.py::__repr__",
+      "base.py::__str__",
+      "base.py::_get_pk_val",
+      "query_utils.py::__get__",
+      "query_utils.py::_check_parent_chain"
+    ],
+    "frame_files_deep": [
+      "query_utils.py",
+      "query_utils.py",
+      "base.py",
+      "base.py",
+      "base.py",
+      "query.py",
+      "scratch_20.py"
+    ]
+  },
+  {
+    "id": "django__django-13807",
+    "repo": "django/django",
+    "gold": [
+      "base.py::check_constraints"
+    ],
+    "gold_files": [
+      "base.py"
+    ],
+    "frames_deep": [
+      "base.py::execute",
+      "utils.py::_execute"
+    ],
+    "frames_shallow": [
+      "utils.py::_execute",
+      "base.py::execute"
+    ],
+    "frame_files_deep": [
+      "base.py",
+      "utils.py"
+    ]
+  },
+  {
+    "id": "django__django-14140",
+    "repo": "django/django",
+    "gold": [
+      "query_utils.py::deconstruct"
+    ],
+    "gold_files": [
+      "query_utils.py"
+    ],
+    "frames_deep": [
+      "...::deconstruct",
+      "<console>::<module>"
+    ],
+    "frames_shallow": [
+      "<console>::<module>",
+      "...::deconstruct"
+    ],
+    "frame_files_deep": [
+      "...",
+      "<console>"
+    ]
+  },
+  {
+    "id": "django__django-14238",
+    "repo": "django/django",
+    "gold": [
+      "__init__.py::AutoField",
+      "__init__.py::AutoFieldMeta",
+      "__init__.py::__instancecheck__",
+      "__init__.py::__subclasscheck__"
+    ],
+    "gold_files": [
+      "__init__.py"
+    ],
+    "frames_deep": [
+      "options.py::_get_default_pk_class",
+      "options.py::_prepare",
+      "base.py::_prepare",
+      "base.py::__new__",
+      "models.py::<module>",
+      "<frozen importlib._bootstrap>::_call_with_frames_removed",
+      "<frozen importlib._bootstrap_external>::exec_module",
+      "<frozen importlib._bootstrap>::_load_unlocked",
+      "<frozen importlib._bootstrap>::_find_and_load_unlocked",
+      "<frozen importlib._bootstrap>::_find_and_load",
+      "<frozen importlib._bootstrap>::_gcd_import",
+      "__init__.py::import_module",
+      "config.py::import_models",
+      "registry.py::populate",
+      "__init__.py::setup",
+      "__init__.py::execute",
+      "__init__.py::execute_from_command_line",
+      "manage.py::main",
+      "manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "manage.py::<module>",
+      "manage.py::main",
+      "__init__.py::execute_from_command_line",
+      "__init__.py::execute",
+      "__init__.py::setup",
+      "registry.py::populate",
+      "config.py::import_models",
+      "__init__.py::import_module",
+      "<frozen importlib._bootstrap>::_gcd_import",
+      "<frozen importlib._bootstrap>::_find_and_load",
+      "<frozen importlib._bootstrap>::_find_and_load_unlocked",
+      "<frozen importlib._bootstrap>::_load_unlocked",
+      "<frozen importlib._bootstrap_external>::exec_module",
+      "<frozen importlib._bootstrap>::_call_with_frames_removed",
+      "models.py::<module>",
+      "base.py::__new__",
+      "base.py::_prepare",
+      "options.py::_prepare",
+      "options.py::_get_default_pk_class"
+    ],
+    "frame_files_deep": [
+      "options.py",
+      "options.py",
+      "base.py",
+      "base.py",
+      "models.py",
+      "<frozen importlib._bootstrap>",
+      "<frozen importlib._bootstrap_external>",
+      "<frozen importlib._bootstrap>",
+      "<frozen importlib._bootstrap>",
+      "<frozen importlib._bootstrap>",
+      "<frozen importlib._bootstrap>",
+      "__init__.py",
+      "config.py",
+      "registry.py",
+      "__init__.py",
+      "__init__.py",
+      "__init__.py",
+      "manage.py",
+      "manage.py"
+    ]
+  },
+  {
+    "id": "django__django-14349",
+    "repo": "django/django",
+    "gold": [
+      "validators.py::URLValidator",
+      "validators.py::__call__",
+      "validators.py::__init__"
+    ],
+    "gold_files": [
+      "validators.py"
+    ],
+    "frames_deep": [
+      "case.py::_raiseFailure",
+      "case.py::__exit__",
+      "tests.py::test_validators",
+      "case.py::subTest",
+      "case.py::testPartExecutor",
+      "case.py::_raiseFailure",
+      "case.py::__exit__",
+      "tests.py::test_validators",
+      "case.py::subTest",
+      "case.py::testPartExecutor"
+    ],
+    "frames_shallow": [
+      "case.py::testPartExecutor",
+      "case.py::subTest",
+      "tests.py::test_validators",
+      "case.py::__exit__",
+      "case.py::_raiseFailure",
+      "case.py::testPartExecutor",
+      "case.py::subTest",
+      "tests.py::test_validators",
+      "case.py::__exit__",
+      "case.py::_raiseFailure"
+    ],
+    "frame_files_deep": [
+      "case.py",
+      "case.py",
+      "tests.py",
+      "case.py",
+      "case.py",
+      "case.py",
+      "case.py",
+      "tests.py",
+      "case.py",
+      "case.py"
+    ]
+  },
+  {
+    "id": "django__django-14351",
+    "repo": "django/django",
+    "gold": [
+      "lookups.py::In",
+      "lookups.py::as_sql",
+      "lookups.py::get_rhs_op",
+      "lookups.py::process_rhs",
+      "lookups.py::split_parameter_list_as_sql"
+    ],
+    "gold_files": [
+      "lookups.py"
+    ],
+    "frames_deep": [
+      "utils.py::_execute",
+      "utils.py::__exit__"
+    ],
+    "frames_shallow": [
+      "utils.py::__exit__",
+      "utils.py::_execute"
+    ],
+    "frame_files_deep": [
+      "utils.py",
+      "utils.py"
+    ]
+  },
+  {
+    "id": "django__django-14493",
+    "repo": "django/django",
+    "gold": [
+      "storage.py::post_process"
+    ],
+    "gold_files": [
+      "storage.py"
+    ],
+    "frames_deep": [
+      "storage.py::post_process",
+      "storage.py::post_process",
+      "collectstatic.py::collect",
+      "collectstatic.py::handle"
+    ],
+    "frames_shallow": [
+      "collectstatic.py::handle",
+      "collectstatic.py::collect",
+      "storage.py::post_process",
+      "storage.py::post_process"
+    ],
+    "frame_files_deep": [
+      "storage.py",
+      "storage.py",
+      "collectstatic.py",
+      "collectstatic.py"
+    ]
+  },
+  {
+    "id": "django__django-14580",
+    "repo": "django/django",
+    "gold": [
+      "serializer.py::TypeSerializer",
+      "serializer.py::serialize"
+    ],
+    "gold_files": [
+      "serializer.py"
+    ],
+    "frames_deep": [
+      "0001_initial.py::Migration",
+      "0001_initial.py::<module>"
+    ],
+    "frames_shallow": [
+      "0001_initial.py::<module>",
+      "0001_initial.py::Migration"
+    ],
+    "frame_files_deep": [
+      "0001_initial.py",
+      "0001_initial.py"
+    ]
+  },
+  {
+    "id": "django__django-14672",
+    "repo": "django/django",
+    "gold": [
+      "reverse_related.py::ManyToManyRel",
+      "reverse_related.py::identity"
+    ],
+    "gold_files": [
+      "reverse_related.py"
+    ],
+    "frames_deep": [
+      "reverse_related.py::__hash__",
+      "base.py::_check_field_name_clashes",
+      "base.py::check",
+      "model_checks.py::check_all_models",
+      "registry.py::run_checks",
+      "base.py::check",
+      "base.py::execute",
+      "base.py::run_from_argv",
+      "__init__.py::execute",
+      "__init__.py::execute_from_command_line",
+      "manage.py::main",
+      "manage.py::<module>",
+      "reverse_related.py::__hash__",
+      "base.py::_check_field_name_clashes",
+      "base.py::check",
+      "model_checks.py::check_all_models",
+      "registry.py::run_checks",
+      "base.py::check",
+      "base.py::execute",
+      "base.py::run_from_argv",
+      "__init__.py::execute",
+      "__init__.py::execute_from_command_line",
+      "manage.py::main",
+      "manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "manage.py::<module>",
+      "manage.py::main",
+      "__init__.py::execute_from_command_line",
+      "__init__.py::execute",
+      "base.py::run_from_argv",
+      "base.py::execute",
+      "base.py::check",
+      "registry.py::run_checks",
+      "model_checks.py::check_all_models",
+      "base.py::check",
+      "base.py::_check_field_name_clashes",
+      "reverse_related.py::__hash__",
+      "manage.py::<module>",
+      "manage.py::main",
+      "__init__.py::execute_from_command_line",
+      "__init__.py::execute",
+      "base.py::run_from_argv",
+      "base.py::execute",
+      "base.py::check",
+      "registry.py::run_checks",
+      "model_checks.py::check_all_models",
+      "base.py::check",
+      "base.py::_check_field_name_clashes",
+      "reverse_related.py::__hash__"
+    ],
+    "frame_files_deep": [
+      "reverse_related.py",
+      "base.py",
+      "base.py",
+      "model_checks.py",
+      "registry.py",
+      "base.py",
+      "base.py",
+      "base.py",
+      "__init__.py",
+      "__init__.py",
+      "manage.py",
+      "manage.py",
+      "reverse_related.py",
+      "base.py",
+      "base.py",
+      "model_checks.py",
+      "registry.py",
+      "base.py",
+      "base.py",
+      "base.py",
+      "__init__.py",
+      "__init__.py",
+      "manage.py",
+      "manage.py"
+    ]
+  },
+  {
+    "id": "django__django-15104",
+    "repo": "django/django",
+    "gold": [
+      "autodetector.py::MigrationAutodetector",
+      "autodetector.py::only_relation_agnostic_fields"
+    ],
+    "gold_files": [
+      "autodetector.py"
+    ],
+    "frames_deep": [
+      "autodetector.py::only_relation_agnostic_fields",
+      "autodetector.py::generate_renamed_models",
+      "autodetector.py::_detect_changes",
+      "autodetector.py::changes",
+      "migrate.py::handle",
+      "base.py::wrapped",
+      "base.py::execute",
+      "__init__.py::call_command",
+      "creation.py::create_test_db",
+      "utils.py::setup_databases",
+      "runner.py::setup_databases",
+      "runner.py::run_tests",
+      "test.py::handle",
+      "base.py::execute",
+      "base.py::run_from_argv",
+      "test.py::run_from_argv",
+      "__init__.py::execute",
+      "__init__.py::execute_from_command_line",
+      "manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "manage.py::<module>",
+      "__init__.py::execute_from_command_line",
+      "__init__.py::execute",
+      "test.py::run_from_argv",
+      "base.py::run_from_argv",
+      "base.py::execute",
+      "test.py::handle",
+      "runner.py::run_tests",
+      "runner.py::setup_databases",
+      "utils.py::setup_databases",
+      "creation.py::create_test_db",
+      "__init__.py::call_command",
+      "base.py::execute",
+      "base.py::wrapped",
+      "migrate.py::handle",
+      "autodetector.py::changes",
+      "autodetector.py::_detect_changes",
+      "autodetector.py::generate_renamed_models",
+      "autodetector.py::only_relation_agnostic_fields"
+    ],
+    "frame_files_deep": [
+      "autodetector.py",
+      "autodetector.py",
+      "autodetector.py",
+      "autodetector.py",
+      "migrate.py",
+      "base.py",
+      "base.py",
+      "__init__.py",
+      "creation.py",
+      "utils.py",
+      "runner.py",
+      "runner.py",
+      "test.py",
+      "base.py",
+      "base.py",
+      "test.py",
+      "__init__.py",
+      "__init__.py",
+      "manage.py"
+    ]
+  },
+  {
+    "id": "django__django-15380",
+    "repo": "django/django",
+    "gold": [
+      "autodetector.py::generate_renamed_fields"
+    ],
+    "gold_files": [
+      "autodetector.py"
+    ],
+    "frames_deep": [
+      "autodetector.py::generate_renamed_fields",
+      "autodetector.py::_detect_changes",
+      "autodetector.py::changes",
+      "makemigrations.py::handle",
+      "base.py::wrapped",
+      "base.py::execute",
+      "base.py::run_from_argv",
+      "__init__.py::execute",
+      "__init__.py::execute_from_command_line",
+      "manage.py::main",
+      "manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "manage.py::<module>",
+      "manage.py::main",
+      "__init__.py::execute_from_command_line",
+      "__init__.py::execute",
+      "base.py::run_from_argv",
+      "base.py::execute",
+      "base.py::wrapped",
+      "makemigrations.py::handle",
+      "autodetector.py::changes",
+      "autodetector.py::_detect_changes",
+      "autodetector.py::generate_renamed_fields"
+    ],
+    "frame_files_deep": [
+      "autodetector.py",
+      "autodetector.py",
+      "autodetector.py",
+      "makemigrations.py",
+      "base.py",
+      "base.py",
+      "base.py",
+      "__init__.py",
+      "__init__.py",
+      "manage.py",
+      "manage.py"
+    ]
+  },
+  {
+    "id": "django__django-15503",
+    "repo": "django/django",
+    "gold": [
+      "json.py::CaseInsensitiveMixin",
+      "json.py::HasKeyLookup",
+      "json.py::KeyTransformIn",
+      "json.py::KeyTransformIsNull",
+      "json.py::as_oracle",
+      "json.py::as_sql",
+      "json.py::as_sqlite",
+      "json.py::process_lhs",
+      "json.py::resolve_expression_parameter"
+    ],
+    "gold_files": [
+      "json.py"
+    ],
+    "frames_deep": [
+      "H:\\Files\\Projects\\Electaco\\Webservice\\elecserve\\markers\\tests.py::test_json_field_has_key"
+    ],
+    "frames_shallow": [
+      "H:\\Files\\Projects\\Electaco\\Webservice\\elecserve\\markers\\tests.py::test_json_field_has_key"
+    ],
+    "frame_files_deep": [
+      "H:\\Files\\Projects\\Electaco\\Webservice\\elecserve\\markers\\tests.py"
+    ]
+  },
+  {
+    "id": "django__django-15525",
+    "repo": "django/django",
+    "gold": [
+      "base.py::build_instance"
+    ],
+    "gold_files": [
+      "base.py"
+    ],
+    "frames_deep": [
+      "query.py::get",
+      "related_descriptors.py::get_object",
+      "related_descriptors.py::__get__",
+      "models.py::natural_key",
+      "base.py::build_instance",
+      "python.py::Deserializer",
+      "json.py::Deserializer",
+      "mixins.py::get_cached_value",
+      "related_descriptors.py::__get__"
+    ],
+    "frames_shallow": [
+      "related_descriptors.py::__get__",
+      "mixins.py::get_cached_value",
+      "json.py::Deserializer",
+      "python.py::Deserializer",
+      "base.py::build_instance",
+      "models.py::natural_key",
+      "related_descriptors.py::__get__",
+      "related_descriptors.py::get_object",
+      "query.py::get"
+    ],
+    "frame_files_deep": [
+      "query.py",
+      "related_descriptors.py",
+      "related_descriptors.py",
+      "models.py",
+      "base.py",
+      "python.py",
+      "json.py",
+      "mixins.py",
+      "related_descriptors.py"
+    ]
+  },
+  {
+    "id": "django__django-15814",
+    "repo": "django/django",
+    "gold": [
+      "query.py::deferred_to_data"
+    ],
+    "gold_files": [
+      "query.py"
+    ],
+    "frames_deep": [
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::__init__",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::get_related_populators",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::__iter__",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::_fetch_all",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::__len__",
+      "D:\\study\\django_college\\project\\users\\management\\commands\\test_proxy.py::handle",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\base.py::execute",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\base.py::run_from_argv",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\__init__.py::execute",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\__init__.py::execute_from_command_line",
+      "D:\\study\\django_college\\manage.py::main",
+      "D:\\study\\django_college\\manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "D:\\study\\django_college\\manage.py::<module>",
+      "D:\\study\\django_college\\manage.py::main",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\__init__.py::execute_from_command_line",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\__init__.py::execute",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\base.py::run_from_argv",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\base.py::execute",
+      "D:\\study\\django_college\\project\\users\\management\\commands\\test_proxy.py::handle",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::__len__",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::_fetch_all",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::__iter__",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::get_related_populators",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py::__init__"
+    ],
+    "frame_files_deep": [
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\db\\models\\query.py",
+      "D:\\study\\django_college\\project\\users\\management\\commands\\test_proxy.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\base.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\base.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\__init__.py",
+      "D:\\Anaconda3\\envs\\django\\lib\\site-packages\\django\\core\\management\\__init__.py",
+      "D:\\study\\django_college\\manage.py",
+      "D:\\study\\django_college\\manage.py"
+    ]
+  },
+  {
+    "id": "django__django-15973",
+    "repo": "django/django",
+    "gold": [
+      "autodetector.py::_get_dependencies_for_foreign_key"
+    ],
+    "gold_files": [
+      "autodetector.py"
+    ],
+    "frames_deep": [
+      "schema.py::cr",
+      "migration.py::ap",
+      "executor.py::app",
+      "executor.py::_mi",
+      "executor.py::mig",
+      "base.py::wrappe",
+      "base.py::execu",
+      "base.py::run_f",
+      "__init__.py::e",
+      "__init__.py::e",
+      "manage.py::main",
+      "manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "manage.py::<module>",
+      "manage.py::main",
+      "__init__.py::e",
+      "__init__.py::e",
+      "base.py::run_f",
+      "base.py::execu",
+      "base.py::wrappe",
+      "executor.py::mig",
+      "executor.py::_mi",
+      "executor.py::app",
+      "migration.py::ap",
+      "schema.py::cr"
+    ],
+    "frame_files_deep": [
+      "schema.py",
+      "migration.py",
+      "executor.py",
+      "executor.py",
+      "executor.py",
+      "base.py",
+      "base.py",
+      "base.py",
+      "__init__.py",
+      "__init__.py",
+      "manage.py",
+      "manage.py"
+    ]
+  },
+  {
+    "id": "django__django-16136",
+    "repo": "django/django",
+    "gold": [
+      "base.py::View",
+      "base.py::func",
+      "base.py::http_method_not_allowed",
+      "base.py::options"
+    ],
+    "gold_files": [
+      "base.py"
+    ],
+    "frames_deep": [
+      "sync.py::main_wrap",
+      "_base.py::__get_result",
+      "_base.py::result",
+      "sync.py::__call__",
+      "base.py::_get_response",
+      "exception.py::inner"
+    ],
+    "frames_shallow": [
+      "exception.py::inner",
+      "base.py::_get_response",
+      "sync.py::__call__",
+      "_base.py::result",
+      "_base.py::__get_result",
+      "sync.py::main_wrap"
+    ],
+    "frame_files_deep": [
+      "sync.py",
+      "_base.py",
+      "_base.py",
+      "sync.py",
+      "base.py",
+      "exception.py"
+    ]
+  },
+  {
+    "id": "django__django-16255",
+    "repo": "django/django",
+    "gold": [
+      "__init__.py::get_latest_lastmod"
+    ],
+    "gold_files": [
+      "__init__.py"
+    ],
+    "frames_deep": [
+      "__init__.py::get_latest_lastmod",
+      "views.py::index",
+      "views.py::inner",
+      "decorators.py::_wrapped_view",
+      "base.py::_get_response",
+      "exception.py::inner"
+    ],
+    "frames_shallow": [
+      "exception.py::inner",
+      "base.py::_get_response",
+      "decorators.py::_wrapped_view",
+      "views.py::inner",
+      "views.py::index",
+      "__init__.py::get_latest_lastmod"
+    ],
+    "frame_files_deep": [
+      "__init__.py",
+      "views.py",
+      "views.py",
+      "decorators.py",
+      "base.py",
+      "exception.py"
+    ]
+  },
+  {
+    "id": "django__django-16454",
+    "repo": "django/django",
+    "gold": [
+      "base.py::error",
+      "base.py::handle_default_options"
+    ],
+    "gold_files": [
+      "base.py"
+    ],
+    "frames_deep": [
+      "base.py::error",
+      "argparse.py::_parse_known_args",
+      "manage.py::<module>"
+    ],
+    "frames_shallow": [
+      "manage.py::<module>",
+      "argparse.py::_parse_known_args",
+      "base.py::error"
+    ],
+    "frame_files_deep": [
+      "base.py",
+      "argparse.py",
+      "manage.py"
+    ]
+  },
+  {
+    "id": "django__django-16667",
+    "repo": "django/django",
+    "gold": [
+      "widgets.py::SelectDateWidget",
+      "widgets.py::value_from_datadict",
+      "widgets.py::value_omitted_from_data"
+    ],
+    "gold_files": [
+      "widgets.py"
+    ],
+    "frames_deep": [
+      "<stdin>::<module>",
+      "widgets.py::value_from_datadict"
+    ],
+    "frames_shallow": [
+      "widgets.py::value_from_datadict",
+      "<stdin>::<module>"
+    ],
+    "frame_files_deep": [
+      "<stdin>",
+      "widgets.py"
+    ]
+  },
+  {
+    "id": "django__django-16938",
+    "repo": "django/django",
+    "gold": [
+      "python.py::handle_m2m_field",
+      "python.py::m2m_value",
+      "python.py::queryset_iterator",
+      "xml_serializer.py::handle_m2m",
+      "xml_serializer.py::handle_m2m_field",
+      "xml_serializer.py::queryset_iterator"
+    ],
+    "gold_files": [
+      "python.py",
+      "xml_serializer.py"
+    ],
+    "frames_deep": [
+      "query_utils.py::select_related_descend",
+      "compiler.py::get_related_selections",
+      "compiler.py::get_select",
+      "compiler.py::setup_query",
+      "compiler.py::pre_sql_setup",
+      "compiler.py::as_sql",
+      "compiler.py::execute_sql",
+      "query.py::__iter__",
+      "query.py::_iterator",
+      "python.py::<listcomp>",
+      "python.py::handle_m2m_field",
+      "base.py::serialize",
+      "__init__.py::serialize"
+    ],
+    "frames_shallow": [
+      "__init__.py::serialize",
+      "base.py::serialize",
+      "python.py::handle_m2m_field",
+      "python.py::<listcomp>",
+      "query.py::_iterator",
+      "query.py::__iter__",
+      "compiler.py::execute_sql",
+      "compiler.py::as_sql",
+      "compiler.py::pre_sql_setup",
+      "compiler.py::setup_query",
+      "compiler.py::get_select",
+      "compiler.py::get_related_selections",
+      "query_utils.py::select_related_descend"
+    ],
+    "frame_files_deep": [
+      "query_utils.py",
+      "compiler.py",
+      "compiler.py",
+      "compiler.py",
+      "compiler.py",
+      "compiler.py",
+      "compiler.py",
+      "query.py",
+      "query.py",
+      "python.py",
+      "python.py",
+      "base.py",
+      "__init__.py"
+    ]
+  },
+  {
+    "id": "matplotlib__matplotlib-20859",
+    "repo": "matplotlib/matplotlib",
+    "gold": [
+      "legend.py::__init__"
+    ],
+    "gold_files": [
+      "legend.py"
+    ],
+    "frames_deep": [
+      "legend.py::__init__",
+      "figure.py::legend",
+      "bug_test.py::<module>"
+    ],
+    "frames_shallow": [
+      "bug_test.py::<module>",
+      "figure.py::legend",
+      "legend.py::__init__"
+    ],
+    "frame_files_deep": [
+      "legend.py",
+      "figure.py",
+      "bug_test.py"
+    ]
+  },
+  {
+    "id": "matplotlib__matplotlib-23476",
+    "repo": "matplotlib/matplotlib",
+    "gold": [
+      "figure.py::__getstate__"
+    ],
+    "gold_files": [
+      "figure.py"
+    ],
+    "frames_deep": [
+      "backend_macosx.py::__init__",
+      "backend_bases.py::new_figure_manager_given_figure",
+      "figure.py::__setstate__",
+      "example.py::dump_load_get_dpi",
+      "example.py::run",
+      "example.py::<module>"
+    ],
+    "frames_shallow": [
+      "example.py::<module>",
+      "example.py::run",
+      "example.py::dump_load_get_dpi",
+      "figure.py::__setstate__",
+      "backend_bases.py::new_figure_manager_given_figure",
+      "backend_macosx.py::__init__"
+    ],
+    "frame_files_deep": [
+      "backend_macosx.py",
+      "backend_bases.py",
+      "figure.py",
+      "example.py",
+      "example.py",
+      "example.py"
+    ]
+  },
+  {
+    "id": "matplotlib__matplotlib-24026",
+    "repo": "matplotlib/matplotlib",
+    "gold": [
+      "stackplot.py::stackplot"
+    ],
+    "gold_files": [
+      "stackplot.py"
+    ],
+    "frames_deep": [
+      "rcsetup.py::validate_color_for_prop_cycle",
+      "rcsetup.py::<listcomp>",
+      "rcsetup.py::f",
+      "rcsetup.py::cycler",
+      "_base.py::set_prop_cycle",
+      "stackplot.py::stackplot",
+      "__init__.py::inner",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "__init__.py::inner",
+      "stackplot.py::stackplot",
+      "_base.py::set_prop_cycle",
+      "rcsetup.py::cycler",
+      "rcsetup.py::f",
+      "rcsetup.py::<listcomp>",
+      "rcsetup.py::validate_color_for_prop_cycle"
+    ],
+    "frame_files_deep": [
+      "rcsetup.py",
+      "rcsetup.py",
+      "rcsetup.py",
+      "rcsetup.py",
+      "_base.py",
+      "stackplot.py",
+      "__init__.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "psf__requests-1724",
+    "repo": "psf/requests",
+    "gold": [
+      "sessions.py::request"
+    ],
+    "gold_files": [
+      "sessions.py"
+    ],
+    "frames_deep": [
+      "httplib.py::_send_output",
+      "httplib.py::endheaders",
+      "httplib.py::_send_request",
+      "httplib.py::request",
+      "connectionpool.py::_make_request",
+      "connectionpool.py::urlopen",
+      "adapters.py::send",
+      "sessions.py::send",
+      "sessions.py::request",
+      "api.py::request",
+      "test_requests.py::<module>",
+      "httplib.py::_send_output",
+      "httplib.py::endheaders",
+      "httplib.py::_send_request",
+      "httplib.py::request",
+      "connectionpool.py::_make_request",
+      "connectionpool.py::urlopen",
+      "adapters.py::send",
+      "sessions.py::send",
+      "sessions.py::request",
+      "api.py::request",
+      "test_requests.py::<module>",
+      "httplib.py::_send_output",
+      "httplib.py::endheaders",
+      "httplib.py::_send_request",
+      "httplib.py::request",
+      "connectionpool.py::_make_request",
+      "connectionpool.py::urlopen",
+      "adapters.py::send",
+      "sessions.py::send",
+      "sessions.py::request",
+      "api.py::request",
+      "test_requests.py::<module>"
+    ],
+    "frames_shallow": [
+      "test_requests.py::<module>",
+      "api.py::request",
+      "sessions.py::request",
+      "sessions.py::send",
+      "adapters.py::send",
+      "connectionpool.py::urlopen",
+      "connectionpool.py::_make_request",
+      "httplib.py::request",
+      "httplib.py::_send_request",
+      "httplib.py::endheaders",
+      "httplib.py::_send_output",
+      "test_requests.py::<module>",
+      "api.py::request",
+      "sessions.py::request",
+      "sessions.py::send",
+      "adapters.py::send",
+      "connectionpool.py::urlopen",
+      "connectionpool.py::_make_request",
+      "httplib.py::request",
+      "httplib.py::_send_request",
+      "httplib.py::endheaders",
+      "httplib.py::_send_output",
+      "test_requests.py::<module>",
+      "api.py::request",
+      "sessions.py::request",
+      "sessions.py::send",
+      "adapters.py::send",
+      "connectionpool.py::urlopen",
+      "connectionpool.py::_make_request",
+      "httplib.py::request",
+      "httplib.py::_send_request",
+      "httplib.py::endheaders",
+      "httplib.py::_send_output"
+    ],
+    "frame_files_deep": [
+      "httplib.py",
+      "httplib.py",
+      "httplib.py",
+      "httplib.py",
+      "connectionpool.py",
+      "connectionpool.py",
+      "adapters.py",
+      "sessions.py",
+      "sessions.py",
+      "api.py",
+      "test_requests.py",
+      "httplib.py",
+      "httplib.py",
+      "httplib.py",
+      "httplib.py",
+      "connectionpool.py",
+      "connectionpool.py",
+      "adapters.py",
+      "sessions.py",
+      "sessions.py",
+      "api.py",
+      "test_requests.py",
+      "httplib.py",
+      "httplib.py",
+      "httplib.py",
+      "httplib.py",
+      "connectionpool.py",
+      "connectionpool.py",
+      "adapters.py",
+      "sessions.py",
+      "sessions.py",
+      "api.py",
+      "test_requests.py"
+    ]
+  },
+  {
+    "id": "pydata__xarray-3677",
+    "repo": "pydata/xarray",
+    "gold": [
+      "dataset.py::merge"
+    ],
+    "gold_files": [
+      "dataset.py"
+    ],
+    "frames_deep": [
+      "common.py::__getattr__",
+      "merge.py::coerce_pandas_values",
+      "merge.py::merge_core",
+      "merge.py::dataset_merge_method",
+      "dataset.py::merge",
+      "mwe.py::<module>"
+    ],
+    "frames_shallow": [
+      "mwe.py::<module>",
+      "dataset.py::merge",
+      "merge.py::dataset_merge_method",
+      "merge.py::merge_core",
+      "merge.py::coerce_pandas_values",
+      "common.py::__getattr__"
+    ],
+    "frame_files_deep": [
+      "common.py",
+      "merge.py",
+      "merge.py",
+      "merge.py",
+      "dataset.py",
+      "mwe.py"
+    ]
+  },
+  {
+    "id": "pylint-dev__pylint-6903",
+    "repo": "pylint-dev/pylint",
+    "gold": [
+      "run.py::_cpu_count",
+      "run.py::_query_cpu"
+    ],
+    "gold_files": [
+      "run.py"
+    ],
+    "frames_deep": [
+      "pool.py::__init__",
+      "context.py::Pool",
+      "parallel.py::check_parallel",
+      "pylinter.py::check",
+      "run.py::__init__"
+    ],
+    "frames_shallow": [
+      "run.py::__init__",
+      "pylinter.py::check",
+      "parallel.py::check_parallel",
+      "context.py::Pool",
+      "pool.py::__init__"
+    ],
+    "frame_files_deep": [
+      "pool.py",
+      "context.py",
+      "parallel.py",
+      "pylinter.py",
+      "run.py"
+    ]
+  },
+  {
+    "id": "pylint-dev__pylint-8898",
+    "repo": "pylint-dev/pylint",
+    "gold": [
+      "argument.py::_regexp_csv_transfomer",
+      "utils.py::_comment",
+      "utils.py::_format_option_value",
+      "utils.py::format_section"
+    ],
+    "gold_files": [
+      "argument.py",
+      "utils.py"
+    ],
+    "frames_deep": [
+      "sre_parse.py::_parse",
+      "sre_parse.py::_parse_sub",
+      "sre_parse.py::parse",
+      "sre_compile.py::compile",
+      "re.py::_compile",
+      "re.py::compile",
+      "argument.py::_regexp_csv_transfomer",
+      "argparse.py::_get_value",
+      "argparse.py::_get_values",
+      "argparse.py::take_action",
+      "argparse.py::consume_optional",
+      "argparse.py::_parse_known_args",
+      "argparse.py::parse_known_args",
+      "arguments_manager.py::_parse_configuration_file",
+      "config_initialization.py::_config_initialization",
+      "run.py::__init__",
+      "__init__.py::run_pylint",
+      "pylint::<module>"
+    ],
+    "frames_shallow": [
+      "pylint::<module>",
+      "__init__.py::run_pylint",
+      "run.py::__init__",
+      "config_initialization.py::_config_initialization",
+      "arguments_manager.py::_parse_configuration_file",
+      "argparse.py::parse_known_args",
+      "argparse.py::_parse_known_args",
+      "argparse.py::consume_optional",
+      "argparse.py::take_action",
+      "argparse.py::_get_values",
+      "argparse.py::_get_value",
+      "argument.py::_regexp_csv_transfomer",
+      "re.py::compile",
+      "re.py::_compile",
+      "sre_compile.py::compile",
+      "sre_parse.py::parse",
+      "sre_parse.py::_parse_sub",
+      "sre_parse.py::_parse"
+    ],
+    "frame_files_deep": [
+      "sre_parse.py",
+      "sre_parse.py",
+      "sre_parse.py",
+      "sre_compile.py",
+      "re.py",
+      "re.py",
+      "argument.py",
+      "argparse.py",
+      "argparse.py",
+      "argparse.py",
+      "argparse.py",
+      "argparse.py",
+      "argparse.py",
+      "arguments_manager.py",
+      "config_initialization.py",
+      "run.py",
+      "__init__.py",
+      "pylint"
+    ]
+  },
+  {
+    "id": "scikit-learn__scikit-learn-12585",
+    "repo": "scikit-learn/scikit-learn",
+    "gold": [
+      "base.py::clone"
+    ],
+    "gold_files": [
+      "base.py"
+    ],
+    "frames_deep": [
+      "...\\lib\\site-packages\\sklearn\\base.py::clone",
+      "...\\lib\\site-packages\\sklearn\\base.py::clone"
+    ],
+    "frames_shallow": [
+      "...\\lib\\site-packages\\sklearn\\base.py::clone",
+      "...\\lib\\site-packages\\sklearn\\base.py::clone"
+    ],
+    "frame_files_deep": [
+      "...\\lib\\site-packages\\sklearn\\base.py",
+      "...\\lib\\site-packages\\sklearn\\base.py"
+    ]
+  },
+  {
+    "id": "scikit-learn__scikit-learn-13142",
+    "repo": "scikit-learn/scikit-learn",
+    "gold": [
+      "base.py::BaseMixture",
+      "base.py::_e_step",
+      "base.py::fit_predict"
+    ],
+    "gold_files": [
+      "base.py"
+    ],
+    "frames_deep": [
+      "utils.py::assert_array_compare",
+      "utils.py::assert_array_equal",
+      "test_gm.py::<module>"
+    ],
+    "frames_shallow": [
+      "test_gm.py::<module>",
+      "utils.py::assert_array_equal",
+      "utils.py::assert_array_compare"
+    ],
+    "frame_files_deep": [
+      "utils.py",
+      "utils.py",
+      "test_gm.py"
+    ]
+  },
+  {
+    "id": "scikit-learn__scikit-learn-14496",
+    "repo": "scikit-learn/scikit-learn",
+    "gold": [
+      "optics_.py::OPTICS",
+      "optics_.py::_xi_cluster",
+      "optics_.py::cluster_optics_xi",
+      "optics_.py::compute_optics_graph"
+    ],
+    "gold_files": [
+      "optics_.py"
+    ],
+    "frames_deep": [
+      "base.py::_fit",
+      "base.py::fit",
+      "optics_.py::compute_optics_graph",
+      "optics_.py::fit"
+    ],
+    "frames_shallow": [
+      "optics_.py::fit",
+      "optics_.py::compute_optics_graph",
+      "base.py::fit",
+      "base.py::_fit"
+    ],
+    "frame_files_deep": [
+      "base.py",
+      "base.py",
+      "optics_.py",
+      "optics_.py"
+    ]
+  },
+  {
+    "id": "scikit-learn__scikit-learn-14894",
+    "repo": "scikit-learn/scikit-learn",
+    "gold": [
+      "base.py::BaseLibSVM",
+      "base.py::_sparse_fit",
+      "base.py::predict"
+    ],
+    "gold_files": [
+      "base.py"
+    ],
+    "frames_deep": [
+      "base.py::_sparse_fit",
+      "base.py::fit",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "base.py::fit",
+      "base.py::_sparse_fit"
+    ],
+    "frame_files_deep": [
+      "base.py",
+      "base.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sphinx-doc__sphinx-7462",
+    "repo": "sphinx-doc/sphinx",
+    "gold": [
+      "ast.py::unparse",
+      "python.py::unparse"
+    ],
+    "gold_files": [
+      "ast.py",
+      "python.py"
+    ],
+    "frames_deep": [
+      "\\path\\to\\site-packages\\sphinx\\domains\\python.py::unparse"
+    ],
+    "frames_shallow": [
+      "\\path\\to\\site-packages\\sphinx\\domains\\python.py::unparse"
+    ],
+    "frame_files_deep": [
+      "\\path\\to\\site-packages\\sphinx\\domains\\python.py"
+    ]
+  },
+  {
+    "id": "sympy__sympy-13372",
+    "repo": "sympy/sympy",
+    "gold": [
+      "evalf.py::evalf"
+    ],
+    "gold_files": [
+      "evalf.py"
+    ],
+    "frames_deep": [
+      "evalf.py::evalf",
+      "evalf.py::evalf_mul",
+      "evalf.py::evalf",
+      "evalf.py::evalf",
+      "<stdin>::<module>",
+      "evalf.py::evalf"
+    ],
+    "frames_shallow": [
+      "evalf.py::evalf",
+      "<stdin>::<module>",
+      "evalf.py::evalf",
+      "evalf.py::evalf",
+      "evalf.py::evalf_mul",
+      "evalf.py::evalf"
+    ],
+    "frame_files_deep": [
+      "evalf.py",
+      "evalf.py",
+      "evalf.py",
+      "evalf.py",
+      "<stdin>",
+      "evalf.py"
+    ]
+  },
+  {
+    "id": "sympy__sympy-13480",
+    "repo": "sympy/sympy",
+    "gold": [
+      "hyperbolic.py::eval"
+    ],
+    "gold_files": [
+      "hyperbolic.py"
+    ],
+    "frames_deep": [
+      "C:\\Users\\E\\Desktop\\sympy-master\\sympy\\functions\\elementary\\hyperbolic.py::eval"
+    ],
+    "frames_shallow": [
+      "C:\\Users\\E\\Desktop\\sympy-master\\sympy\\functions\\elementary\\hyperbolic.py::eval"
+    ],
+    "frame_files_deep": [
+      "C:\\Users\\E\\Desktop\\sympy-master\\sympy\\functions\\elementary\\hyperbolic.py"
+    ]
+  },
+  {
+    "id": "sympy__sympy-13877",
+    "repo": "sympy/sympy",
+    "gold": [
+      "matrices.py::DeferredVector",
+      "matrices.py::_eval_det_bareiss",
+      "matrices.py::_find_pivot",
+      "matrices.py::_iszero",
+      "matrices.py::bareiss",
+      "randtest.py::random_complex_number",
+      "randtest.py::verify_numerically"
+    ],
+    "gold_files": [
+      "matrices.py",
+      "randtest.py"
+    ],
+    "frames_deep": [
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\expr.py::__lt__",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::<genexpr>",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::do",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::<listcomp>",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::do",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::factor_terms",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\polys\\polytools.py::cancel",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::entry",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::<listcomp>",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::_handle_creation_inputs",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\immutable.py::_new",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::_eval_det_bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::det",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::_eval_determinant",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\expressions\\determinant.py::doit",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\expressions\\determinant.py::det",
+      "<pyshell#2>::<lambda>",
+      "<pyshell#4>::<module>"
+    ],
+    "frames_shallow": [
+      "<pyshell#4>::<module>",
+      "<pyshell#2>::<lambda>",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\expressions\\determinant.py::det",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\expressions\\determinant.py::doit",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::_eval_determinant",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::det",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::_eval_det_bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::bareiss",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\immutable.py::_new",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::_handle_creation_inputs",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::<listcomp>",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py::entry",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\polys\\polytools.py::cancel",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::factor_terms",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::do",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::<listcomp>",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::do",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py::<genexpr>",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\expr.py::__lt__"
+    ],
+    "frame_files_deep": [
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\expr.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\core\\exprtools.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\polys\\polytools.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\immutable.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\matrices.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\expressions\\determinant.py",
+      "C:\\Users\\E\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\sympy\\matrices\\expressions\\determinant.py",
+      "<pyshell#2>",
+      "<pyshell#4>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-17139",
+    "repo": "sympy/sympy",
+    "gold": [
+      "fu.py::_f"
+    ],
+    "gold_files": [
+      "fu.py"
+    ],
+    "frames_deep": [
+      "expr.py::__lt__",
+      "fu.py::_f",
+      "simplify.py::bottom_up",
+      "fu.py::_TR56",
+      "fu.py::TR6",
+      "core.py::chain_rl",
+      "core.py::<listcomp>",
+      "core.py::minrule",
+      "trigsimp.py::_futrig",
+      "trigsimp.py::<lambda>",
+      "simplify.py::bottom_up",
+      "trigsimp.py::futrig",
+      "trigsimp.py::<lambda>",
+      "trigsimp.py::trigsimp",
+      "simplify.py::simplify",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "simplify.py::simplify",
+      "trigsimp.py::trigsimp",
+      "trigsimp.py::<lambda>",
+      "trigsimp.py::futrig",
+      "simplify.py::bottom_up",
+      "trigsimp.py::<lambda>",
+      "trigsimp.py::_futrig",
+      "core.py::minrule",
+      "core.py::<listcomp>",
+      "core.py::chain_rl",
+      "fu.py::TR6",
+      "fu.py::_TR56",
+      "simplify.py::bottom_up",
+      "fu.py::_f",
+      "expr.py::__lt__"
+    ],
+    "frame_files_deep": [
+      "expr.py",
+      "fu.py",
+      "simplify.py",
+      "fu.py",
+      "fu.py",
+      "core.py",
+      "core.py",
+      "core.py",
+      "trigsimp.py",
+      "trigsimp.py",
+      "simplify.py",
+      "trigsimp.py",
+      "trigsimp.py",
+      "trigsimp.py",
+      "simplify.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-17318",
+    "repo": "sympy/sympy",
+    "gold": [
+      "radsimp.py::rad_rationalize",
+      "radsimp.py::split_surds",
+      "sqrtdenest.py::_sqrt_match"
+    ],
+    "gold_files": [
+      "radsimp.py",
+      "sqrtdenest.py"
+    ],
+    "frames_deep": [
+      "sympy\\simplify\\radsimp.py::_split_gcd",
+      "sympy\\simplify\\radsimp.py::split_surds",
+      "sympy\\simplify\\sqrtdenest.py::_sqrt_match",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest1",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::sqrtdenest",
+      "<stdin>::<module>",
+      "sympy\\simplify\\radsimp.py::_split_gcd",
+      "sympy\\simplify\\radsimp.py::split_surds",
+      "sympy\\simplify\\sqrtdenest.py::_sqrt_match",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest1",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::sqrtdenest",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "sympy\\simplify\\sqrtdenest.py::sqrtdenest",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest1",
+      "sympy\\simplify\\sqrtdenest.py::_sqrt_match",
+      "sympy\\simplify\\radsimp.py::split_surds",
+      "sympy\\simplify\\radsimp.py::_split_gcd",
+      "<stdin>::<module>",
+      "sympy\\simplify\\sqrtdenest.py::sqrtdenest",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest0",
+      "sympy\\simplify\\sqrtdenest.py::_sqrtdenest1",
+      "sympy\\simplify\\sqrtdenest.py::_sqrt_match",
+      "sympy\\simplify\\radsimp.py::split_surds",
+      "sympy\\simplify\\radsimp.py::_split_gcd"
+    ],
+    "frame_files_deep": [
+      "sympy\\simplify\\radsimp.py",
+      "sympy\\simplify\\radsimp.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "<stdin>",
+      "sympy\\simplify\\radsimp.py",
+      "sympy\\simplify\\radsimp.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "sympy\\simplify\\sqrtdenest.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-17630",
+    "repo": "sympy/sympy",
+    "gold": [
+      "matexpr.py::_postprocessor",
+      "matexpr.py::get_postprocessor"
+    ],
+    "gold_files": [
+      "matexpr.py"
+    ],
+    "frames_deep": [
+      "blockmatrix.py::<listcomp>",
+      "blockmatrix.py::colblocksizes",
+      "blockmatrix.py::_blockmul",
+      "<stdin>::<module>",
+      "blockmatrix.py::<listcomp>",
+      "blockmatrix.py::colblocksizes",
+      "blockmatrix.py::_blockmul",
+      "blockmatrix.py::bc_matmul",
+      "core.py::switch_rl",
+      "core.py::conditioned_rl",
+      "core.py::exhaustive_rl",
+      "core.py::chain_rl",
+      "core.py::exhaustive_rl",
+      "blockmatrix.py::block_collapse",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "blockmatrix.py::block_collapse",
+      "core.py::exhaustive_rl",
+      "core.py::chain_rl",
+      "core.py::exhaustive_rl",
+      "core.py::conditioned_rl",
+      "core.py::switch_rl",
+      "blockmatrix.py::bc_matmul",
+      "blockmatrix.py::_blockmul",
+      "blockmatrix.py::colblocksizes",
+      "blockmatrix.py::<listcomp>",
+      "<stdin>::<module>",
+      "blockmatrix.py::_blockmul",
+      "blockmatrix.py::colblocksizes",
+      "blockmatrix.py::<listcomp>"
+    ],
+    "frame_files_deep": [
+      "blockmatrix.py",
+      "blockmatrix.py",
+      "blockmatrix.py",
+      "<stdin>",
+      "blockmatrix.py",
+      "blockmatrix.py",
+      "blockmatrix.py",
+      "blockmatrix.py",
+      "core.py",
+      "core.py",
+      "core.py",
+      "core.py",
+      "core.py",
+      "blockmatrix.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-19954",
+    "repo": "sympy/sympy",
+    "gold": [
+      "perm_groups.py::minimal_blocks"
+    ],
+    "gold_files": [
+      "perm_groups.py"
+    ],
+    "frames_deep": [
+      "D:\\anaconda38\\envs\\default\\lib\\site-packages\\sympy\\combinatorics\\perm_groups.py::minimal_blocks",
+      "D:\\anaconda38\\envs\\default\\lib\\site-packages\\sympy\\combinatorics\\perm_groups.py::sylow_subgroup",
+      "<input>::<module>"
+    ],
+    "frames_shallow": [
+      "<input>::<module>",
+      "D:\\anaconda38\\envs\\default\\lib\\site-packages\\sympy\\combinatorics\\perm_groups.py::sylow_subgroup",
+      "D:\\anaconda38\\envs\\default\\lib\\site-packages\\sympy\\combinatorics\\perm_groups.py::minimal_blocks"
+    ],
+    "frame_files_deep": [
+      "D:\\anaconda38\\envs\\default\\lib\\site-packages\\sympy\\combinatorics\\perm_groups.py",
+      "D:\\anaconda38\\envs\\default\\lib\\site-packages\\sympy\\combinatorics\\perm_groups.py",
+      "<input>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-20428",
+    "repo": "sympy/sympy",
+    "gold": [
+      "expressiondomain.py::Expression",
+      "expressiondomain.py::__bool__",
+      "expressiondomain.py::__ne__",
+      "expressiondomain.py::gcd"
+    ],
+    "gold_files": [
+      "expressiondomain.py"
+    ],
+    "frames_deep": [
+      "densearith.py::dup_quo_ground",
+      "densetools.py::dup_primitive",
+      "densetools.py::dmp_ground_primitive",
+      "polyclasses.py::primitive",
+      "polytools.py::primitive",
+      "<stdin>::<module>",
+      "monomials.py::monomial_min",
+      "densebasic.py::dmp_terms_gcd",
+      "polyclasses.py::terms_gcd",
+      "polytools.py::terms_gcd",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "polytools.py::terms_gcd",
+      "polyclasses.py::terms_gcd",
+      "densebasic.py::dmp_terms_gcd",
+      "monomials.py::monomial_min",
+      "<stdin>::<module>",
+      "polytools.py::primitive",
+      "polyclasses.py::primitive",
+      "densetools.py::dmp_ground_primitive",
+      "densetools.py::dup_primitive",
+      "densearith.py::dup_quo_ground"
+    ],
+    "frame_files_deep": [
+      "densearith.py",
+      "densetools.py",
+      "densetools.py",
+      "polyclasses.py",
+      "polytools.py",
+      "<stdin>",
+      "monomials.py",
+      "densebasic.py",
+      "polyclasses.py",
+      "polytools.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-20438",
+    "repo": "sympy/sympy",
+    "gold": [
+      "comparison.py::_eval_is_eq",
+      "issubset.py::is_subset_sets",
+      "relational.py::Relational",
+      "relational.py::_eval_simplify"
+    ],
+    "gold_files": [
+      "comparison.py",
+      "issubset.py",
+      "relational.py"
+    ],
+    "frames_deep": [
+      "relational.py::_eval_simplify",
+      "relational.py::_eval_simplify",
+      "simplify.py::simplify",
+      "basic.py::simplify",
+      "<console>::<module>",
+      "code.py::runcode"
+    ],
+    "frames_shallow": [
+      "code.py::runcode",
+      "<console>::<module>",
+      "basic.py::simplify",
+      "simplify.py::simplify",
+      "relational.py::_eval_simplify",
+      "relational.py::_eval_simplify"
+    ],
+    "frame_files_deep": [
+      "relational.py",
+      "relational.py",
+      "simplify.py",
+      "basic.py",
+      "<console>",
+      "code.py"
+    ]
+  },
+  {
+    "id": "sympy__sympy-22714",
+    "repo": "sympy/sympy",
+    "gold": [
+      "point.py::__new__"
+    ],
+    "gold_files": [
+      "point.py"
+    ],
+    "frames_deep": [
+      "point.py::__new__",
+      "point.py::__new__",
+      "<string>::<module>",
+      "sympy_parser.py::eval_expr",
+      "sympy_parser.py::parse_expr",
+      "sympy_parser.py::parse_expr",
+      "sympify.py::sympify",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "sympify.py::sympify",
+      "sympy_parser.py::parse_expr",
+      "sympy_parser.py::parse_expr",
+      "sympy_parser.py::eval_expr",
+      "<string>::<module>",
+      "point.py::__new__",
+      "point.py::__new__"
+    ],
+    "frame_files_deep": [
+      "point.py",
+      "point.py",
+      "<string>",
+      "sympy_parser.py",
+      "sympy_parser.py",
+      "sympy_parser.py",
+      "sympify.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-23824",
+    "repo": "sympy/sympy",
+    "gold": [
+      "gamma_matrices.py::kahane_simplify"
+    ],
+    "gold_files": [
+      "gamma_matrices.py"
+    ],
+    "frames_deep": [
+      "test_kahane_leading_gamma_matrix_bug.py::test_kahane_leading_gamma_matrix_bug",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "test_kahane_leading_gamma_matrix_bug.py::test_kahane_leading_gamma_matrix_bug"
+    ],
+    "frame_files_deep": [
+      "test_kahane_leading_gamma_matrix_bug.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-23950",
+    "repo": "sympy/sympy",
+    "gold": [
+      "contains.py::Contains",
+      "contains.py::as_set",
+      "contains.py::binary_symbols"
+    ],
+    "gold_files": [
+      "contains.py"
+    ],
+    "frames_deep": [
+      "piecewise.py::eval",
+      "piecewise.py::__new__",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "piecewise.py::__new__",
+      "piecewise.py::eval"
+    ],
+    "frame_files_deep": [
+      "piecewise.py",
+      "piecewise.py",
+      "<stdin>"
+    ]
+  },
+  {
+    "id": "sympy__sympy-24213",
+    "repo": "sympy/sympy",
+    "gold": [
+      "unitsystem.py::_collect_factor_and_dimension"
+    ],
+    "gold_files": [
+      "unitsystem.py"
+    ],
+    "frames_deep": [
+      "C:\\Python\\Python310\\lib\\site-packages\\sympy\\physics\\units\\unitsystem.py::_collect_factor_and_dimension",
+      "<stdin>::<module>"
+    ],
+    "frames_shallow": [
+      "<stdin>::<module>",
+      "C:\\Python\\Python310\\lib\\site-packages\\sympy\\physics\\units\\unitsystem.py::_collect_factor_and_dimension"
+    ],
+    "frame_files_deep": [
+      "C:\\Python\\Python310\\lib\\site-packages\\sympy\\physics\\units\\unitsystem.py",
+      "<stdin>"
+    ]
+  }
+]

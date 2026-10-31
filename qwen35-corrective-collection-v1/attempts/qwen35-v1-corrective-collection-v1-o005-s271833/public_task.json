@@ -1,0 +1,4 @@
+{
+  "task_id": "env_164_rl-task_41",
+  "task": "As the platform operations coordinator, perform the following updates:\n\n- Cancel Alice Chan’s outdated planning meeting:\n  - Session ID: sess_A1B2\n  - Cancel the session under Alice’s authority (user_51A4) since it is no longer needed and is past its scheduled date.\n\n- Reassign and update the Privacy Panel Discussion away from the banned creator:\n  - Session ID: sess_QV19\n  - Change Carolina Pierce (user_D9BB) to the host role for this session.\n  - Remove Leila van Doren (user_F0A6, banned) from the participants.\n  - Add David Li (user_E3D2) as an attendee.\n  - Reschedule the session to 2025-11-03T18:00:00+00:00.\n  - Ensure the session remains in status “scheduled” after these changes.\n\n- Normalize the lingering in-progress session:\n  - Session ID: sess_C4F7\n  - Update the session status from “in progress” to “completed” since it has already occurred."
+}

@@ -1,0 +1,52 @@
+{
+  "currency": "USD",
+  "total_hard_ceiling": 40.0,
+  "gpu_hourly_rate_assumed": 2.77,
+  "caps": {
+    "teacher_and_other_api_including_retries": 10.0,
+    "gpu_billed_hours": 10.0,
+    "gpu_total": 27.7,
+    "storage_miscellaneous": 2.3
+  },
+  "initial_epochs": 1,
+  "automatic_extra_epochs": false,
+  "estimated_processed_tokens_per_workflow_per_epoch": 40000,
+  "estimated_training_tokens_per_epoch": 5120000,
+  "training_tokens_per_second_assumed": 500,
+  "evaluation": {
+    "baseline_tasks": 160,
+    "development_tasks": 41,
+    "candidate_test_tasks": 160,
+    "total_task_attempts": 361,
+    "output_tokens_per_attempt_assumed": 4000,
+    "aggregate_decode_tokens_per_second_assumed": 100
+  },
+  "teacher_attempts_initial": 128,
+  "teacher_mean_dollars_per_attempt_assumed": 0.0588129286,
+  "rules": [
+    "Caps cover all incurred attempts, retries, setup, idle GPU time, evaluation, export and fees in the respective buckets.",
+    "Use actual invoices and provider billing increments; stop before the remaining envelope can be exceeded.",
+    "This file is a budget policy, not a running billing monitor or automatic shutdown.",
+    "Profile real traces and execution rates before the main run. Completion of all phases under40 is not guaranteed.",
+    "Do not truncate required facts, invent demonstrations, or silently omit selected tasks to claim the dataset completed.",
+    "A second epoch or frontier API comparisons need explicit reallocation within40; no automatic extra spend.",
+    "The excluded311reserve tasks and9qualityholds receive no teacher/training budget."
+  ],
+  "new_frontier_model_api_comparison_included": false,
+  "sources": {
+    "dataset": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+    "teacher_cost_proxy": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa"
+  },
+  "worked_scenario": {
+    "training_hours": 2.8444444444444446,
+    "training_dollars": 7.879111111111111,
+    "setup_hours": 1,
+    "setup_dollars": 2.77,
+    "evaluation_generation_hours": 4.011111111111111,
+    "evaluation_generation_dollars": 11.110777777777777,
+    "teacher_initial_attempts_dollars": 7.5280548608,
+    "subtotal_before_prefill_tools_retries_export_storage": 29.287943749688893,
+    "unallocated_within40": 10.712056250311107,
+    "gpu_hours_left_under10": 2.144444444444444
+  }
+}

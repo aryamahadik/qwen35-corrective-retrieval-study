@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-16T05:43:07.047431+00:00",
+  "scope": "Training-only teacher collection handoff",
+  "task_count": 128,
+  "domain_counts": {
+    "calendar": 8,
+    "csm": 24,
+    "drive": 8,
+    "email": 8,
+    "hr": 24,
+    "hybrid": 24,
+    "itsm": 24,
+    "teams": 8
+  },
+  "workflow_group_count": 105,
+  "verified_demonstrations": 0,
+  "sft_ready": false,
+  "contains_development_or_test_tasks": false,
+  "contains_verifier_sql_or_expected_results": false,
+  "contains_seed_databases": false,
+  "source_split_manifest_sha256": "1742388aa1c1fe079de568183e6f6cd11cf0ac95265a753695b6a08f3a55094c",
+  "files": {
+    "COLLECTION_GUIDE.md": {
+      "bytes": 10112,
+      "sha256": "de3a23937db2667ccc8541ed74087514f07b7dbeb7ae43b4c81a5aa7af9f07a4"
+    },
+    "PROMPT.txt": {
+      "bytes": 998,
+      "sha256": "5769979eebd744593a685ebfdb3c8648790dc2aef0011478c2a6048068a0db51"
+    },
+    "README.md": {
+      "bytes": 1543,
+      "sha256": "7da43a4d1d9b9f58141793738dff2e1c3ff9feebb9ad0362633135c26279b9dd"
+    },
+    "by_domain/calendar.jsonl": {
+      "bytes": 15513,
+      "sha256": "8f260a723342d5a651e6a24c555c180c244d090a5ada4f2ff899e190fb88a06e"
+    },
+    "by_domain/csm.jsonl": {
+      "bytes": 290376,
+      "sha256": "59b15892519972309b5329ecba23975943048d51de621d039497992d833772e7"
+    },
+    "by_domain/drive.jsonl": {
+      "bytes": 50378,
+      "sha256": "90c06e9c4a5ba3b8206bfa27f64ff944402da559530a19438e917becd19e141b"
+    },
+    "by_domain/email.jsonl": {
+      "bytes": 37719,
+      "sha256": "5e14ca7d118aaa882fd970eb58546a7ad05572f3172b94c7bc54a50b2f63d495"
+    },
+    "by_domain/hr.jsonl": {
+      "bytes": 299924,
+      "sha256": "09e35dc1d4cb637f2025aa71749a13d6dab389ef8ea2796bb05bfb39fcbb14cc"
+    },
+    "by_domain/hybrid.jsonl": {
+      "bytes": 312745,
+      "sha256": "2d28b691e5a2ae9a3d245b9e99afd9fb19744eef2900267b379819ae7f906e7d"
+    },
+    "by_domain/itsm.jsonl": {
+      "bytes": 281994,
+      "sha256": "849eebc1b89f7f31668867a43b1e4ce4622dedd90bb8ed0b6199713a0bb2abb2"
+    },
+    "by_domain/teams.jsonl": {
+      "bytes": 143065,
+      "sha256": "cf67be44e0879e620d4e530b441dc2be25eacec0b0dcea72af7e5ade11f84fd5"
+    },
+    "teacher_tasks.jsonl": {
+      "bytes": 1431714,
+      "sha256": "16933e5b2017d8eebdf67aede2d365b5c8d63bf7982f47663090017f3584bec6"
+    },
+    "trace_schema.json": {
+      "bytes": 3917,
+      "sha256": "0a17b02b7893ea48b45fc4fe8d75b20d80b3f0f47ce8bb5edce529b9f607d466"
+    },
+    "verifier_receipt.schema.json": {
+      "bytes": 2665,
+      "sha256": "8069a3ad3e0de96aa59cde5a34818775541f631fa8ec92632452e48ba807e45d"
+    }
+  }
+}

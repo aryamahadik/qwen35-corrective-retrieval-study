@@ -1,0 +1,312 @@
+{
+  "adapter": {
+    "success_rate_percent": 16.666667,
+    "successes": 4,
+    "totals": {
+      "input_tokens": 2516858,
+      "invalid_calls": 38,
+      "latency_ms": 2022390,
+      "model_calls": 444,
+      "output_tokens": 25636,
+      "parse_failures": 0,
+      "recoverable_tool_errors": 2,
+      "repeated_exact_actions": 39,
+      "repeated_exact_actions_measured_pairs": 24,
+      "state_mutating_tool_errors": 0,
+      "successful_calls": 399,
+      "tool_errors": 2,
+      "total_action_requests": 439,
+      "turns": 463,
+      "valid_calls": 401,
+      "verifier_errors": 0
+    },
+    "wilson_95_ci": {
+      "confidence": 0.95,
+      "lower_percent": 6.678676,
+      "method": "wilson_score",
+      "upper_percent": 35.853071
+    }
+  },
+  "base": {
+    "success_rate_percent": 16.666667,
+    "successes": 4,
+    "totals": {
+      "input_tokens": 2047734,
+      "invalid_calls": 36,
+      "latency_ms": 1459284,
+      "model_calls": 370,
+      "output_tokens": 30286,
+      "parse_failures": 2,
+      "recoverable_tool_errors": 0,
+      "repeated_exact_actions": 28,
+      "repeated_exact_actions_measured_pairs": 24,
+      "state_mutating_tool_errors": 0,
+      "successful_calls": 321,
+      "tool_errors": 0,
+      "total_action_requests": 357,
+      "turns": 381,
+      "valid_calls": 321,
+      "verifier_errors": 0
+    },
+    "wilson_95_ci": {
+      "confidence": 0.95,
+      "lower_percent": 6.678676,
+      "method": "wilson_score",
+      "upper_percent": 35.853071
+    }
+  },
+  "complete_pairs": 24,
+  "effect": {
+    "absolute_delta_percentage_points": 0.0,
+    "bootstrap_delta_ci": {
+      "confidence": 0.95,
+      "lower_percentage_points": 0.0,
+      "method": "paired_nonparametric_task_bootstrap_percentile",
+      "samples": 10000,
+      "seed": 35009,
+      "upper_percentage_points": 0.0
+    },
+    "exact_two_sided_mcnemar_p_value": 1.0,
+    "relative_improvement_percent": 0.0
+  },
+  "environment_macro": {
+    "adapter_macro_success_rate_percent": 16.666667,
+    "base_macro_success_rate_percent": 16.666667,
+    "families": 24,
+    "macro_delta_percentage_points": 0.0,
+    "per_family": [
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_141_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_145_rl"
+      },
+      {
+        "adapter_success_rate_percent": 100.0,
+        "adapter_successes": 1,
+        "base_success_rate_percent": 100.0,
+        "base_successes": 1,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_148_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_149_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_152_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_155_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_156_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_157_rl"
+      },
+      {
+        "adapter_success_rate_percent": 100.0,
+        "adapter_successes": 1,
+        "base_success_rate_percent": 100.0,
+        "base_successes": 1,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_158_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_159_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_162_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_163_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_167_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_168_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_169_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_170_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_172_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_178_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_182_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_183_rl"
+      },
+      {
+        "adapter_success_rate_percent": 100.0,
+        "adapter_successes": 1,
+        "base_success_rate_percent": 100.0,
+        "base_successes": 1,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_184_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_185_rl"
+      },
+      {
+        "adapter_success_rate_percent": 100.0,
+        "adapter_successes": 1,
+        "base_success_rate_percent": 100.0,
+        "base_successes": 1,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_186_rl"
+      },
+      {
+        "adapter_success_rate_percent": 0.0,
+        "adapter_successes": 0,
+        "base_success_rate_percent": 0.0,
+        "base_successes": 0,
+        "complete_pairs": 1,
+        "delta_percentage_points": 0.0,
+        "environment_id": "env_191_rl"
+      }
+    ]
+  },
+  "incomplete_pairs": 0,
+  "incomplete_status_pairs": {},
+  "paired_counts": {
+    "adapter_only": 0,
+    "base_only": 0,
+    "both_fail": 20,
+    "both_pass": 4,
+    "discordant": 0
+  },
+  "records": 24,
+  "schema_version": 1,
+  "selected_tasks": 24,
+  "selection_identity": "500f7f19293a33b300fa20c73e780df8be9b39b1d0512a0a7f9e24786e7f0fcb",
+  "split": "smoke",
+  "status": "PAIRED_RESULTS_COMPLETE",
+  "summary_sha256": "b7454e95c919cd23e7ada6baf4b6ca6db376501762f3abc73bf2a9873c9f6304"
+}

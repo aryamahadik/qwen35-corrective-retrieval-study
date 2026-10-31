@@ -1,0 +1,13 @@
+{
+  "selected_tasks": 329,
+  "train": 128,
+  "development": 41,
+  "final_test": 160,
+  "working_structural_errors": 0,
+  "known_semantic_holds": 1,
+  "all_tasks_semantically_certified": false,
+  "verified_sft_workflows": 0,
+  "sft_ready": false,
+  "modal_cloud_tested": false,
+  "required_next_artifact": "128 reviewed training-only conversations with actual bound verifier receipts"
+}

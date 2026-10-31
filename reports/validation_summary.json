@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-09-15T15:36:37.048962+00:00",
+  "working_folder": "/Users/aryamahadik/Documents/Codex/2026-09-14/ok-now-we-gonna-finetune-the/MODAL",
+  "task_counts": {
+    "train": 128,
+    "development": 41,
+    "final_test": 160
+  },
+  "total_selected_tasks": 329,
+  "static_audit_status": "STATIC_CHECKS_PASS_WITH_QUALITY_CAVEATS",
+  "static_error_count": 0,
+  "semantic_quality_holds": 1,
+  "normalizations": {
+    "unique_verifier_identity": 1749,
+    "deduplicate_tool_names_preserving_order": 7,
+    "direct_count_numeric_type_only": 37
+  },
+  "unit_tests": {
+    "status": "PASS",
+    "count": 36,
+    "command": "python3 -m unittest discover -s MODAL/tests -v"
+  },
+  "real_tokenizer_smoke": {
+    "status": "passed",
+    "model_id": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "versions": {
+      "transformers": "5.5.0",
+      "tokenizers": "0.22.2",
+      "jinja2": "3.1.6"
+    },
+    "synthetic_tool_conversation_only": true,
+    "processed_tokens": 351,
+    "supervised_tokens": 57,
+    "first_label": -100,
+    "model_weights_downloaded": false,
+    "gpu_used": false,
+    "training_dataset_published": false
+  },
+  "modal_sdk_offline_import": {
+    "status": "PASS",
+    "version": "1.5.5",
+    "cloud_invoked": false
+  },
+  "cuda_image_tag_metadata": {
+    "registry_tag": "12.8.1-devel-ubuntu22.04",
+    "status": "active",
+    "linux_amd64": true,
+    "digest": "sha256:a99a1860ba8e2916e5c3e73b72ec4c4301653a84586e05bfc9a2aa2d58027e97",
+    "source_url": "https://hub.docker.com/v2/repositories/nvidia/cuda/tags/12.8.1-devel-ubuntu22.04"
+  },
+  "launch_plan": {
+    "task_specifications": {
+      "train": 128,
+      "development": 41,
+      "final_test": 160
+    },
+    "verified_sft": {
+      "ready": false,
+      "reason": "Verified SFT is not prepared. Task specifications are not training answers. Run scripts/prepare_sft.py on reviewed demonstrations first."
+    },
+    "budget": {
+      "hourly_requested_resource_rate_usd": "2.81491200",
+      "one_call_reservation_usd": "3.34",
+      "reserved_gpu_usd": "0",
+      "remaining_gpu_reservation_usd": "27.70",
+      "teacher_api_spent_usd": "0",
+      "other_modal_spent_usd": "0",
+      "accounted_or_reserved_total_usd": "0",
+      "campaign_cap_usd": "40.00",
+      "pending_calls": []
+    },
+    "provider_usage_cap_recorded": false,
+    "cloud_runtime_tested": false
+  },
+  "runtime_limits": {
+    "cuda_image_built": false,
+    "a100_model_loaded": false,
+    "training_completed": false,
+    "modal_checkpoint_resume_tested": false,
+    "modal_authenticated": false,
+    "demonstrations_available": false,
+    "dollar_cap_remotely_configured": false
+  },
+  "notes": [
+    "Cleanliness is a static structural result with one known semantic scorer hold and unverified live backend semantics.",
+    "No real training trajectories or success receipts were fabricated.",
+    "No GPU rental or teacher-generation API job was launched."
+  ]
+}

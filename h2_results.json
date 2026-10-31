@@ -1,0 +1,192 @@
+{
+  "gpu": "NVIDIA A10",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "prefix_tokens": 4096,
+  "n_out": 64,
+  "results": {
+    "prefix_caching_on": [
+      {
+        "C": 1,
+        "mode": "shared",
+        "wall_s": 0.283,
+        "gen_tokens": 64,
+        "prompt_tokens": 4268,
+        "gen_tok_s": 226.5,
+        "gen_tok_s_per_seq": 226.48
+      },
+      {
+        "C": 1,
+        "mode": "distinct",
+        "wall_s": 0.274,
+        "gen_tokens": 64,
+        "prompt_tokens": 4255,
+        "gen_tok_s": 233.7,
+        "gen_tok_s_per_seq": 233.69
+      },
+      {
+        "C": 4,
+        "mode": "shared",
+        "wall_s": 0.338,
+        "gen_tokens": 256,
+        "prompt_tokens": 17072,
+        "gen_tok_s": 757.5,
+        "gen_tok_s_per_seq": 189.38
+      },
+      {
+        "C": 4,
+        "mode": "distinct",
+        "wall_s": 0.585,
+        "gen_tokens": 256,
+        "prompt_tokens": 17044,
+        "gen_tok_s": 437.4,
+        "gen_tok_s_per_seq": 109.34
+      },
+      {
+        "C": 8,
+        "mode": "shared",
+        "wall_s": 0.422,
+        "gen_tokens": 512,
+        "prompt_tokens": 34144,
+        "gen_tok_s": 1212.4,
+        "gen_tok_s_per_seq": 151.55
+      },
+      {
+        "C": 8,
+        "mode": "distinct",
+        "wall_s": 0.76,
+        "gen_tokens": 512,
+        "prompt_tokens": 34097,
+        "gen_tok_s": 673.4,
+        "gen_tok_s_per_seq": 84.18
+      },
+      {
+        "C": 16,
+        "mode": "shared",
+        "wall_s": 0.572,
+        "gen_tokens": 1024,
+        "prompt_tokens": 68294,
+        "gen_tok_s": 1789.4,
+        "gen_tok_s_per_seq": 111.84
+      },
+      {
+        "C": 16,
+        "mode": "distinct",
+        "wall_s": 1.288,
+        "gen_tokens": 1024,
+        "prompt_tokens": 68246,
+        "gen_tok_s": 794.8,
+        "gen_tok_s_per_seq": 49.67
+      },
+      {
+        "C": 32,
+        "mode": "shared",
+        "wall_s": 0.878,
+        "gen_tokens": 2048,
+        "prompt_tokens": 136598,
+        "gen_tok_s": 2331.5,
+        "gen_tok_s_per_seq": 72.86
+      },
+      {
+        "C": 32,
+        "mode": "distinct",
+        "wall_s": 2.376,
+        "gen_tokens": 2048,
+        "prompt_tokens": 136550,
+        "gen_tok_s": 861.9,
+        "gen_tok_s_per_seq": 26.93
+      }
+    ],
+    "prefix_caching_off": [
+      {
+        "C": 1,
+        "mode": "shared",
+        "wall_s": 0.345,
+        "gen_tokens": 64,
+        "prompt_tokens": 4268,
+        "gen_tok_s": 185.5,
+        "gen_tok_s_per_seq": 185.5
+      },
+      {
+        "C": 1,
+        "mode": "distinct",
+        "wall_s": 0.339,
+        "gen_tokens": 64,
+        "prompt_tokens": 4255,
+        "gen_tok_s": 188.9,
+        "gen_tok_s_per_seq": 188.89
+      },
+      {
+        "C": 4,
+        "mode": "shared",
+        "wall_s": 0.639,
+        "gen_tokens": 256,
+        "prompt_tokens": 17072,
+        "gen_tok_s": 400.5,
+        "gen_tok_s_per_seq": 100.12
+      },
+      {
+        "C": 4,
+        "mode": "distinct",
+        "wall_s": 0.651,
+        "gen_tokens": 256,
+        "prompt_tokens": 17044,
+        "gen_tok_s": 393.1,
+        "gen_tok_s_per_seq": 98.28
+      },
+      {
+        "C": 8,
+        "mode": "shared",
+        "wall_s": 1.014,
+        "gen_tokens": 512,
+        "prompt_tokens": 34144,
+        "gen_tok_s": 505.0,
+        "gen_tok_s_per_seq": 63.13
+      },
+      {
+        "C": 8,
+        "mode": "distinct",
+        "wall_s": 1.052,
+        "gen_tokens": 512,
+        "prompt_tokens": 34097,
+        "gen_tok_s": 486.8,
+        "gen_tok_s_per_seq": 60.85
+      },
+      {
+        "C": 16,
+        "mode": "shared",
+        "wall_s": 1.805,
+        "gen_tokens": 1024,
+        "prompt_tokens": 68294,
+        "gen_tok_s": 567.2,
+        "gen_tok_s_per_seq": 35.45
+      },
+      {
+        "C": 16,
+        "mode": "distinct",
+        "wall_s": 1.876,
+        "gen_tokens": 1024,
+        "prompt_tokens": 68246,
+        "gen_tok_s": 546.0,
+        "gen_tok_s_per_seq": 34.12
+      },
+      {
+        "C": 32,
+        "mode": "shared",
+        "wall_s": 3.342,
+        "gen_tokens": 2048,
+        "prompt_tokens": 136598,
+        "gen_tok_s": 612.8,
+        "gen_tok_s_per_seq": 19.15
+      },
+      {
+        "C": 32,
+        "mode": "distinct",
+        "wall_s": 3.533,
+        "gen_tokens": 2048,
+        "prompt_tokens": 136550,
+        "gen_tok_s": 579.8,
+        "gen_tok_s_per_seq": 18.12
+      }
+    ]
+  }
+}

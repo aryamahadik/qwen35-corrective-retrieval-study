@@ -1,0 +1,1253 @@
+{
+  "funnel": {
+    "considered": 146,
+    "cloned": 146,
+    "installed": 146,
+    "patched": 146,
+    "test_ran": 146,
+    "genuine_fail": 13,
+    "traced": 3
+  },
+  "rows": [
+    {
+      "id": "mwaskom__seaborn-3069",
+      "repo": "mwaskom/seaborn",
+      "gold": [
+        "seaborn/_core/plot.py::_finalize_figure",
+        "seaborn/_core/plot.py::_setup_scales"
+      ],
+      "n_exec": 156,
+      "exec": [
+        [
+          "seaborn/_core/plot.py::Plotter",
+          129
+        ],
+        [
+          "seaborn/_core/subplots.py::Subplots",
+          75
+        ],
+        [
+          "seaborn/_core/plot.py::Plot",
+          74
+        ],
+        [
+          "seaborn/_core/data.py::PlotData",
+          62
+        ],
+        [
+          "seaborn/_core/scales.py::Continuous",
+          45
+        ],
+        [
+          "seaborn/_core/scales.py::_setup",
+          42
+        ],
+        [
+          "seaborn/_core/scales.py::PseudoAxis",
+          39
+        ],
+        [
+          "seaborn/_core/scales.py::Nominal",
+          38
+        ],
+        [
+          "seaborn/_core/plot.py::_setup_figure",
+          35
+        ],
+        [
+          "seaborn/_core/plot.py::_setup_scales",
+          35
+        ],
+        [
+          "seaborn/axisgrid.py::FacetGrid",
+          34
+        ],
+        [
+          "seaborn/_core/subplots.py::init_figure",
+          32
+        ],
+        [
+          "seaborn/_core/scales.py::Scale",
+          29
+        ],
+        [
+          "seaborn/_core/scales.py::ContinuousBase",
+          27
+        ],
+        [
+          "seaborn/_docstrings.py::DocstringComponents",
+          27
+        ],
+        [
+          "seaborn/_oldcore.py::VectorPlotter",
+          27
+        ],
+        [
+          "seaborn/_core/data.py::_assign_variables",
+          25
+        ],
+        [
+          "seaborn/distributions.py::_DistributionPlotter",
+          24
+        ],
+        [
+          "seaborn/_core/plot.py::__init__",
+          20
+        ],
+        [
+          "seaborn/_core/data.py::join",
+          19
+        ],
+        [
+          "seaborn/_core/properties.py::Property",
+          19
+        ],
+        [
+          "seaborn/_core/rules.py::variable_type",
+          19
+        ],
+        [
+          "seaborn/categorical.py::_CategoricalPlotterNew",
+          17
+        ],
+        [
+          "seaborn/categorical.py::_ViolinPlotter",
+          17
+        ],
+        [
+          "seaborn/rcmod.py::axes_style",
+          17
+        ],
+        [
+          "seaborn/regression.py::_RegressionPlotter",
+          17
+        ],
+        [
+          "seaborn/_stats/histogram.py::Hist",
+          16
+        ],
+        [
+          "seaborn/rcmod.py::plotting_context",
+          15
+        ],
+        [
+          "seaborn/_core/plot.py::theme_context",
+          14
+        ],
+        [
+          "seaborn/matrix.py::ClusterGrid",
+          14
+        ],
+        [
+          "seaborn/palettes.py::color_palette",
+          14
+        ],
+        [
+          "seaborn/_core/plot.py::_plot",
+          13
+        ],
+        [
+          "seaborn/axisgrid.py::PairGrid",
+          13
+        ],
+        [
+          "seaborn/_core/scales.py::_get_locators",
+          12
+        ],
+        [
+          "seaborn/categorical.py::_CategoricalPlotter",
+          12
+        ],
+        [
+          "seaborn/_core/properties.py::IntervalProperty",
+          11
+        ],
+        [
+          "seaborn/axisgrid.py::Grid",
+          11
+        ],
+        [
+          "seaborn/_core/scales.py::_get_formatter",
+          10
+        ],
+        [
+          "seaborn/_marks/base.py::Mark",
+          10
+        ],
+        [
+          "seaborn/_statistics.py::KDE",
+          10
+        ],
+        [
+          "seaborn/matrix.py::_DendrogramPlotter",
+          10
+        ],
+        [
+          "seaborn/_core/plot.py::build_plot_signature",
+          9
+        ],
+        [
+          "seaborn/_core/scales.py::tick",
+          9
+        ],
+        [
+          "seaborn/_core/scales.py::update_units",
+          9
+        ],
+        [
+          "seaborn/_core/subplots.py::_check_dimension_uniqueness",
+          9
+        ],
+        [
+          "seaborn/_core/subplots.py::_determine_grid_dimensions",
+          9
+        ],
+        [
+          "seaborn/_docstrings.py::__init__",
+          9
+        ],
+        [
+          "seaborn/_oldcore.py::SemanticMapping",
+          9
+        ],
+        [
+          "seaborn/_oldcore.py::HueMapping",
+          9
+        ],
+        [
+          "seaborn/axisgrid.py::_BaseGrid",
+          9
+        ],
+        [
+          "seaborn/_core/moves.py::Norm",
+          8
+        ],
+        [
+          "seaborn/_core/plot.py::Layer",
+          8
+        ],
+        [
+          "seaborn/_core/plot.py::_finalize_figure",
+          8
+        ],
+        [
+          "seaborn/_core/properties.py::ObjectProperty",
+          8
+        ],
+        [
+          "seaborn/_core/properties.py::Color",
+          8
+        ],
+        [
+          "seaborn/_core/properties.py::Fill",
+          8
+        ],
+        [
+          "seaborn/_core/rules.py::VarType",
+          8
+        ],
+        [
+          "seaborn/_core/scales.py::_get_scale",
+          8
+        ],
+        [
+          "seaborn/_core/scales.py::label",
+          8
+        ],
+        [
+          "seaborn/_decorators.py::share_init_params_with_map",
+          8
+        ],
+        [
+          "seaborn/_docstrings.py::from_function_params",
+          8
+        ],
+        [
+          "seaborn/_marks/base.py::Mappable",
+          8
+        ],
+        [
+          "seaborn/_stats/aggregation.py::Est",
+          8
+        ],
+        [
+          "seaborn/axisgrid.py::JointGrid",
+          8
+        ],
+        [
+          "seaborn/categorical.py::Beeswarm",
+          8
+        ],
+        [
+          "seaborn/_core/data.py::__init__",
+          7
+        ],
+        [
+          "seaborn/_core/scales.py::Temporal",
+          7
+        ],
+        [
+          "seaborn/_core/scales.py::__init__",
+          7
+        ],
+        [
+          "seaborn/_core/subplots.py::_determine_axis_sharing",
+          7
+        ],
+        [
+          "seaborn/_oldcore.py::SizeMapping",
+          7
+        ],
+        [
+          "seaborn/_statistics.py::Histogram",
+          7
+        ],
+        [
+          "seaborn/categorical.py::_LVPlotter",
+          7
+        ],
+        [
+          "seaborn/matrix.py::_HeatMapper",
+          7
+        ],
+        [
+          "seaborn/_core/groupby.py::GroupBy",
+          6
+        ],
+        [
+          "seaborn/_core/moves.py::Jitter",
+          6
+        ],
+        [
+          "seaborn/_core/properties.py::LineStyle",
+          6
+        ],
+        [
+          "seaborn/categorical.py::_PointPlotter",
+          6
+        ],
+        [
+          "seaborn/_core/moves.py::Dodge",
+          5
+        ],
+        [
+          "seaborn/_core/plot.py::_theme_with_defaults",
+          5
+        ],
+        [
+          "seaborn/_core/plot.py::_make_legend",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mwaskom__seaborn-3187",
+      "repo": "mwaskom/seaborn",
+      "gold": [
+        "seaborn/_core/scales.py::ContinuousBase",
+        "seaborn/_core/scales.py::_get_transform",
+        "seaborn/_core/scales.py::_setup",
+        "seaborn/_core/scales.py::get_param",
+        "seaborn/utils.py::locator_to_legend_entries"
+      ],
+      "n_exec": 226,
+      "exec": [
+        [
+          "seaborn/_core/plot.py::Plotter",
+          225
+        ],
+        [
+          "seaborn/axisgrid.py::FacetGrid",
+          191
+        ],
+        [
+          "seaborn/_oldcore.py::VectorPlotter",
+          108
+        ],
+        [
+          "seaborn/_core/plot.py::Plot",
+          96
+        ],
+        [
+          "seaborn/_core/subplots.py::Subplots",
+          75
+        ],
+        [
+          "seaborn/axisgrid.py::__init__",
+          70
+        ],
+        [
+          "seaborn/axisgrid.py::Grid",
+          63
+        ],
+        [
+          "seaborn/_core/data.py::PlotData",
+          62
+        ],
+        [
+          "seaborn/relational.py::_RelationalPlotter",
+          55
+        ],
+        [
+          "seaborn/_core/plot.py::_setup_scales",
+          53
+        ],
+        [
+          "seaborn/_oldcore.py::HueMapping",
+          53
+        ],
+        [
+          "seaborn/relational.py::add_legend_data",
+          52
+        ],
+        [
+          "seaborn/relational.py::relplot",
+          49
+        ],
+        [
+          "seaborn/_core/scales.py::Continuous",
+          45
+        ],
+        [
+          "seaborn/_core/scales.py::ContinuousBase",
+          41
+        ],
+        [
+          "seaborn/_core/scales.py::Scale",
+          40
+        ],
+        [
+          "seaborn/_core/plot.py::_setup_figure",
+          35
+        ],
+        [
+          "seaborn/_core/scales.py::PseudoAxis",
+          35
+        ],
+        [
+          "seaborn/_core/scales.py::_setup",
+          33
+        ],
+        [
+          "seaborn/axisgrid.py::add_legend",
+          33
+        ],
+        [
+          "seaborn/_core/subplots.py::init_figure",
+          32
+        ],
+        [
+          "seaborn/_oldcore.py::__init__",
+          29
+        ],
+        [
+          "seaborn/_oldcore.py::_attach",
+          29
+        ],
+        [
+          "seaborn/_core/plot.py::_plot_layer",
+          28
+        ],
+        [
+          "seaborn/relational.py::_ScatterPlotter",
+          28
+        ],
+        [
+          "seaborn/_docstrings.py::DocstringComponents",
+          27
+        ],
+        [
+          "seaborn/_core/data.py::_assign_variables",
+          25
+        ],
+        [
+          "seaborn/distributions.py::_DistributionPlotter",
+          24
+        ],
+        [
+          "seaborn/_oldcore.py::_assign_variables_longform",
+          22
+        ],
+        [
+          "seaborn/palettes.py::color_palette",
+          22
+        ],
+        [
+          "seaborn/relational.py::plot",
+          21
+        ],
+        [
+          "seaborn/_core/plot.py::__init__",
+          20
+        ],
+        [
+          "seaborn/_core/data.py::join",
+          19
+        ],
+        [
+          "seaborn/_core/properties.py::Property",
+          18
+        ],
+        [
+          "seaborn/palettes.py::cubehelix_palette",
+          18
+        ],
+        [
+          "seaborn/_core/plot.py::_generate_pairings",
+          17
+        ],
+        [
+          "seaborn/axisgrid.py::set_titles",
+          17
+        ],
+        [
+          "seaborn/categorical.py::_CategoricalPlotterNew",
+          17
+        ],
+        [
+          "seaborn/categorical.py::_ViolinPlotter",
+          17
+        ],
+        [
+          "seaborn/rcmod.py::axes_style",
+          17
+        ],
+        [
+          "seaborn/regression.py::_RegressionPlotter",
+          17
+        ],
+        [
+          "seaborn/_oldcore.py::SemanticMapping",
+          16
+        ],
+        [
+          "seaborn/_stats/counting.py::Hist",
+          16
+        ],
+        [
+          "seaborn/_core/plot.py::_clone",
+          15
+        ],
+        [
+          "seaborn/_core/plot.py::_unscale_coords",
+          15
+        ],
+        [
+          "seaborn/_marks/base.py::Mark",
+          15
+        ],
+        [
+          "seaborn/_oldcore.py::numeric_mapping",
+          15
+        ],
+        [
+          "seaborn/axisgrid.py::map_dataframe",
+          15
+        ],
+        [
+          "seaborn/rcmod.py::plotting_context",
+          15
+        ],
+        [
+          "seaborn/_core/plot.py::theme_context",
+          14
+        ],
+        [
+          "seaborn/matrix.py::ClusterGrid",
+          14
+        ],
+        [
+          "seaborn/_core/plot.py::_setup_split_generator",
+          13
+        ],
+        [
+          "seaborn/_core/properties.py::Color",
+          13
+        ],
+        [
+          "seaborn/axisgrid.py::PairGrid",
+          13
+        ],
+        [
+          "seaborn/_core/scales.py::_get_locators",
+          12
+        ],
+        [
+          "seaborn/categorical.py::_CategoricalPlotter",
+          12
+        ],
+        [
+          "seaborn/relational.py::scatterplot",
+          12
+        ],
+        [
+          "seaborn/_core/plot.py::_plot",
+          11
+        ],
+        [
+          "seaborn/_core/properties.py::IntervalProperty",
+          11
+        ],
+        [
+          "seaborn/utils.py::despine",
+          11
+        ],
+        [
+          "seaborn/utils.py::locator_to_legend_entries",
+          11
+        ],
+        [
+          "seaborn/_core/scales.py::_get_formatter",
+          10
+        ],
+        [
+          "seaborn/_oldcore.py::SizeMapping",
+          10
+        ],
+        [
+          "seaborn/_statistics.py::KDE",
+          10
+        ],
+        [
+          "seaborn/axisgrid.py::facet_data",
+          10
+        ],
+        [
+          "seaborn/matrix.py::_DendrogramPlotter",
+          10
+        ],
+        [
+          "seaborn/_core/plot.py::build_plot_signature",
+          9
+        ],
+        [
+          "seaborn/_core/plot.py::_compute_stats",
+          9
+        ],
+        [
+          "seaborn/_core/scales.py::Nominal",
+          9
+        ],
+        [
+          "seaborn/_core/subplots.py::_check_dimension_uniqueness",
+          9
+        ],
+        [
+          "seaborn/_core/subplots.py::_determine_grid_dimensions",
+          9
+        ],
+        [
+          "seaborn/_docstrings.py::__init__",
+          9
+        ],
+        [
+          "seaborn/_oldcore.py::_lookup_single",
+          9
+        ],
+        [
+          "seaborn/_oldcore.py::assign_variables",
+          9
+        ],
+        [
+          "seaborn/axisgrid.py::_BaseGrid",
+          9
+        ],
+        [
+          "seaborn/_core/moves.py::Norm",
+          8
+        ],
+        [
+          "seaborn/_core/plot.py::Layer",
+          8
+        ],
+        [
+          "seaborn/_core/plot.py::add",
+          8
+        ],
+        [
+          "seaborn/_core/properties.py::ObjectProperty",
+          8
+        ],
+        [
+          "seaborn/_core/properties.py::Fill",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "pylint-dev__pylint-8898",
+      "repo": "pylint-dev/pylint",
+      "gold": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/utils.py::_comment",
+        "pylint/utils/utils.py::_format_option_value",
+        "pylint/utils/utils.py::format_section"
+      ],
+      "n_exec": 350,
+      "exec": [
+        [
+          "pylint/checkers/refactoring/refactoring_checker.py::RefactoringChecker",
+          121
+        ],
+        [
+          "pylint/checkers/variables.py::VariablesChecker",
+          108
+        ],
+        [
+          "pylint/lint/pylinter.py::PyLinter",
+          101
+        ],
+        [
+          "pylint/config/arguments_manager.py::_ArgumentsManager",
+          69
+        ],
+        [
+          "pylint/checkers/typecheck.py::TypeChecker",
+          65
+        ],
+        [
+          "pylint/checkers/base/basic_checker.py::BasicChecker",
+          61
+        ],
+        [
+          "pylint/checkers/classes/class_checker.py::ClassChecker",
+          61
+        ],
+        [
+          "pylint/message/message_id_store.py::MessageIdStore",
+          57
+        ],
+        [
+          "pylint/lint/message_state_handler.py::_MessageStateHandler",
+          56
+        ],
+        [
+          "pylint/checkers/imports.py::ImportsChecker",
+          50
+        ],
+        [
+          "pylint/checkers/stdlib.py::StdlibChecker",
+          47
+        ],
+        [
+          "pylint/config/argument.py::__init__",
+          47
+        ],
+        [
+          "pylint/checkers/base_checker.py::BaseChecker",
+          45
+        ],
+        [
+          "pylint/checkers/base/basic_error_checker.py::BasicErrorChecker",
+          40
+        ],
+        [
+          "pylint/utils/linterstats.py::LinterStats",
+          39
+        ],
+        [
+          "pylint/checkers/classes/special_methods_checker.py::SpecialMethodsChecker",
+          38
+        ],
+        [
+          "pylint/checkers/variables.py::NamesConsumer",
+          35
+        ],
+        [
+          "pylint/checkers/base/name_checker/checker.py::NameChecker",
+          34
+        ],
+        [
+          "pylint/checkers/strings.py::StringConstantChecker",
+          33
+        ],
+        [
+          "pylint/lint/pylinter.py::__init__",
+          31
+        ],
+        [
+          "pylint/checkers/design_analysis.py::MisdesignChecker",
+          30
+        ],
+        [
+          "pylint/config/config_file_parser.py::_RawConfParser",
+          30
+        ],
+        [
+          "pylint/config/utils.py::_preprocess_options",
+          27
+        ],
+        [
+          "pylint/message/message_definition.py::MessageDefinition",
+          27
+        ],
+        [
+          "pylint/checkers/format.py::FormatChecker",
+          26
+        ],
+        [
+          "pylint/checkers/deprecated.py::DeprecatedMixin",
+          23
+        ],
+        [
+          "pylint/checkers/typecheck.py::IterableChecker",
+          23
+        ],
+        [
+          "pylint/message/message_definition_store.py::MessageDefinitionStore",
+          23
+        ],
+        [
+          "pylint/checkers/non_ascii_names.py::NonAsciiNameChecker",
+          22
+        ],
+        [
+          "pylint/reporters/multi_reporter.py::MultiReporter",
+          21
+        ],
+        [
+          "pylint/checkers/refactoring/recommendation_checker.py::RecommendationChecker",
+          20
+        ],
+        [
+          "pylint/utils/file_state.py::FileState",
+          20
+        ],
+        [
+          "pylint/checkers/exceptions.py::ExceptionsChecker",
+          19
+        ],
+        [
+          "pylint/checkers/refactoring/implicit_booleaness_checker.py::ImplicitBooleanessChecker",
+          19
+        ],
+        [
+          "pylint/checkers/similar.py::Similar",
+          19
+        ],
+        [
+          "pylint/lint/run.py::Run",
+          19
+        ],
+        [
+          "pylint/message/message.py::Message",
+          19
+        ],
+        [
+          "pylint/testutils/output_line.py::OutputLine",
+          19
+        ],
+        [
+          "pylint/checkers/modified_iterating_checker.py::ModifiedIterationChecker",
+          18
+        ],
+        [
+          "pylint/config/utils.py::_convert_option_to_argument",
+          18
+        ],
+        [
+          "pylint/utils/linterstats.py::__init__",
+          18
+        ],
+        [
+          "pylint/checkers/stdlib.py::__init__",
+          17
+        ],
+        [
+          "pylint/message/message_id_store.py::get_active_msgids",
+          17
+        ],
+        [
+          "pylint/reporters/base_reporter.py::BaseReporter",
+          17
+        ],
+        [
+          "pylint/reporters/text.py::TextReporter",
+          17
+        ],
+        [
+          "pylint/checkers/logging.py::LoggingChecker",
+          16
+        ],
+        [
+          "pylint/message/message_definition.py::__init__",
+          16
+        ],
+        [
+          "pylint/__pkginfo__.py::get_numversion_from_version",
+          15
+        ],
+        [
+          "pylint/checkers/spelling.py::SpellingChecker",
+          15
+        ],
+        [
+          "pylint/checkers/unicode.py::UnicodeChecker",
+          15
+        ],
+        [
+          "pylint/config/config_initialization.py::_config_initialization",
+          15
+        ],
+        [
+          "pylint/config/config_initialization.py::_order_all_first",
+          15
+        ],
+        [
+          "pylint/config/arguments_provider.py::_ArgumentsProvider",
+          14
+        ],
+        [
+          "pylint/utils/linterstats.py::BadNames",
+          14
+        ],
+        [
+          "pylint/checkers/base/name_checker/naming_style.py::_create_naming_options",
+          13
+        ],
+        [
+          "pylint/checkers/similar.py::SimilarChecker",
+          13
+        ],
+        [
+          "pylint/config/argument.py::_DeprecationArgument",
+          13
+        ],
+        [
+          "pylint/config/arguments_manager.py::_add_parser_option",
+          13
+        ],
+        [
+          "pylint/lint/run.py::__init__",
+          13
+        ],
+        [
+          "pylint/testutils/reporter_for_tests.py::GenericTestReporter",
+          13
+        ],
+        [
+          "pylint/checkers/base/comparison_checker.py::ComparisonChecker",
+          12
+        ],
+        [
+          "pylint/checkers/similar.py::LineSet",
+          12
+        ],
+        [
+          "pylint/checkers/strings.py::StringFormatChecker",
+          12
+        ],
+        [
+          "pylint/config/argument.py::_Argument",
+          12
+        ],
+        [
+          "pylint/config/arguments_manager.py::__init__",
+          12
+        ],
+        [
+          "pylint/config/config_file_parser.py::parse_ini_file",
+          12
+        ],
+        [
+          "pylint/reporters/reports_handler_mix_in.py::ReportsHandlerMixIn",
+          12
+        ],
+        [
+          "pylint/checkers/base/docstring_checker.py::DocStringChecker",
+          11
+        ],
+        [
+          "pylint/lint/message_state_handler.py::_get_messages_to_set",
+          11
+        ],
+        [
+          "pylint/lint/message_state_handler.py::_set_msg_status",
+          11
+        ],
+        [
+          "pylint/utils/file_state.py::__init__",
+          11
+        ],
+        [
+          "pylint/utils/utils.py::register_plugins",
+          11
+        ],
+        [
+          "pylint/checkers/base/name_checker/naming_style.py::NamingStyle",
+          10
+        ],
+        [
+          "pylint/checkers/base_checker.py::create_message_definition_from_tuple",
+          10
+        ],
+        [
+          "pylint/checkers/nested_min_max.py::NestedMinMaxChecker",
+          10
+        ],
+        [
+          "pylint/checkers/refactoring/refactoring_checker.py::ConsiderUsingWithStack",
+          10
+        ],
+        [
+          "pylint/checkers/similar.py::SuccessiveLinesLimits",
+          10
+        ],
+        [
+          "pylint/checkers/similar.py::__init__",
+          10
+        ],
+        [
+          "pylint/checkers/unicode.py::_BadChar",
+          10
+        ],
+        [
+          "pylint/lint/run.py::_query_cpu",
+          10
+        ]
+      ]
+    }
+  ],
+  "nonrep": [
+    {
+      "id": "pydata__xarray-2905",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_variable.py::TestAsCompatibleData::test_unsupported_type",
+      "tail": "========= short test summary info ============================\nERROR xarray/tests/test_variable.py - AttributeError: `np.unicode_` was remov...\n2 warnings, 1 error in 2.59s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_variable.py::TestAsCompatibleData::test_unsupported_type\n\n"
+    },
+    {
+      "id": "pydata__xarray-3095",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_variable.py::TestIndexVariable::test_copy[str-True]",
+      "tail": "=============== short test summary info ============================\nERROR xarray/tests/test_variable.py - AttributeError: `np.unicode_` was remov...\n1 warning, 1 error in 1.76s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_variable.py::TestIndexVariable::test_copy[str-True]\n\n"
+    },
+    {
+      "id": "pydata__xarray-3151",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_combine.py::TestCombineAuto::test_combine_leaving_bystander_di",
+      "tail": "rt test summary info ============================\nERROR xarray/tests/test_combine.py - AttributeError: `np.unicode_` was remove...\n1 warning, 1 error in 2.58s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_combine.py::TestCombineAuto::test_combine_leaving_bystander_dimensions\n\n"
+    },
+    {
+      "id": "pydata__xarray-3305",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_dataarray.py::TestDataArray::test_quantile",
+      "tail": "======================== short test summary info ============================\nERROR xarray/tests/test_dataarray.py - AttributeError: `np.unicode_` was remo...\n1 warning, 1 error in 2.30s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_dataarray.py::TestDataArray::test_quantile\n\n"
+    },
+    {
+      "id": "pydata__xarray-3677",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray",
+      "tail": "=================== short test summary info ============================\nERROR xarray/tests/test_merge.py - AttributeError: `np.unicode_` was removed ...\n1 warning, 1 error in 2.45s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_merge.py::TestMergeMethod::test_merge_dataarray\n\n"
+    },
+    {
+      "id": "pydata__xarray-3993",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_dataset.py::test_integrate[True]",
+      "tail": "s/test_dataset.py - AttributeError: `np.unicode_` was remove...\n2 warnings, 1 error in 2.74s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_dataset.py::test_integrate[True]\n\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_dataset.py::test_integrate[False]\n\n"
+    },
+    {
+      "id": "pydata__xarray-4075",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_weighted.py::test_weighted_sum_of_weights_bool",
+      "tail": "y - AttributeError: `np.unicode_` was remov...\n7 warnings, 1 error in 2.97s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_weighted.py::test_weighted_sum_of_weights_bool\n\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_weighted.py::test_weighted_mean_bool\n\n"
+    },
+    {
+      "id": "pydata__xarray-4094",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_da",
+      "tail": "hort test summary info ============================\nERROR xarray/tests/test_dataset.py - AttributeError: `np.unicode_` was remove...\n7 warnings, 1 error in 2.75s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_dataset.py::TestDataset::test_to_stacked_array_to_unstacked_dataset\n\n"
+    },
+    {
+      "id": "pydata__xarray-4356",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_duck_array_ops.py::test_min_count_nd[sum-False-float]",
+      "tail": "k_array_ops.py::test_min_count_nd[sum-False-float]\n\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_duck_array_ops.py::test_min_count_nd[sum-False-int]\n\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_duck_array_ops.py::test_min_count_nd[sum-False-float32]\n\n"
+    },
+    {
+      "id": "pydata__xarray-4629",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_merge.py::TestMergeFunction::test_merge_attrs_override_copy",
+      "tail": "====== short test summary info ============================\nERROR xarray/tests/test_merge.py - AttributeError: `np.unicode_` was removed ...\n2 warnings, 1 error in 2.71s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_merge.py::TestMergeFunction::test_merge_attrs_override_copy\n\n"
+    },
+    {
+      "id": "pydata__xarray-4687",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_computation.py::test_where_attrs",
+      "tail": "ils\nxarray/core/dtypes.py:41: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-4695",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_dataarray.py::TestDataArray::test_loc_dim_name_collision_with_",
+      "tail": "test summary info ============================\nERROR xarray/tests/test_dataarray.py - AttributeError: `np.unicode_` was remo...\n2 warnings, 1 error in 2.83s\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_dataarray.py::TestDataArray::test_loc_dim_name_collision_with_sel_params\n\n"
+    },
+    {
+      "id": "pydata__xarray-4966",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_coding.py::test_decode_signed_from_unsigned[1]",
+      "tail": "xarray/tests/test_coding.py::test_decode_signed_from_unsigned[1]\n\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_coding.py::test_decode_signed_from_unsigned[2]\n\nERROR: found no collectors for /tmp/pydata__xarray/xarray/tests/test_coding.py::test_decode_signed_from_unsigned[4]\n\n"
+    },
+    {
+      "id": "pydata__xarray-6461",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_computation.py::test_where_attrs",
+      "tail": "ils\nxarray/core/dtypes.py:41: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-6599",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_computation.py::test_polyval[timedelta-False]",
+      "tail": "ils\nxarray/core/dtypes.py:41: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-6721",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_dataset.py::TestDataset::test_chunks_does_not_load_data",
+      "tail": "ils\nxarray/core/dtypes.py:43: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-6744",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_rolling.py::TestDataArrayRolling::test_rolling_iter[numpy-3-Tr",
+      "tail": "ils\nxarray/core/dtypes.py:43: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-6938",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_variable.py::TestIndexVariable::test_to_index_variable_copy",
+      "tail": "ils\nxarray/core/dtypes.py:43: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-6992",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_dataarray.py::TestDataArray::test_reset_index",
+      "tail": "ils\nxarray/core/dtypes.py:43: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-7229",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_computation.py::test_where_attrs",
+      "tail": "ils\nxarray/core/dtypes.py:43: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-7233",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_coarsen.py::TestCoarsenConstruct::test_coarsen_construct_keeps",
+      "tail": "ils\nxarray/core/dtypes.py:43: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pydata__xarray-7393",
+      "class": "collection/import error",
+      "f2p0": "xarray/tests/test_indexes.py::test_restore_dtype_on_multiindexes[int32]",
+      "tail": "ils\nxarray/core/dtypes.py:43: in <module>\n    {np.bytes_, np.unicode_},  # numpy promotes to unicode\n/usr/local/lib/python3.11/site-packages/numpy/__init__.py:778: in __getattr__\n    raise AttributeError(\nE   AttributeError: `np.unicode_` was removed in the NumPy 2.0 release. Use `np.str_` instead.\n"
+    },
+    {
+      "id": "pylint-dev__pylint-4551",
+      "class": "collection/import error",
+      "f2p0": "tests/unittest_pyreverse_writer.py::test_dot_files[packages_No_Name.dot]",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-4604",
+      "class": "collection/import error",
+      "f2p0": "tests/checkers/unittest_variables.py::TestVariablesChecker::test_bitbucket_issue",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-4661",
+      "class": "collection/import error",
+      "f2p0": "tests/lint/unittest_lint.py::test_pylint_home",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-4970",
+      "class": "collection/import error",
+      "f2p0": "tests/checkers/unittest_similar.py::test_set_duplicate_lines_to_zero",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-6386",
+      "class": "collection/import error",
+      "f2p0": "tests/config/test_config.py::test_short_verbose",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-6528",
+      "class": "collection/import error",
+      "f2p0": "tests/lint/unittest_lint.py::test_recursive_ignore[--ignore-ignored_subdirectory",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-6903",
+      "class": "collection/import error",
+      "f2p0": "tests/test_pylint_runners.py::test_pylint_run_jobs_equal_zero_dont_crash_with_cp",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-7080",
+      "class": "collection/import error",
+      "f2p0": "tests/test_self.py::TestRunTC::test_ignore_path_recursive_current_dir",
+      "tail": "corators import (adapter_factory, AdapterFactory, decorator,\n/usr/local/lib/python3.11/site-packages/wrapt/decorators.py:34: in <module>\n    from inspect import ismethod, isclass, formatargspec\nE   ImportError: cannot import name 'formatargspec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)\n"
+    },
+    {
+      "id": "pylint-dev__pylint-7277",
+      "class": "collection/import error",
+      "f2p0": "tests/test_self.py::TestRunTC::test_modify_sys_path",
+      "tail": "duleNotFoundError: No module named 'py._path'; 'py' is not a package\n=========================== short test summary info ============================\nERROR tests/test_self.py\n1 error in 1.22s\nERROR: found no collectors for /tmp/pylint-dev__pylint/tests/test_self.py::TestRunTC::test_modify_sys_path\n\n"
+    },
+    {
+      "id": "pytest-dev__pytest-5262",
+      "class": "collection/import error",
+      "f2p0": "testing/test_capture.py::TestFDCapture::test_capfd_sys_stdout_mode",
+      "tail": "             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/config/__init__.py\", line 2218, in _resolve_warning_category\n    cat = getattr(m, klass)\n          ^^^^^^^^^^^^^^^^^\nAttributeError: module 'pytest' has no attribute 'RemovedInPytest4Warning'\n\n\n"
+    },
+    {
+      "id": "pytest-dev__pytest-5631",
+      "class": "collection/import error",
+      "f2p0": "testing/python/integration.py::TestMockDecoration::test_mock_sentinel_check_agai",
+      "tail": "             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/config/__init__.py\", line 2218, in _resolve_warning_category\n    cat = getattr(m, klass)\n          ^^^^^^^^^^^^^^^^^\nAttributeError: module 'pytest' has no attribute 'RemovedInPytest4Warning'\n\n\n"
+    },
+    {
+      "id": "pytest-dev__pytest-5787",
+      "class": "collection/import error",
+      "f2p0": "testing/test_reports.py::TestReportSerialization::test_chained_exceptions[TestRe",
+      "tail": "_.py\", line 1654, in issue_config_time_warning\nINTERNALERROR>     warnings.warn(warning, stacklevel=stacklevel)\nINTERNALERROR> DeprecationWarning: The --rsyncdir command line argument and rsyncdirs config variable are deprecated.\nINTERNALERROR> The rsync feature will be removed in pytest-xdist 4.0.\n"
+    },
+    {
+      "id": "pytest-dev__pytest-5809",
+      "class": "collection/import error",
+      "f2p0": "testing/test_pastebin.py::TestPaste::test_create_new_paste",
+      "tail": "             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/config/__init__.py\", line 2218, in _resolve_warning_category\n    cat = getattr(m, klass)\n          ^^^^^^^^^^^^^^^^^\nAttributeError: module 'pytest' has no attribute 'RemovedInPytest4Warning'\n\n\n"
+    },
+    {
+      "id": "pytest-dev__pytest-5840",
+      "class": "collection/import error",
+      "f2p0": "testing/test_conftest.py::test_setinitial_conftest_subdirs[test]",
+      "tail": "_.py\", line 1654, in issue_config_time_warning\nINTERNALERROR>     warnings.warn(warning, stacklevel=stacklevel)\nINTERNALERROR> DeprecationWarning: The --rsyncdir command line argument and rsyncdirs config variable are deprecated.\nINTERNALERROR> The rsync feature will be removed in pytest-xdist 4.0.\n"
+    },
+    {
+      "id": "pytest-dev__pytest-6197",
+      "class": "collection/import error",
+      "f2p0": "testing/test_collection.py::test_does_not_eagerly_collect_packages",
+      "tail": "_.py\", line 1654, in issue_config_time_warning\nINTERNALERROR>     warnings.warn(warning, stacklevel=stacklevel)\nINTERNALERROR> DeprecationWarning: The --rsyncdir command line argument and rsyncdirs config variable are deprecated.\nINTERNALERROR> The rsync feature will be removed in pytest-xdist 4.0.\n"
+    },
+    {
+      "id": "pytest-dev__pytest-6202",
+      "class": "collection/import error",
+      "f2p0": "testing/test_collection.py::Test_genitems::test_example_items1",
+      "tail": "_.py\", line 1654, in issue_config_time_warning\nINTERNALERROR>     warnings.warn(warning, stacklevel=stacklevel)\nINTERNALERROR> DeprecationWarning: The --rsyncdir command line argument and rsyncdirs config variable are deprecated.\nINTERNALERROR> The rsync feature will be removed in pytest-xdist 4.0.\n"
+    },
+    {
+      "id": "pytest-dev__pytest-7205",
+      "class": "collection/import error",
+      "f2p0": "testing/test_setuponly.py::test_show_fixtures_with_parameters[--setup-only]",
+      "tail": "ImportError while loading conftest '/tmp/pytest-dev__pytest/testing/conftest.py'.\ntesting/conftest.py:7: in <module>\n    from _pytest.pytester import Testdir\nE   ImportError: cannot import name 'Testdir' from '_pytest.pytester' (/usr/local/lib/python3.11/site-packages/_pytest/pytester.py)\n"
+    },
+    {
+      "id": "pytest-dev__pytest-7236",
+      "class": "collection/import error",
+      "f2p0": "testing/test_unittest.py::test_pdb_teardown_skipped[@unittest.skip]",
+      "tail": "ImportError while loading conftest '/tmp/pytest-dev__pytest/testing/conftest.py'.\ntesting/conftest.py:7: in <module>\n    from _pytest.pytester import Testdir\nE   ImportError: cannot import name 'Testdir' from '_pytest.pytester' (/usr/local/lib/python3.11/site-packages/_pytest/pytester.py)\n"
+    }
+  ]
+}

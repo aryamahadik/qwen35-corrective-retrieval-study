@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "record_type": "corrective_independent_semantic_review_v1",
+  "request_identity": "eeb3758a09c63f8fa18dbe6a706ccadc5efd088ed93a72116c69c6b5a670c8ef",
+  "candidate_identity": "e2ef5a041dd578d2dab11f38fd280feaac2d729c6b2204af749ed0dc3ff1750e",
+  "task_id": "env_164_rl-task_41",
+  "attempt_id": "qwen35-v1-corrective-collection-v1-o005-s271833",
+  "reviewer_id": "codex-independent-reviewer-01",
+  "reviewer_kind": "separate_model",
+  "reviewer_run_id": "blind-review-env164-01",
+  "reviewed_at": "2026-09-17T19:45:14Z",
+  "executor_id": "qwen35-v1-adapter-modal",
+  "generator_identity": "b8c3e07f41fdfdf85df71fc0ae8279415223ccab2016be2fa9bb99eef3483c23",
+  "raw_attempt_sha256": "3d8882a857373873c943d31c60196e33c50983c2e623cf67a9dde3bb91996002",
+  "transcript_sha256": "f66c943ad77cadfb07844d6c157df9f5fc495c102288672138bb2888b173bc26",
+  "verifier_receipt_sha256": "41d15cc0a1193bf1dd6c58b79a27b98bb13651a431fe3825ae8ecf562435c02c",
+  "decision": "PASS",
+  "independent": true,
+  "backend_valid": true,
+  "task_complete": true,
+  "policy_compliant": true,
+  "final_claims_grounded": true,
+  "no_privileged_content": true,
+  "no_sensitive_data": true,
+  "findings": [
+    "All explicit session updates were completed and publicly verified.",
+    "Tool actions were valid, correctly ordered, and consistent with their results.",
+    "The final response was grounded in the observable tool results."
+  ],
+  "reviewer_attestation": "I reviewed only the public task and observable transcript in the bound request and did not use private verifier or evaluator information.",
+  "receipt_identity": "51a3e5a5c36ec3473d12ec01e90d3faca5b00e526598f9b6cfaebea0cf252efe"
+}

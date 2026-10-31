@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-09-15T19:39:13.718702+00:00",
+  "status": "PASS",
+  "scope": "Synthetic local tokenizer/mask check only",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "versions": {
+    "transformers": "5.5.0",
+    "tokenizers": "0.22.2",
+    "jinja2": "3.1.6"
+  },
+  "processed_tokens": 361,
+  "supervised_tokens": 46,
+  "first_token_masked": true,
+  "network_used": false,
+  "model_weights_loaded": false,
+  "gpu_used": false,
+  "sft_dataset_written": false,
+  "real_demonstrations_generated": 0
+}

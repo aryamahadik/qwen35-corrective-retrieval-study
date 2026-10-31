@@ -1,0 +1,149 @@
+{
+  "n": 500,
+  "has_tb": 58,
+  "has_err": 102,
+  "frames": [
+    2,
+    7,
+    4,
+    3,
+    12,
+    28,
+    16,
+    8,
+    1,
+    10,
+    4,
+    8,
+    6,
+    7,
+    2,
+    2,
+    19,
+    10,
+    2,
+    4,
+    2,
+    24,
+    19,
+    11,
+    1,
+    9,
+    12,
+    12,
+    6,
+    6,
+    3,
+    2,
+    13,
+    3,
+    6,
+    8,
+    33,
+    6,
+    5,
+    18,
+    2,
+    3,
+    4,
+    3,
+    1,
+    6,
+    1,
+    21,
+    16,
+    18,
+    15,
+    3,
+    11,
+    6,
+    8,
+    2,
+    3,
+    2
+  ],
+  "gold_in_tb": 44,
+  "tb_and_gold": 58,
+  "samples": [
+    {
+      "id": "astropy__astropy-14096",
+      "tb_frames": [
+        "test.py::<module>",
+        "sky_coordinate.py::__getattr__"
+      ],
+      "gold_files": [
+        "sky_coordinate.py"
+      ],
+      "gold_syms": [
+        "__getattr__"
+      ]
+    },
+    {
+      "id": "astropy__astropy-14309",
+      "tb_frames": [
+        "io.py::get_file_format",
+        "compat.py::wrapper",
+        "base.py::identify_format",
+        "connect.py::is_fits"
+      ],
+      "gold_files": [
+        "connect.py"
+      ],
+      "gold_syms": [
+        "is_fits"
+      ]
+    },
+    {
+      "id": "astropy__astropy-7336",
+      "tb_frames": [
+        "poc.py::<module>",
+        "decorators.py::__init__",
+        "decorators.py::wrapper"
+      ],
+      "gold_files": [
+        "decorators.py"
+      ],
+      "gold_syms": [
+        "wrapper"
+      ]
+    },
+    {
+      "id": "django__django-10554",
+      "tb_frames": [
+        "utils.py::execute",
+        "utils.py::execute",
+        "utils.py::_execute_with_wrappers",
+        "utils.py::_execute",
+        "utils.py::__exit__",
+        "utils.py::_execute"
+      ],
+      "gold_files": [
+        "compiler.py",
+        "query.py"
+      ],
+      "gold_syms": [
+        "clear_select_fields",
+        "get_order_by"
+      ]
+    },
+    {
+      "id": "django__django-11087",
+      "tb_frames": [
+        "connections.py::defaulterrorhandler",
+        "cursors.py::execute",
+        "cursors.py::_query",
+        "cursors.py::_post_get_result",
+        "cursors.py::_fetch_row",
+        "connections.py::string_decoder"
+      ],
+      "gold_files": [
+        "deletion.py"
+      ],
+      "gold_syms": [
+        "add_field_update",
+        "can_fast_delete",
+        "collect"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "app_name": "enterpriseops-qwen35-40usd",
+  "data_volume": "enterpriseops-qwen35-train-data",
+  "checkpoint_volume": "enterpriseops-qwen35-checkpoints",
+  "model_cache_volume": "enterpriseops-qwen35-model-cache",
+  "gpu": "A100-80GB",
+  "physical_cpu_cores": 4,
+  "memory_gib": 16,
+  "function_timeout_seconds": 3600,
+  "startup_timeout_seconds": 600,
+  "billing_tail_allowance_seconds": 60,
+  "soft_training_session_seconds": 3000,
+  "prices_usd_per_second": {
+    "gpu_a100_80gb": "0.000694",
+    "physical_cpu_core": "0.0000131",
+    "memory_gib": "0.00000222"
+  },
+  "campaign_caps_usd": {
+    "teacher_api": "10.00",
+    "gpu_compute": "27.70",
+    "other_modal": "2.30",
+    "total": "40.00"
+  },
+  "modal_gross_usage_allocation_usd": "30.00",
+  "budget_enforcement": {
+    "platform_usage_cap_configured": false,
+    "note": "Before paid work, configure a Modal workspace gross-usage limit consistent with the remaining $30 Modal allocation, and an external API cap of $10. Credits do not increase this campaign budget. This boolean is an operator record, not a remote verification."
+  },
+  "pricing_source": "https://modal.com/pricing",
+  "budget_source": "https://modal.com/docs/guide/budgets",
+  "price_checked_utc_date": "2026-09-15",
+  "cloud_runtime_tested": false
+}

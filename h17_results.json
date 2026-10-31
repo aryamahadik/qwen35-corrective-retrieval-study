@@ -1,0 +1,773 @@
+{
+  "funnel": {
+    "considered": 60,
+    "has_test_change": 13,
+    "checked_out": 7,
+    "installed": 7,
+    "test_ran": 7,
+    "test_failed_at_parent": 3,
+    "trace_captured": 3
+  },
+  "rows": [
+    {
+      "sha": "fbb6f0bc",
+      "subject": "all teardown callbacks are called despite errors",
+      "gold": [
+        "AppContext",
+        "Flask",
+        "_split_blueprint_path"
+      ],
+      "n_exec_syms": 404,
+      "top": [
+        {
+          "file": "src/flask/app.py",
+          "name": "Flask",
+          "lines": 1499,
+          "executed": 316
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "Blueprint",
+          "lines": 574,
+          "executed": 186
+        },
+        {
+          "file": "src/flask/sansio/app.py",
+          "name": "App",
+          "lines": 952,
+          "executed": 183
+        },
+        {
+          "file": "src/flask/sansio/scaffold.py",
+          "name": "Scaffold",
+          "lines": 647,
+          "executed": 133
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "AppContext",
+          "lines": 256,
+          "executed": 83
+        },
+        {
+          "file": "src/flask/wrappers.py",
+          "name": "Request",
+          "lines": 202,
+          "executed": 53
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SecureCookieSessionInterface",
+          "lines": 102,
+          "executed": 49
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TaggedJSONSerializer",
+          "lines": 109,
+          "executed": 40
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "register",
+          "lines": 105,
+          "executed": 40
+        },
+        {
+          "file": "src/flask/templating.py",
+          "name": "DispatchingJinjaLoader",
+          "lines": 72,
+          "executed": 34
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "make_response",
+          "lines": 141,
+          "executed": 33
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "BlueprintSetupState",
+          "lines": 83,
+          "executed": 31
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SessionInterface",
+          "lines": 171,
+          "executed": 30
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "run",
+          "lines": 122,
+          "executed": 28
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "url_for",
+          "lines": 121,
+          "executed": 27
+        },
+        {
+          "file": "src/flask/json/provider.py",
+          "name": "DefaultJSONProvider",
+          "lines": 92,
+          "executed": 26
+        },
+        {
+          "file": "src/flask/sansio/app.py",
+          "name": "add_url_rule",
+          "lines": 57,
+          "executed": 25
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "FlaskGroup",
+          "lines": 158,
+          "executed": 24
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "_AppCtxGlobals",
+          "lines": 86,
+          "executed": 22
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "save_session",
+          "lines": 49,
+          "executed": 21
+        },
+        {
+          "file": "src/flask/helpers.py",
+          "name": "stream_with_context",
+          "lines": 74,
+          "executed": 19
+        },
+        {
+          "file": "src/flask/views.py",
+          "name": "View",
+          "lines": 120,
+          "executed": 19
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "wsgi_app",
+          "lines": 51,
+          "executed": 18
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "__init__",
+          "lines": 36,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/config.py",
+          "name": "ConfigAttribute",
+          "lines": 28,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "__init__",
+          "lines": 38,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/sansio/app.py",
+          "name": "__init__",
+          "lines": 130,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "__init__",
+          "lines": 45,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "_merge_blueprint_funcs",
+          "lines": 32,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/blueprints.py",
+          "name": "Blueprint",
+          "lines": 111,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "pop",
+          "lines": 49,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/sansio/scaffold.py",
+          "name": "__init__",
+          "lines": 141,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "handle_exception",
+          "lines": 52,
+          "executed": 15
+        },
+        {
+          "file": "src/flask/json/provider.py",
+          "name": "JSONProvider",
+          "lines": 87,
+          "executed": 15
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "__init__",
+          "lines": 38,
+          "executed": 15
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "create_url_adapter",
+          "lines": 52,
+          "executed": 14
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "preprocess_request",
+          "lines": 27,
+          "executed": 14
+        },
+        {
+          "file": "src/flask/views.py",
+          "name": "MethodView",
+          "lines": 54,
+          "executed": 14
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "create_jinja_environment",
+          "lines": 39,
+          "executed": 13
+        },
+        {
+          "file": "src/flask/config.py",
+          "name": "Config",
+          "lines": 318,
+          "executed": 13
+        }
+      ]
+    },
+    {
+      "sha": "9e831e91",
+      "subject": "fix pyright type errors",
+      "gold": [
+        "App",
+        "Blueprint",
+        "Flask",
+        "FlaskGroup",
+        "Request",
+        "ScriptInfo",
+        "View",
+        "get_root_path",
+        "run_command"
+      ],
+      "n_exec_syms": 354,
+      "top": [
+        {
+          "file": "src/flask/sansio/app.py",
+          "name": "App",
+          "lines": 906,
+          "executed": 63
+        },
+        {
+          "file": "src/flask/sansio/scaffold.py",
+          "name": "Scaffold",
+          "lines": 647,
+          "executed": 56
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "Blueprint",
+          "lines": 514,
+          "executed": 42
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "Flask",
+          "lines": 1437,
+          "executed": 40
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "FlaskGroup",
+          "lines": 164,
+          "executed": 24
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TaggedJSONSerializer",
+          "lines": 109,
+          "executed": 22
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "__init__",
+          "lines": 36,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SessionInterface",
+          "lines": 163,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/wrappers.py",
+          "name": "Request",
+          "lines": 119,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/json/provider.py",
+          "name": "DefaultJSONProvider",
+          "lines": 92,
+          "executed": 15
+        },
+        {
+          "file": "src/flask/config.py",
+          "name": "ConfigAttribute",
+          "lines": 28,
+          "executed": 11
+        },
+        {
+          "file": "src/flask/config.py",
+          "name": "Config",
+          "lines": 321,
+          "executed": 11
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "_AppCtxGlobals",
+          "lines": 86,
+          "executed": 11
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "RequestContext",
+          "lines": 163,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "JSONTag",
+          "lines": 31,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SecureCookieSessionInterface",
+          "lines": 92,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/json/provider.py",
+          "name": "JSONProvider",
+          "lines": 87,
+          "executed": 9
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SessionMixin",
+          "lines": 26,
+          "executed": 9
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "register",
+          "lines": 32,
+          "executed": 8
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SecureCookieSession",
+          "lines": 40,
+          "executed": 8
+        },
+        {
+          "file": "src/flask/templating.py",
+          "name": "DispatchingJinjaLoader",
+          "lines": 72,
+          "executed": 8
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "AppContext",
+          "lines": 47,
+          "executed": 7
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TagDict",
+          "lines": 24,
+          "executed": 7
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TagMarkup",
+          "lines": 16,
+          "executed": 7
+        },
+        {
+          "file": "src/flask/wrappers.py",
+          "name": "Response",
+          "lines": 36,
+          "executed": 7
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "CertParamType",
+          "lines": 46,
+          "executed": 6
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TagTuple",
+          "lines": 12,
+          "executed": 6
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TagBytes",
+          "lines": 12,
+          "executed": 6
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TagUUID",
+          "lines": 12,
+          "executed": 6
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TagDateTime",
+          "lines": 12,
+          "executed": 6
+        },
+        {
+          "file": "src/flask/blueprints.py",
+          "name": "Blueprint",
+          "lines": 111,
+          "executed": 5
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "PassDict",
+          "lines": 12,
+          "executed": 5
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "PassList",
+          "lines": 10,
+          "executed": 5
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "__init__",
+          "lines": 6,
+          "executed": 5
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "NullSession",
+          "lines": 15,
+          "executed": 5
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "ScriptInfo",
+          "lines": 66,
+          "executed": 4
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "with_appcontext",
+          "lines": 23,
+          "executed": 4
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "AppGroup",
+          "lines": 33,
+          "executed": 4
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "BlueprintSetupState",
+          "lines": 83,
+          "executed": 4
+        },
+        {
+          "file": "src/flask/sansio/scaffold.py",
+          "name": "setupmethod",
+          "lines": 8,
+          "executed": 4
+        }
+      ]
+    },
+    {
+      "sha": "1af8f957",
+      "subject": "fix super call in list comprehension",
+      "gold": [
+        "SeparatedPathType"
+      ],
+      "n_exec_syms": 352,
+      "top": [
+        {
+          "file": "src/flask/sansio/app.py",
+          "name": "App",
+          "lines": 910,
+          "executed": 121
+        },
+        {
+          "file": "src/flask/sansio/scaffold.py",
+          "name": "Scaffold",
+          "lines": 652,
+          "executed": 88
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "Flask",
+          "lines": 1410,
+          "executed": 64
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "FlaskGroup",
+          "lines": 164,
+          "executed": 47
+        },
+        {
+          "file": "src/flask/sansio/blueprints.py",
+          "name": "Blueprint",
+          "lines": 514,
+          "executed": 42
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "find_app_by_string",
+          "lines": 78,
+          "executed": 30
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "ScriptInfo",
+          "lines": 66,
+          "executed": 28
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "AppContext",
+          "lines": 47,
+          "executed": 24
+        },
+        {
+          "file": "src/flask/sansio/app.py",
+          "name": "add_url_rule",
+          "lines": 57,
+          "executed": 24
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "find_best_app",
+          "lines": 51,
+          "executed": 23
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "TaggedJSONSerializer",
+          "lines": 109,
+          "executed": 22
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "load_app",
+          "lines": 40,
+          "executed": 20
+        },
+        {
+          "file": "src/flask/sansio/app.py",
+          "name": "__init__",
+          "lines": 134,
+          "executed": 18
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "__init__",
+          "lines": 36,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/sansio/scaffold.py",
+          "name": "__init__",
+          "lines": 147,
+          "executed": 17
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "prepare_import",
+          "lines": 27,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SessionInterface",
+          "lines": 163,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/wrappers.py",
+          "name": "Request",
+          "lines": 119,
+          "executed": 16
+        },
+        {
+          "file": "src/flask/json/provider.py",
+          "name": "DefaultJSONProvider",
+          "lines": 92,
+          "executed": 15
+        },
+        {
+          "file": "src/flask/app.py",
+          "name": "create_jinja_environment",
+          "lines": 39,
+          "executed": 13
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "locate_app",
+          "lines": 24,
+          "executed": 13
+        },
+        {
+          "file": "src/flask/config.py",
+          "name": "Config",
+          "lines": 321,
+          "executed": 13
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "AppGroup",
+          "lines": 33,
+          "executed": 12
+        },
+        {
+          "file": "src/flask/helpers.py",
+          "name": "get_root_path",
+          "lines": 55,
+          "executed": 12
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "get_command",
+          "lines": 26,
+          "executed": 11
+        },
+        {
+          "file": "src/flask/config.py",
+          "name": "ConfigAttribute",
+          "lines": 30,
+          "executed": 11
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "_AppCtxGlobals",
+          "lines": 86,
+          "executed": 11
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "RequestContext",
+          "lines": 163,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/json/provider.py",
+          "name": "JSONProvider",
+          "lines": 87,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "JSONTag",
+          "lines": 31,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/sansio/scaffold.py",
+          "name": "_find_package_path",
+          "lines": 43,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SecureCookieSessionInterface",
+          "lines": 92,
+          "executed": 10
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "_called_with_wrong_args",
+          "lines": 24,
+          "executed": 9
+        },
+        {
+          "file": "src/flask/ctx.py",
+          "name": "pop",
+          "lines": 17,
+          "executed": 9
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SessionMixin",
+          "lines": 26,
+          "executed": 9
+        },
+        {
+          "file": "src/flask/templating.py",
+          "name": "DispatchingJinjaLoader",
+          "lines": 72,
+          "executed": 9
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "with_appcontext",
+          "lines": 23,
+          "executed": 8
+        },
+        {
+          "file": "src/flask/json/tag.py",
+          "name": "register",
+          "lines": 32,
+          "executed": 8
+        },
+        {
+          "file": "src/flask/sessions.py",
+          "name": "SecureCookieSession",
+          "lines": 40,
+          "executed": 8
+        },
+        {
+          "file": "src/flask/cli.py",
+          "name": "get_version",
+          "lines": 14,
+          "executed": 7
+        }
+      ]
+    }
+  ]
+}

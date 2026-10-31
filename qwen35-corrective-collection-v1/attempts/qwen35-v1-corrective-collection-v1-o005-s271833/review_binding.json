@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "record_type": "corrective_review_validation_binding_v1",
+  "candidate_identity": "e2ef5a041dd578d2dab11f38fd280feaac2d729c6b2204af749ed0dc3ff1750e",
+  "task_id": "env_164_rl-task_41",
+  "attempt_id": "qwen35-v1-corrective-collection-v1-o005-s271833",
+  "executor_id": "qwen35-v1-adapter-modal",
+  "generator_identity": "b8c3e07f41fdfdf85df71fc0ae8279415223ccab2016be2fa9bb99eef3483c23",
+  "raw_attempt_sha256": "3d8882a857373873c943d31c60196e33c50983c2e623cf67a9dde3bb91996002",
+  "transcript_sha256": "f66c943ad77cadfb07844d6c157df9f5fc495c102288672138bb2888b173bc26",
+  "verifier_receipt_sha256": "41d15cc0a1193bf1dd6c58b79a27b98bb13651a431fe3825ae8ecf562435c02c"
+}

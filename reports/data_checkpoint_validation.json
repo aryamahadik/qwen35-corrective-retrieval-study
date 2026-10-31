@@ -1,0 +1,45 @@
+{
+  "scope": "Local data-validator and checkpoint-integrity validation; no real SFT data generated and no GPU allocation",
+  "unit_tests": {
+    "count": 16,
+    "status": "passed",
+    "command": "python3 -m unittest discover -s MODAL/tests -p test_data_checkpoint.py -v"
+  },
+  "real_tokenizer_smoke": {
+    "status": "passed",
+    "model_id": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "versions": {
+      "transformers": "5.5.0",
+      "tokenizers": "0.22.2",
+      "jinja2": "3.1.6"
+    },
+    "synthetic_tool_conversation_only": true,
+    "processed_tokens": 351,
+    "supervised_tokens": 57,
+    "first_label": -100,
+    "model_weights_downloaded": false,
+    "gpu_used": false,
+    "training_dataset_published": false
+  },
+  "template": {
+    "sha256": "ccf356d8f238e287c047b1ef589850fd6b2b44e6cb29079e26c635fb9b8111ef",
+    "source": "https://github.com/huggingface/trl/blob/63b7c3f547d3e06d0eae72712e36b7b64e9d5a45/trl/chat_templates/qwen3_5_think_training.jinja",
+    "bundled_bytes_match_upstream": true
+  },
+  "limitations": [
+    "No actual reviewed 128-workflow corpus was supplied; production preparation was not executed.",
+    "Review receipts are externally supplied assertions bound by hashes; the preparer does not independently replay verifiers.",
+    "Standard-library checkpoint tests use clearly labeled synthetic temporary bytes, never loaded as tensors.",
+    "No CUDA training/resume or Modal Volume commit was executed; commit order was tested using local callbacks."
+  ],
+  "training_verifier_contract_binding": {
+    "status": "passed",
+    "training_tasks": 128,
+    "required_verifier_count": 754,
+    "training_contracts_sha256": "4e6fbcb99f2a06e456a27b26b819bfa85cf876e8006a30fa5ef2cfcb0e3662c8",
+    "receipt_requires_exact_count_and_canonical_verifier_list_hash": true,
+    "heldout_verifier_payloads_read": false,
+    "external_receipts_not_generated": true
+  }
+}

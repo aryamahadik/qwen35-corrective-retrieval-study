@@ -1,0 +1,288 @@
+{
+  "created_utc": "2026-09-15T20:53:16.768330+00:00",
+  "workspace": "/Users/aryamahadik/Documents/ECHO Architecture/Modal/MODAL",
+  "scope": "Training-only seed integrity and local service availability",
+  "seed_count": 39,
+  "seed_files": [
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1762868439331_kf914hbmw.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1764361046464_47vxzhsli.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1764493889049_iuydddoc0.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1767381239880_ibbsoh6gc.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1762254390925_u5icw4thh.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1764770976094_b37f1eqwl.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1764836967885_2ke5eeevf.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1765277945132_8mrmxiqbi.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/drive/dbs/db_1763988076613_f5g41taxz.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/drive/dbs/db_1764755314410_f227g8ov4.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/drive/dbs/db_1764776317015_jplw4hf1v.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/email/dbs/db_1763188937209_paq12p3yu.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/email/dbs/db_1764696098233_cvtva4yqg.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hr/dbs/db_1765227945688_occ0a7ed3.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hr/dbs/db_1765529350682_48wb3wot7.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765205299231_5dx21vf9g.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765211066177_klym6f8bt.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765300846591_aekfq9lke.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765361971944_6ld5uejbx.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765386439582_vm0389iwq.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765826170153_yh400aejr.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765880090918_aymg8twv8.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765911128077_1id62vdcy.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765968938255_0btthu3pw.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766050008542_4gw043g58.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766557346752_3wcj2d1gv.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766568676719_yax4p1rfi.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766600698424_0pfuqt47s.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1765301900121_3mwjj54xy.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1765893060767_9rwtfbbp7.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1766063289316_o5f6sbf3g.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1766091624245_iotwhtzd5.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1763471775019_vb5gclmn3.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764007593147_qbhy8ri1b.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764050565764_u95l4bfjz.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764056995448_d8bull5d3.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764062937262_iucmwunax.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764274139477_ve41d08gm.sql",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764390033317_3qpvfeibh.sql",
+      "exists": true,
+      "hash_matches": true
+    }
+  ],
+  "seed_assets_valid": true,
+  "docker": {
+    "cli_available": true,
+    "daemon_reachable": true,
+    "probe_performed": true,
+    "containers_started": false,
+    "server_version": "29.3.1"
+  },
+  "servers": [
+    {
+      "server_name": "gym-calendar",
+      "domain": "calendar",
+      "url": "http://localhost:8003",
+      "tcp_probe_performed": true,
+      "tcp_reachable": true,
+      "pinned_image": "shivakrishnareddyma225/enterpriseops-gym-mcp-calendar@sha256:994c5421a6dd065861bc7f813a177f6d408875e9df60fe8d012959bc4510da02",
+      "tool_catalog_verified": false,
+      "sql_runtime_verified": false
+    },
+    {
+      "server_name": "gym-email-mcp",
+      "domain": "email",
+      "url": "http://localhost:8004",
+      "tcp_probe_performed": true,
+      "tcp_reachable": false,
+      "pinned_image": "shivakrishnareddyma225/enterpriseops-gym-mcp-email@sha256:69c2081fe4ab0962b86233f9fb52b307b8ad0019f6746ba64ce75851036201cd",
+      "tool_catalog_verified": false,
+      "sql_runtime_verified": false
+    },
+    {
+      "server_name": "gym-google-drive-mcp",
+      "domain": "drive",
+      "url": "http://localhost:8009",
+      "tcp_probe_performed": true,
+      "tcp_reachable": false,
+      "pinned_image": "shivakrishnareddyma225/enterpriseops-gym-mcp-drive@sha256:3475962fcf6da7675e194dbf138de01fa3e96134a302ad47316e4111a5e63f32",
+      "tool_catalog_verified": false,
+      "sql_runtime_verified": false
+    },
+    {
+      "server_name": "gym-itsm-mcp",
+      "domain": "itsm",
+      "url": "http://localhost:8006",
+      "tcp_probe_performed": true,
+      "tcp_reachable": false,
+      "pinned_image": "shivakrishnareddyma225/enterpriseops-gym-mcp-itsm@sha256:a234ae3fb7cee196ba25e6b9957969dea829919b6e8271dddae128f065aaf39f",
+      "tool_catalog_verified": false,
+      "sql_runtime_verified": false
+    },
+    {
+      "server_name": "gym-teams-mcp",
+      "domain": "teams",
+      "url": "http://localhost:8002",
+      "tcp_probe_performed": true,
+      "tcp_reachable": false,
+      "pinned_image": "shivakrishnareddyma225/enterpriseops-gym-mcp-teams@sha256:602655e46f6501885540c36dc9b12114cb173c75063d7f25c17ed0652695fa78",
+      "tool_catalog_verified": false,
+      "sql_runtime_verified": false
+    },
+    {
+      "server_name": "sn-csm-server",
+      "domain": "csm",
+      "url": "http://localhost:8001",
+      "tcp_probe_performed": true,
+      "tcp_reachable": false,
+      "pinned_image": "shivakrishnareddyma225/enterpriseops-gym-mcp-csm@sha256:eaa456ac9aa85728426e7d3813a0bbca0949d6a8695be30e26f03894e6e6b189",
+      "tool_catalog_verified": false,
+      "sql_runtime_verified": false
+    },
+    {
+      "server_name": "sn-hr-internal",
+      "domain": "hr",
+      "url": "http://localhost:8008",
+      "tcp_probe_performed": true,
+      "tcp_reachable": false,
+      "pinned_image": "shivakrishnareddyma225/enterpriseops-gym-mcp-hr@sha256:1ea1c1d64d4be35e8062e56f00b8318e9e6c09289cfa56bcfd0595bfa59ac64d",
+      "tool_catalog_verified": false,
+      "sql_runtime_verified": false
+    }
+  ],
+  "backend_verified": false,
+  "demonstration_collection_ready": false,
+  "reason": "TCP reachability is not a verified MCP catalog, schema, reset contract, or successful task execution.",
+  "modal_touched": false,
+  "paid_calls": false
+}

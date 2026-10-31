@@ -1,0 +1,72 @@
+{
+  "gpu": "NVIDIA A10",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "prefix_tokens": 4096,
+  "C": 32,
+  "rows": [
+    {
+      "n_out": 16,
+      "mode": "shared",
+      "C": 32,
+      "wall_s": 0.458,
+      "gen_tokens": 512,
+      "gen_tok_s": 1118.6
+    },
+    {
+      "n_out": 16,
+      "mode": "distinct",
+      "C": 32,
+      "wall_s": 2.944,
+      "gen_tokens": 512,
+      "gen_tok_s": 173.9
+    },
+    {
+      "n_out": 64,
+      "mode": "shared",
+      "C": 32,
+      "wall_s": 0.831,
+      "gen_tokens": 2048,
+      "gen_tok_s": 2463.2
+    },
+    {
+      "n_out": 64,
+      "mode": "distinct",
+      "C": 32,
+      "wall_s": 1.088,
+      "gen_tokens": 2048,
+      "gen_tok_s": 1882.9
+    },
+    {
+      "n_out": 256,
+      "mode": "shared",
+      "C": 32,
+      "wall_s": 2.423,
+      "gen_tokens": 8192,
+      "gen_tok_s": 3381.0
+    },
+    {
+      "n_out": 256,
+      "mode": "distinct",
+      "C": 32,
+      "wall_s": 2.996,
+      "gen_tokens": 8192,
+      "gen_tok_s": 2734.7
+    },
+    {
+      "n_out": 1024,
+      "mode": "shared",
+      "C": 32,
+      "wall_s": 9.087,
+      "gen_tokens": 32768,
+      "gen_tok_s": 3606.0
+    },
+    {
+      "n_out": 1024,
+      "mode": "distinct",
+      "C": 32,
+      "wall_s": 11.533,
+      "gen_tokens": 32768,
+      "gen_tok_s": 2841.1
+    }
+  ]
+}

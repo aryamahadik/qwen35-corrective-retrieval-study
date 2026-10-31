@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "External verifier receipt required for reviewed training traces",
+  "$comment": "Version 2 adds canonical task-input binding and complete indexed outcomes. Migrate by exporting real verifier execution results; do not fabricate outcomes or mechanically mark prior count-only receipts valid.",
+  "description": "An existing result produced by the actual environment verifier. The preparer checks binding and consistency but does not replay or authenticate the verifier. Keep privileged verifier details outside model-visible messages/tools.",
+  "type": "object",
+  "required": ["schema_version", "source_task_id", "status", "checks_total", "checks_passed", "model_visible_sha256", "task_input_sha256", "verifier_contract_sha256", "verifier_revision", "outcomes"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "source_task_id": {"type": "string", "minLength": 1},
+    "status": {"const": "passed"},
+    "checks_total": {"type": "integer", "minimum": 1, "description": "Must equal the complete verifier-list length for this task in the current normalized evaluator_only/train.jsonl contract."},
+    "checks_passed": {"type": "integer", "minimum": 1, "description": "Must equal checks_total; no empty or omitted check set can pass."},
+    "model_visible_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "task_input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "Canonical public training input hash: task_id, domain, system_prompt, user_prompt, selected_tools, restricted_tools. UTF8 JSON, sorted keys, compact separators, ensure_ascii=False, no NaN."},
+    "verifier_contract_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA256 of UTF8 canonical JSON of the entire task verifiers LIST, including normalized names: sorted keys, compact separators, ensure_ascii=False, no NaN. Not the hash of a {verifiers:...} wrapper."},
+    "verifier_revision": {"type": "string", "minLength": 1},
+    "outcomes": {
+      "type": "array", "minItems": 1,
+      "description": "Exactly one real result for each zero-based verifier index. Names must match the normalized list at that index. All required outcomes must pass without errors. No missing or duplicate indexes.",
+      "items": {
+        "type": "object", "required": ["verifier_index", "verifier_name", "passed"],
+        "properties": {
+          "verifier_index": {"type": "integer", "minimum": 0},
+          "verifier_name": {"type": "string", "minLength": 1},
+          "passed": {"const": true},
+          "error": {"enum": [null, ""]}
+        }
+      }
+    }
+  }
+}

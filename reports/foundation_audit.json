@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-16T16:09:04.840652+00:00",
+  "workspace_root": "/Users/aryamahadik/Documents/ECHO Architecture/Modal/MODAL",
+  "status": "NOT_READY_MISSING_ARTIFACTS",
+  "scope": "Noncloud local foundation audit; metadata, opaque record replay, hashes and actual file inventory. No final-test question/SQL interpretation, model outputs, paid APIs, GPU or Docker execution.",
+  "readiness": {
+    "integrity_passed": true,
+    "source_task_specifications_present": true,
+    "verified_sft_workflows": 0,
+    "sft_ready": false,
+    "foundation_files_ready": true,
+    "runtime_environment_ready": false,
+    "final_evaluation_ready": false,
+    "foundation_complete_for_training": false,
+    "modal_preparation": "deferred",
+    "known_semantic_holds": 1
+  },
+  "dataset": {
+    "frozen_manifest_sha256": "1742388aa1c1fe079de568183e6f6cd11cf0ac95265a753695b6a08f3a55094c",
+    "selected_unique_tasks": 329,
+    "split_counts": {
+      "train": 128,
+      "development": 41,
+      "final_test": 160
+    },
+    "domain_counts_by_role": {
+      "train": {
+        "calendar": 8,
+        "csm": 24,
+        "drive": 8,
+        "email": 8,
+        "hr": 24,
+        "hybrid": 24,
+        "itsm": 24,
+        "teams": 8
+      },
+      "development": {
+        "calendar": 3,
+        "csm": 3,
+        "drive": 3,
+        "email": 3,
+        "hr": 3,
+        "hybrid": 3,
+        "itsm": 20,
+        "teams": 3
+      },
+      "final_test": {
+        "calendar": 20,
+        "csm": 20,
+        "drive": 20,
+        "email": 20,
+        "hr": 20,
+        "hybrid": 20,
+        "itsm": 20,
+        "teams": 20
+      }
+    },
+    "excluded_tasks": 311,
+    "prior_quarantined_tasks": 9,
+    "copy_counts_not_extra_examples": {
+      "train": {
+        "source_evaluator": 128,
+        "source_inputs": 128,
+        "working_evaluator": 128,
+        "working_inputs": 128
+      },
+      "development": {
+        "source_evaluator": 41,
+        "source_inputs": 41,
+        "working_evaluator": 41,
+        "working_inputs": 41
+      },
+      "final_test": {
+        "source_evaluator": 160,
+        "source_inputs": 160,
+        "working_evaluator": 160,
+        "working_inputs": 160
+      }
+    },
+    "normalization_replayed": 1793,
+    "normalization_counts": {
+      "unique_verifier_identity": 1749,
+      "deduplicate_tool_names_preserving_order": 7,
+      "direct_count_numeric_type_only": 37
+    },
+    "active_workflow_groups": 256,
+    "source_family_audits": [
+      {
+        "file": "data/metadata/final-split-groups-policy.json",
+        "groups": 239,
+        "edges": 54,
+        "sha256": "f86f6f02f1ba91aad698870216599e2105364f36171670fa68d85d37864bfee3"
+      },
+      {
+        "file": "data/metadata/final-split-groups-collaboration.json",
+        "groups": 151,
+        "edges": 102,
+        "sha256": "d644b71105abcd476a557c263cd5e5b811c07787bf04d0f827a59b4f32063120"
+      }
+    ]
+  },
+  "schemas": {
+    "trace_schema_present": true,
+    "receipt_schema_present": true,
+    "trace_schema_sha256": "0a17b02b7893ea48b45fc4fe8d75b20d80b3f0f47ce8bb5edce529b9f607d466",
+    "receipt_schema_sha256": "8069a3ad3e0de96aa59cde5a34818775541f631fa8ec92632452e48ba807e45d",
+    "receipt_schema_version": 2,
+    "per_index_outcomes_required": true
+  },
+  "collection_queue": {
+    "manifest_present": true,
+    "queue_rows": 128,
+    "requirement_rows": 128,
+    "verified_demonstrations_from_queue": 0,
+    "status_counts": {
+      "NOT_COLLECTED": 128
+    },
+    "actual_trace_or_receipt_content_generated_by_checker": false,
+    "workflow_groups": 105,
+    "required_indexed_checks": 754,
+    "manifest_sha256": "49b3fb24f95977345c169d83f02c7d689d8078382e652e1fa308c4068855c217",
+    "all_statuses_not_collected": true,
+    "source_membership_and_hash_links_checked": true
+  },
+  "reviewed_training_data": {
+    "canonical_file_present": true,
+    "rows": 57,
+    "unique_training_ids": 57,
+    "missing_training_ids": 71,
+    "nontraining_or_unknown_ids": 0,
+    "schema_and_receipt_validated": false,
+    "valid_complete_workflows": 0,
+    "actual_receipt_files": 57,
+    "external_verification_authenticated_or_replayed": false,
+    "receipt_path_problems": {},
+    "validation_failure": {
+      "type": "PreparationError",
+      "message": "Missing reviewed training workflows: 71 of 128"
+    }
+  },
+  "prepared_training_data": {
+    "manifest_present": false,
+    "ready": false,
+    "actual_token_rows": 0,
+    "processed_tokens": 0,
+    "supervised_tokens": 0
+  },
+  "tokenizer": {
+    "pinned_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "training_template_present": true,
+    "training_template_sha256": "ccf356d8f238e287c047b1ef589850fd6b2b44e6cb29079e26c635fb9b8111ef",
+    "historical_synthetic_smoke": {
+      "status": "passed",
+      "model_id": "Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "versions": {
+        "transformers": "5.5.0",
+        "tokenizers": "0.22.2",
+        "jinja2": "3.1.6"
+      },
+      "synthetic_tool_conversation_only": true,
+      "processed_tokens": 351,
+      "supervised_tokens": 57,
+      "first_label": -100,
+      "model_weights_downloaded": false,
+      "gpu_used": false,
+      "training_dataset_published": false
+    },
+    "actual_portable_tokenizer_files": [
+      {
+        "path": "data/tokenizer/model/tokenizer_config.json",
+        "bytes": 16710,
+        "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8"
+      },
+      {
+        "path": "data/tokenizer/model/tokenizer.json",
+        "bytes": 12807982,
+        "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+      }
+    ],
+    "local_pinned_tokenizer_loaded_by_this_check": false,
+    "note": "Historical tokenizer smoke is retained evidence, not a fresh load and not128 real trajectories. No global cache or path outside this folder is inspected.",
+    "portable_manifest_present": true,
+    "portable_manifest_sha256": "0829b805610c3e07bd3b3f89a4a4bc969477d323b2bbcdb334d8980784a2911c",
+    "portable_files_hash_verified": 3,
+    "portable_bytes_hash_verified": 12832448,
+    "portable_files_ready": true,
+    "recorded_versions": {
+      "transformers": "5.5.0",
+      "tokenizers": "0.22.2",
+      "jinja2": "3.1.6"
+    },
+    "model_weights_downloaded_by_this_check": false
+  },
+  "environment_assets": {
+    "required_unique_seed_references": 62,
+    "seed_references_present_by_path": 62,
+    "missing_seed_references": [],
+    "actual_seed_files": [
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1767381239880_ibbsoh6gc.sql",
+        "bytes": 23308
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1764361046464_47vxzhsli.sql",
+        "bytes": 417768
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1764493889049_iuydddoc0.sql",
+        "bytes": 417262
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/calendar/dbs/db_1762868439331_kf914hbmw.sql",
+        "bytes": 23330
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1764836967885_2ke5eeevf.sql",
+        "bytes": 1377362
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1764770976094_b37f1eqwl.sql",
+        "bytes": 1378428
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1765277945132_8mrmxiqbi.sql",
+        "bytes": 1377282
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/csm/dbs/db_1762254390925_u5icw4thh.sql",
+        "bytes": 1376655
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hr/dbs/db_1765227945688_occ0a7ed3.sql",
+        "bytes": 183673
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hr/dbs/db_1765529350682_48wb3wot7.sql",
+        "bytes": 27835
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764050565764_u95l4bfjz.sql",
+        "bytes": 374986
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764007593147_qbhy8ri1b.sql",
+        "bytes": 374987
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1763471775019_vb5gclmn3.sql",
+        "bytes": 374986
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764390033317_3qpvfeibh.sql",
+        "bytes": 374977
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764062937262_iucmwunax.sql",
+        "bytes": 374986
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764056995448_d8bull5d3.sql",
+        "bytes": 2904204
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/teams/dbs/db_1764274139477_ve41d08gm.sql",
+        "bytes": 2899964
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/drive/dbs/db_1764776317015_jplw4hf1v.sql",
+        "bytes": 3776691
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/drive/dbs/db_1763988076613_f5g41taxz.sql",
+        "bytes": 67847
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/drive/dbs/db_1764755314410_f227g8ov4.sql",
+        "bytes": 4116204
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1766091624245_iotwhtzd5.sql",
+        "bytes": 204395
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1766063289316_o5f6sbf3g.sql",
+        "bytes": 204407
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1765893060767_9rwtfbbp7.sql",
+        "bytes": 204410
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/itsm/dbs/db_1765301900121_3mwjj54xy.sql",
+        "bytes": 49313
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/email/dbs/db_1763188937209_paq12p3yu.sql",
+        "bytes": 60273
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/email/dbs/db_1764696098233_cvtva4yqg.sql",
+        "bytes": 3746786
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766050008542_4gw043g58.sql",
+        "bytes": 204405
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766600698424_0pfuqt47s.sql",
+        "bytes": 183662
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765826170153_yh400aejr.sql",
+        "bytes": 1376658
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765880090918_aymg8twv8.sql",
+        "bytes": 2899960
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765211066177_klym6f8bt.sql",
+        "bytes": 4116179
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765386439582_vm0389iwq.sql",
+        "bytes": 417769
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766557346752_3wcj2d1gv.sql",
+        "bytes": 183659
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765361971944_6ld5uejbx.sql",
+        "bytes": 3746785
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765968938255_0btthu3pw.sql",
+        "bytes": 1244182
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765300846591_aekfq9lke.sql",
+        "bytes": 1242884
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1766568676719_yax4p1rfi.sql",
+        "bytes": 184155
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765205299231_5dx21vf9g.sql",
+        "bytes": 3776707
+      },
+      {
+        "path": "data/environment/seed_sql/Domain Wise DBs and Task-DB Mappings/hybrid/dbs/db_1765911128077_1id62vdcy.sql",
+        "bytes": 1242680
+      }
+    ],
+    "actual_seed_archives": [
+      {
+        "path": "work/enterpriseops-gym-upstream/gym_dbs.zip",
+        "bytes": 14527720,
+        "sha256": "d947543d4fba1aabc4aade73d3df955114187b7a94da7ac825c4c31169ddab47",
+        "seed_members": 76
+      },
+      {
+        "path": "data/environment/source/gym_dbs.zip",
+        "bytes": 14527720,
+        "sha256": "d947543d4fba1aabc4aade73d3df955114187b7a94da7ac825c4c31169ddab47",
+        "seed_members": 76
+      }
+    ],
+    "required_server_names": [
+      "gym-calendar",
+      "gym-email-mcp",
+      "gym-google-drive-mcp",
+      "gym-itsm-mcp",
+      "gym-teams-mcp",
+      "sn-csm-server",
+      "sn-hr-internal"
+    ],
+    "selected_tool_names": 306,
+    "actual_backend_definitions": [
+      {
+        "path": "config/local_environment.json",
+        "bytes": 2795
+      }
+    ],
+    "actual_tool_catalog_candidates": [],
+    "runtime_probed_by_this_checker": false,
+    "runtime_verified": false,
+    "note": "File presence is evidence of assets only, not a functioning MCP service. No Docker or network call is made.",
+    "environment_source_manifest_present": true,
+    "pinned_repository_revision": "271f2c357f763376997dfd16807fcde2474ae41b",
+    "training_seed_references_required": 39,
+    "training_seed_references_hash_verified": 39,
+    "training_seed_bytes_hash_verified": 47532004,
+    "training_seed_files_match_exact_training_scope": true,
+    "pinned_server_configuration_present": true,
+    "pinned_server_count": 7,
+    "published_image_digest_records": 7,
+    "published_images_are_not_local_container_evidence": true,
+    "local_environment_doctor": {
+      "report_present": true,
+      "report_sha256": "58db04c0ba2b420430ed520ed540d9f9d6fc74e56af92c3aa6e7a1df9842c9b1",
+      "recorded_at": "2026-09-15T20:53:16.768330+00:00",
+      "workspace_matches": true,
+      "docker": {
+        "cli_available": true,
+        "daemon_reachable": true,
+        "probe_performed": true,
+        "containers_started": false,
+        "server_version": "29.3.1"
+      },
+      "servers_reported": 7,
+      "servers_recorded_tcp_reachable": 1,
+      "recorded_backend_verified": false,
+      "independent_current_probe_by_foundation_checker": false
+    },
+    "deferred_modal_files_checked": 9
+  },
+  "known_quality_holds": [
+    {
+      "task_id": "task_20260115_154856_907_1628b966_275e920f",
+      "role": "final_test",
+      "status": "SEMANTIC_SCORER_REVIEW_REQUIRED"
+    }
+  ],
+  "budget": {
+    "ledger_present": false,
+    "recorded_calls": 0,
+    "recorded_accounted_or_reserved_usd": null,
+    "reason": "No campaign ledger file exists locally. Do not infer verified zero provider usage or reset prior spend.",
+    "provider_billing_checked": false,
+    "authorized_campaign_cap_usd": "40.00",
+    "authorized_buckets_usd": {
+      "teacher_api": "10.00",
+      "gpu_compute": "27.70",
+      "other_modal": "2.30"
+    },
+    "spending_performed_by_this_checker": false,
+    "cloud_preparation_status": "DEFERRED_BY_USER",
+    "note": "Configuration and any ledger are local records, not live billing evidence. No remote cap/authentication is checked or changed."
+  },
+  "integrity_errors": [],
+  "check_counts": {
+    "frozen_manifest_copy": 1,
+    "immutable_release_hash": 15,
+    "immutable_payload_hash": 6,
+    "frozen_role_quota": 3,
+    "copy_id_membership": 12,
+    "split_overlap": 329,
+    "input_projection": 658,
+    "selected_unique_count": 1,
+    "exclusion_partition": 1,
+    "domain_quotas": 8,
+    "normalization_source_hash": 1,
+    "normalization_ledger_hash": 1,
+    "normalizer_code_hash": 1,
+    "normalized_payload_hash": 6,
+    "normalization_counts": 1,
+    "normalization_membership": 1793,
+    "normalization_unique_field": 1793,
+    "normalization_replay_rule": 1793,
+    "exact_normalization_replay": 329,
+    "family_isolation": 256,
+    "group_duplicate_membership": 256,
+    "group_member_hash": 256,
+    "group_coverage": 1,
+    "family_audit_hash": 2,
+    "source_family_isolation": 390,
+    "source_family_edge": 16,
+    "training_recipe": 1,
+    "training_split_binding": 1,
+    "immutable_model_revision": 1,
+    "trace_schema_contract": 1,
+    "receipt_schema_contract": 1,
+    "receipt_outcome_schema": 1,
+    "training_template_hash": 1,
+    "collection_artifact_hash": 3,
+    "collection_source_hash": 5,
+    "collection_builder_hash": 1,
+    "collection_training_membership": 1,
+    "receipt_requirements_membership": 1,
+    "collection_queue_order": 1,
+    "queue_role_domain": 128,
+    "queue_input_binding": 128,
+    "queue_source_locator": 128,
+    "queue_tool_allowlist": 128,
+    "queue_workflow_group": 128,
+    "requirements_contract_locator": 128,
+    "requirements_full_contract_binding": 128,
+    "uncollected_has_no_fabricated_results": 128,
+    "collection_aggregate_counts": 1,
+    "collection_domain_plan": 8,
+    "external_symlink": 1,
+    "portable_tokenizer_revision": 1,
+    "portable_tokenizer_file_hash": 3,
+    "portable_tokenizer_file_size": 3,
+    "portable_tokenizer_file_inventory": 1,
+    "training_seed_file_hash": 39,
+    "training_seed_file_size": 39,
+    "training_seed_coverage": 1,
+    "training_seed_count": 1,
+    "environment_source_artifact_hash": 3,
+    "environment_source_artifact_size": 3,
+    "server_configuration_coverage": 1,
+    "pinned_backend_image": 7,
+    "backend_image_manifest_binding": 7,
+    "local_server_endpoint": 7,
+    "doctor_workspace": 1,
+    "doctor_seed_inventory_binding": 1,
+    "deferred_modal_files_unchanged": 9,
+    "quality_hold_membership": 1,
+    "campaign_cap": 1
+  },
+  "missing_or_unverified": [
+    "128 complete reviewed training-only trajectories with bound real verifier receipts",
+    "Verified prepared training tokens and prepared_manifest.json",
+    "Actual tool schema/catalog artifacts from the enterprise backends",
+    "Controlled local environment reset/tool/verifier replay evidence; not established by file presence",
+    "Resolution of the retained semantic scorer hold before a complete final-evaluation claim"
+  ],
+  "historical_report_paths": [
+    {
+      "report": "reports/dataset_audit.json",
+      "field": "dataset_path",
+      "recorded_path": "/Users/aryamahadik/Documents/Codex/2026-09-14/ok-now-we-gonna-finetune-the/MODAL/data/source_release",
+      "interpretation": "Historical location; current files independently checked here. Historical reports were not rewritten."
+    },
+    {
+      "report": "reports/dataset_audit.json",
+      "field": "payload_root",
+      "recorded_path": "/Users/aryamahadik/Documents/Codex/2026-09-14/ok-now-we-gonna-finetune-the/MODAL/data",
+      "interpretation": "Historical location; current files independently checked here. Historical reports were not rewritten."
+    },
+    {
+      "report": "reports/validation_summary.json",
+      "field": "working_folder",
+      "recorded_path": "/Users/aryamahadik/Documents/Codex/2026-09-14/ok-now-we-gonna-finetune-the/MODAL",
+      "interpretation": "Historical location; current files independently checked here. Historical reports were not rewritten."
+    }
+  ],
+  "limitations": [
+    "This check does not authenticate external review receipts or independently replay task outcomes.",
+    "Current file hashes are checked directly. The separate local doctor report is recorded probe evidence, not a fresh network/daemon probe by this checker.",
+    "The absence of a local budget ledger is not proof of zero spending in a provider account.",
+    "A copied task specification is not an additional training example; only validated real trajectories count.",
+    "Cloud work remains deferred."
+  ]
+}

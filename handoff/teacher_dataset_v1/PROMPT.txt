@@ -1,0 +1,7 @@
+Use teacher_tasks.jsonl to collect real training demonstrations for Qwen3.5-9B. Start with the first five tasks only.
+
+For each task, preserve the exact system_prompt and user_prompt. Obtain the real schemas for exactly the allowed tool names, execute the task in a fresh EnterpriseOps benchmark environment, and record every actual assistant tool call, tool result, and final response. Never invent outputs or claim success without execution evidence.
+
+Keep verifier SQL and expected results hidden from the teacher. A separate trusted reviewer must run every required check and approve the complete trace. Save conversations in the supplied trace_schema.json format and receipts in verifier_receipt.schema.json format. Preserve failed attempts separately.
+
+Do not use development or test tasks, modify the split, start Modal training, or make paid calls without authorization. If you lack Docker or benchmark tool access, say exactly what is missing and stop before creating fake demonstrations.

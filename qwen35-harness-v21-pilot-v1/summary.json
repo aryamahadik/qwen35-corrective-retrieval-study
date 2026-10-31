@@ -1,0 +1,78 @@
+{
+  "adapter": {
+    "action_limit_terminations": 1,
+    "invalid_calls": 0,
+    "latency_ms": 124660,
+    "model_calls": 19,
+    "parse_failures": 0,
+    "repeated_exact_actions": 0,
+    "success_rate_percent": 0.0,
+    "successes": 0,
+    "total_action_requests": 19,
+    "verifier_completion_percent": 0.0,
+    "verifier_passed": 0,
+    "verifier_total": 8,
+    "wilson_95_ci": {
+      "confidence": 0.95,
+      "lower_percent": 0.0,
+      "method": "wilson_score",
+      "upper_percent": 79.345069
+    }
+  },
+  "base": {
+    "action_limit_terminations": 0,
+    "invalid_calls": 0,
+    "latency_ms": 77393,
+    "model_calls": 8,
+    "parse_failures": 3,
+    "repeated_exact_actions": 0,
+    "success_rate_percent": 0.0,
+    "successes": 0,
+    "total_action_requests": 5,
+    "verifier_completion_percent": 0.0,
+    "verifier_passed": 0,
+    "verifier_total": 8,
+    "wilson_95_ci": {
+      "confidence": 0.95,
+      "lower_percent": 0.0,
+      "method": "wilson_score",
+      "upper_percent": 79.345069
+    }
+  },
+  "effect": {
+    "absolute_delta_percentage_points": 0.0,
+    "bootstrap_delta_ci": {
+      "confidence": 0.95,
+      "lower_percentage_points": 0.0,
+      "method": "paired_nonparametric_task_bootstrap_percentile",
+      "samples": 10000,
+      "seed": 35009,
+      "upper_percentage_points": 0.0
+    },
+    "exact_two_sided_mcnemar_p_value": 1.0
+  },
+  "evaluation_id": "qwen35-harness-v21-pilot-v1",
+  "harness_contract": "qwen35-enterprise-harness-v2.1",
+  "paired_counts": {
+    "adapter_only": 0,
+    "base_only": 0,
+    "both_fail": 1,
+    "both_pass": 0,
+    "discordant": 0
+  },
+  "records": 1,
+  "schema_version": 3,
+  "selected_tasks": 7,
+  "selection_identity": "500f7f19293a33b300fa20c73e780df8be9b39b1d0512a0a7f9e24786e7f0fcb",
+  "status": "HARNESS_V21_PAIRED_RESULTS_PARTIAL",
+  "summary_sha256": "6a884a260af7b788b6196b7977e5df2cc5ff8a21f4200b29092357e50fd7ce9b",
+  "task_ids": [
+    "env_152_rl-task_35",
+    "env_163_rl-task_22",
+    "env_170_rl-task_45",
+    "env_178_rl-task_43",
+    "env_183_rl-task_26",
+    "env_185_rl-task_44",
+    "env_186_rl-task_16"
+  ]
+}

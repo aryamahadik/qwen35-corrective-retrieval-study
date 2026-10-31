@@ -1,0 +1,7970 @@
+{
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "arms": {
+    "RAG8": [
+      {
+        "repo": "flask",
+        "sha": "7203feab",
+        "hit": 0,
+        "n_tok": 3129,
+        "pred": "run",
+        "gold": [
+          "Flask",
+          "test_run_server_port"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "de8429ff",
+        "hit": 0,
+        "n_tok": 2947,
+        "pred": "save_session",
+        "gold": [
+          "FlaskClient",
+          "test_session_transactions"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3d03098a",
+        "hit": 0,
+        "n_tok": 3531,
+        "pred": "__init__",
+        "gold": [
+          "create_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c77a5203",
+        "hit": 0,
+        "n_tok": 3147,
+        "pred": "full_dispatch_request",
+        "gold": [
+          "App",
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "fb541598",
+        "hit": 0,
+        "n_tok": 3646,
+        "pred": "get_signing_serializer",
+        "gold": [
+          "SecureCookieSessionInterface",
+          "test_session_secret_key_fallbacks"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "54c3f87a",
+        "hit": 1,
+        "n_tok": 3194,
+        "pred": "FlaskCliRunner",
+        "gold": [
+          "FlaskCliRunner"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4995a775",
+        "hit": 1,
+        "n_tok": 3421,
+        "pred": "Flask",
+        "gold": [
+          "Flask",
+          "test_child_and_parent_subdomain",
+          "test_nesting_subdomains",
+          "test_request_locals"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a363642a",
+        "hit": 0,
+        "n_tok": 3380,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1af8f957",
+        "hit": 0,
+        "n_tok": 3528,
+        "pred": "decorator",
+        "gold": [
+          "SeparatedPathType",
+          "test_cli_empty"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "ecc057dd",
+        "hit": 0,
+        "n_tok": 3386,
+        "pred": "jinja_loader",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "8fdab74c",
+        "hit": 0,
+        "n_tok": 2984,
+        "pred": "app_context",
+        "gold": [
+          "stream_with_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1d5abfad",
+        "hit": 0,
+        "n_tok": 3340,
+        "pred": "from_envvar",
+        "gold": [
+          "_validate_key"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4104f299",
+        "hit": 1,
+        "n_tok": 3429,
+        "pred": "send_file",
+        "gold": [
+          "send_file"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "826514b8",
+        "hit": 0,
+        "n_tok": 2914,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "test_session_special_types",
+          "test_teardown_request_handler_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c49ce2e1",
+        "hit": 0,
+        "n_tok": 2914,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "test_session_special_types",
+          "test_teardown_request_handler_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bda295d3",
+        "hit": 1,
+        "n_tok": 3532,
+        "pred": "_find_package_path",
+        "gold": [
+          "_endpoint_from_view_func",
+          "_find_package_path",
+          "get_root_path"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0ec9192c",
+        "hit": 0,
+        "n_tok": 2999,
+        "pred": "locate_app",
+        "gold": [
+          "__getattr__"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "fc03d0df",
+        "hit": 0,
+        "n_tok": 3265,
+        "pred": "record",
+        "gold": [
+          "Blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a15da89d",
+        "hit": 0,
+        "n_tok": 2984,
+        "pred": "app_context",
+        "gold": [
+          "test_session_dynamic_cookie_name"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "261e4a6c",
+        "hit": 0,
+        "n_tok": 3041,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "test_app_tearing_down_with_unhandled_exception",
+          "test_static_route_with_host_matching"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "cabda593",
+        "hit": 0,
+        "n_tok": 3382,
+        "pred": "add_url_rule",
+        "gold": [
+          "Blueprint",
+          "test_child_overrides_parent_subdomain",
+          "test_nesting_subdomains"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "d7b6c1f6",
+        "hit": 1,
+        "n_tok": 3320,
+        "pred": "Blueprint",
+        "gold": [
+          "Blueprint",
+          "test_nesting_url_prefixes"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bd26928f",
+        "hit": 1,
+        "n_tok": 3400,
+        "pred": "run_command",
+        "gold": [
+          "SeparatedPathType",
+          "run_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4bc0e494",
+        "hit": 1,
+        "n_tok": 3185,
+        "pred": "run_command",
+        "gold": [
+          "SeparatedPathType",
+          "run_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0d8c8ba7",
+        "hit": 0,
+        "n_tok": 3274,
+        "pred": "test_request_context",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "746455d1",
+        "hit": 0,
+        "n_tok": 3444,
+        "pred": "from_mapping",
+        "gold": [
+          "Config"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a6a7a573",
+        "hit": 0,
+        "n_tok": 3526,
+        "pred": "FlaskGroup",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "095651be",
+        "hit": 1,
+        "n_tok": 3389,
+        "pred": "has_request_context",
+        "gold": [
+          "has_app_context",
+          "has_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "58f3536a",
+        "hit": 1,
+        "n_tok": 3181,
+        "pred": "render_template",
+        "gold": [
+          "render_template",
+          "render_template_string"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3351a867",
+        "hit": 0,
+        "n_tok": 3072,
+        "pred": "errorhandler",
+        "gold": [
+          "Blueprint",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "39f93632",
+        "hit": 1,
+        "n_tok": 3510,
+        "pred": "url_for",
+        "gold": [
+          "Flask",
+          "TestUrlFor",
+          "make_response",
+          "url_for"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1e5dd430",
+        "hit": 0,
+        "n_tok": 3123,
+        "pred": "_find_error_handler",
+        "gold": [
+          "Scaffold",
+          "test_error_handler_no_match",
+          "test_error_handling"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "eede1a36",
+        "hit": 0,
+        "n_tok": 3608,
+        "pred": "loads",
+        "gold": [
+          "dump"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4eb5e945",
+        "hit": 0,
+        "n_tok": 3391,
+        "pred": "from_prefixed_env",
+        "gold": [
+          "Config",
+          "test_config_from_custom_prefixed_env",
+          "test_config_from_file",
+          "test_config_from_prefixed_env"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "08a283af",
+        "hit": 0,
+        "n_tok": 3510,
+        "pred": "from_prefixed_env",
+        "gold": [
+          "Config",
+          "test_config_from_file"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6578b493",
+        "hit": 0,
+        "n_tok": 3536,
+        "pred": "on_json_loading_failed",
+        "gold": [
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0a300d00",
+        "hit": 0,
+        "n_tok": 3052,
+        "pred": "DebugFilesKeyError",
+        "gold": [
+          "Request",
+          "attach_enctype_error_multidict"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c9a1f7ad",
+        "hit": 1,
+        "n_tok": 3419,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Flask",
+          "FormDataRoutingRedirect",
+          "test_before_first_request_functions_concurrent",
+          "test_routing_redirect_debugging"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "88863288",
+        "hit": 0,
+        "n_tok": 3335,
+        "pred": "errorhandler",
+        "gold": [
+          "Blueprint",
+          "Flask",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b707bf44",
+        "hit": 0,
+        "n_tok": 3364,
+        "pred": "get_cookie_httponly",
+        "gold": [
+          "SecureCookieSessionInterface"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6f79cb8a",
+        "hit": 0,
+        "n_tok": 3390,
+        "pred": "app.session_interface",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b1a00ebc",
+        "hit": 1,
+        "n_tok": 3311,
+        "pred": "after_this_request",
+        "gold": [
+          "after_this_request",
+          "copy_current_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "282d8621",
+        "hit": 1,
+        "n_tok": 3365,
+        "pred": "SessionInterface",
+        "gold": [
+          "SessionInterface"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "e679a85b",
+        "hit": 1,
+        "n_tok": 3559,
+        "pred": "locate_app",
+        "gold": [
+          "locate_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b2b60450",
+        "hit": 0,
+        "n_tok": 3331,
+        "pred": "test_client",
+        "gold": [
+          "test_scriptinfo"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "166a2a62",
+        "hit": 0,
+        "n_tok": 3272,
+        "pred": "preprocess_request",
+        "gold": [
+          "Flask",
+          "test_nested_blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "22933a8c",
+        "hit": 0,
+        "n_tok": 3487,
+        "pred": "test_client",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aa1d34dc",
+        "hit": 0,
+        "n_tok": 3455,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2305b056",
+        "hit": 0,
+        "n_tok": 3336,
+        "pred": "list_commands",
+        "gold": [
+          "test_click_7_deprecated",
+          "test_scriptinfo"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aa6dd09c",
+        "hit": 0,
+        "n_tok": 3302,
+        "pred": "make_context",
+        "gold": [
+          "DispatchingApp",
+          "test_click_7_deprecated"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a44c7228",
+        "hit": 0,
+        "n_tok": 3307,
+        "pred": "record",
+        "gold": [
+          "Blueprint",
+          "test_blueprint_renaming"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6a4e7e94",
+        "hit": 0,
+        "n_tok": 3486,
+        "pred": "errorhandler",
+        "gold": [
+          "Blueprint",
+          "Flask",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5205cd4e",
+        "hit": 0,
+        "n_tok": 2984,
+        "pred": "app_context",
+        "gold": [
+          "AsyncMethodView",
+          "_async_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "491ea328",
+        "hit": 0,
+        "n_tok": 3388,
+        "pred": "_find_error_handler",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a9602361",
+        "hit": 0,
+        "n_tok": 3376,
+        "pred": "before_request",
+        "gold": [
+          "Blueprint",
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3257b757",
+        "hit": 0,
+        "n_tok": 3284,
+        "pred": "Blueprint",
+        "gold": [
+          "BlueprintSetupState",
+          "test_self_registration"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "714b0a46",
+        "hit": 0,
+        "n_tok": 3271,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint",
+          "test_unique_blueprint_names"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c2920e2b",
+        "hit": 0,
+        "n_tok": 3308,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint",
+          "test_nesting_url_prefixes"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "141fde1d",
+        "hit": 0,
+        "n_tok": 3335,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint",
+          "BlueprintSetupState",
+          "Flask",
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "99afbb27",
+        "hit": 0,
+        "n_tok": 3291,
+        "pred": "add_url_rule",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint",
+          "test_nested_blueprint_url_prefix",
+          "test_nested_blueprint_url_prefix_only_parent_prefix"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bf982718",
+        "hit": 0,
+        "n_tok": 3090,
+        "pred": "add_url_rule",
+        "gold": [
+          "Blueprint",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6fbdeb80",
+        "hit": 0,
+        "n_tok": 3295,
+        "pred": "add_url_rule",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint_url_prefix"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "e93704fb",
+        "hit": 1,
+        "n_tok": 3309,
+        "pred": "Blueprint",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "25884c43",
+        "hit": 0,
+        "n_tok": 3648,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Flask",
+          "NullSession",
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2889da67",
+        "hit": 0,
+        "n_tok": 3427,
+        "pred": "ensure_sync",
+        "gold": [
+          "Flask",
+          "is_ip",
+          "test_async_runtime_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5c6a0f0c",
+        "hit": 0,
+        "n_tok": 3490,
+        "pred": "update_wrapper",
+        "gold": [
+          "Flask",
+          "_async_app",
+          "run_async"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c6c6408c",
+        "hit": 1,
+        "n_tok": 3557,
+        "pred": "run_async",
+        "gold": [
+          "_async_app",
+          "run_async",
+          "test_async_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "ef52e3e4",
+        "hit": 0,
+        "n_tok": 3271,
+        "pred": "remove_ctx",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "25ab05e6",
+        "hit": 0,
+        "n_tok": 3357,
+        "pred": "handle_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "64206c13",
+        "hit": 0,
+        "n_tok": 3207,
+        "pred": "InternalServerError",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "eb42655c",
+        "hit": 0,
+        "n_tok": 3141,
+        "pred": "handle_user_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2fab8a31",
+        "hit": 0,
+        "n_tok": 3175,
+        "pred": "handle_url_build_error",
+        "gold": [
+          "dump",
+          "dumps",
+          "load"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aff21fd8",
+        "hit": 0,
+        "n_tok": 3431,
+        "pred": "load",
+        "gold": [
+          "loads"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5bfe236f",
+        "hit": 0,
+        "n_tok": 3086,
+        "pred": "ScriptInfo",
+        "gold": [
+          "shell_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1f1b65a6",
+        "hit": 0,
+        "n_tok": 3073,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "7ba35c4d",
+        "hit": 0,
+        "n_tok": 3524,
+        "pred": "static_url_path",
+        "gold": [
+          "_PackageBoundObject",
+          "test_static_url_empty_path_default"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "846ee2c6",
+        "hit": 0,
+        "n_tok": 3355,
+        "pred": "register_error_handler",
+        "gold": [
+          "Flask",
+          "test_error_handler_no_match"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5da342e4",
+        "hit": 0,
+        "n_tok": 3099,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "_AppCtxGlobals",
+          "test_routing_redirect_debugging"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "63b40254",
+        "hit": 0,
+        "n_tok": 3307,
+        "pred": "_check_setup_finished",
+        "gold": [
+          "test_explicit_instance_paths"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c367a86c",
+        "hit": 0,
+        "n_tok": 3466,
+        "pred": "test_send_from_directory_bad_request",
+        "gold": [
+          "TestSendfile"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "336204f0",
+        "hit": 0,
+        "n_tok": 3580,
+        "pred": "ProxyError",
+        "gold": [
+          "AsyncHTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "89599a95",
+        "hit": 1,
+        "n_tok": 3582,
+        "pred": "create_ssl_context",
+        "gold": [
+          "create_ssl_context"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a33c8785",
+        "hit": 1,
+        "n_tok": 2728,
+        "pred": "Request",
+        "gold": [
+          "Request",
+          "Response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ce7e14da",
+        "hit": 0,
+        "n_tok": 3452,
+        "pred": "__str__",
+        "gold": [
+          "create_ssl_context"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "49d74a2e",
+        "hit": 0,
+        "n_tok": 3372,
+        "pred": "Headers",
+        "gold": [
+          "normalize_header_value",
+          "test_header_does_not_exist"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "7c0cda15",
+        "hit": 0,
+        "n_tok": 3569,
+        "pred": "InvalidURL",
+        "gold": [
+          "test_url_non_printing_character_in_component",
+          "test_url_non_printing_character_in_url",
+          "urlparse"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "88a81c5d",
+        "hit": 0,
+        "n_tok": 3550,
+        "pred": "create_ssl_context",
+        "gold": [
+          "AsyncHTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "6d852d31",
+        "hit": 1,
+        "n_tok": 3293,
+        "pred": "Client.send",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client",
+          "test_pool_timeout"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "99cba6ac",
+        "hit": 0,
+        "n_tok": 3459,
+        "pred": "_build_auth_header",
+        "gold": [
+          "DigestAuth",
+          "test_digest_auth_setting_cookie_in_request"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "3b9060ee",
+        "hit": 1,
+        "n_tok": 3228,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "get_environment_proxies",
+          "test_get_ssl_cert_file"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1e110964",
+        "hit": 0,
+        "n_tok": 3370,
+        "pred": "iter_text",
+        "gold": [
+          "LineDecoder",
+          "Response",
+          "TextChunker",
+          "test_text_decoder_empty_cases"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b471f01d",
+        "hit": 0,
+        "n_tok": 3728,
+        "pred": "URL",
+        "gold": [
+          "test_url_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "f653b2f0",
+        "hit": 0,
+        "n_tok": 3407,
+        "pred": "BrotliDecoder",
+        "gold": [
+          "test_brotli",
+          "test_decoding_errors",
+          "test_multi_with_identity"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "e63b6594",
+        "hit": 0,
+        "n_tok": 3773,
+        "pred": "encode_host",
+        "gold": [
+          "test_urlparse_normalized_host"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "59df8190",
+        "hit": 1,
+        "n_tok": 3373,
+        "pred": "Response",
+        "gold": [
+          "Response",
+          "test_response_force_encoding"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "88e84314",
+        "hit": 1,
+        "n_tok": 3368,
+        "pred": "DigestAuth",
+        "gold": [
+          "DigestAuth",
+          "test_digest_auth_with_401",
+          "test_digest_auth_with_401_nonce_counting"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b40c04df",
+        "hit": 0,
+        "n_tok": 2936,
+        "pred": "flush",
+        "gold": [
+          "test_ssl_config_support_for_keylog_file",
+          "test_timeout_repr"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "18d7721c",
+        "hit": 0,
+        "n_tok": 3623,
+        "pred": "raise_for_status",
+        "gold": [
+          "Response",
+          "test_raise_for_status"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "301b8fb0",
+        "hit": 1,
+        "n_tok": 3648,
+        "pred": "URLPattern",
+        "gold": [
+          "URLPattern"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "73359503",
+        "hit": 1,
+        "n_tok": 3187,
+        "pred": "HTTPTransport",
+        "gold": [
+          "AsyncHTTPTransport",
+          "HTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a682f6f1",
+        "hit": 1,
+        "n_tok": 3211,
+        "pred": "ASGITransport",
+        "gold": [
+          "ASGITransport",
+          "test_asgi_disconnect_after_response_complete"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee432c0d",
+        "hit": 1,
+        "n_tok": 3685,
+        "pred": "urlparse",
+        "gold": [
+          "test_copy_with",
+          "urlparse"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "32e25497",
+        "hit": 0,
+        "n_tok": 3810,
+        "pred": "urlparse",
+        "gold": [
+          "is_ipv4_hostname",
+          "is_ipv6_hostname"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "472597fb",
+        "hit": 0,
+        "n_tok": 3742,
+        "pred": "MultipartStream",
+        "gold": [
+          "FileField"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9ae170a9",
+        "hit": 1,
+        "n_tok": 3982,
+        "pred": "quote",
+        "gold": [
+          "percent_encode",
+          "quote",
+          "test_urlparse_leading_dot_prefix_on_relative_url"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15d09a3b",
+        "hit": 1,
+        "n_tok": 3632,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "URLPattern",
+          "get_environment_proxies",
+          "test_get_ssl_cert_file"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c1cc6b24",
+        "hit": 1,
+        "n_tok": 3660,
+        "pred": "NetRCAuth",
+        "gold": [
+          "NetRCAuth"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "f0fd9192",
+        "hit": 1,
+        "n_tok": 3198,
+        "pred": "MockTransport",
+        "gold": [
+          "ConsumeBodyTransport",
+          "MockTransport",
+          "test_async_mock_transport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a6af45ed",
+        "hit": 0,
+        "n_tok": 3128,
+        "pred": "urlencode",
+        "gold": [
+          "QueryParams",
+          "quote",
+          "test_url_with_empty_query"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "57daabf6",
+        "hit": 0,
+        "n_tok": 4180,
+        "pred": "urlparse",
+        "gold": [
+          "URL",
+          "test_asgi_raw_path",
+          "test_ipv6_url_from_raw_url",
+          "test_url_copywith_security"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "bddd774c",
+        "hit": 0,
+        "n_tok": 3235,
+        "pred": "parse_url",
+        "gold": [
+          "primitive_value_to_str",
+          "test_empty_query_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "4cbf13ec",
+        "hit": 0,
+        "n_tok": 3418,
+        "pred": "QueryParams",
+        "gold": [
+          "primitive_value_to_str",
+          "test_empty_query_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a8dd079b",
+        "hit": 0,
+        "n_tok": 3155,
+        "pred": "encode_response",
+        "gold": [
+          "encode_content",
+          "test_invalid_argument"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1ff67ea4",
+        "hit": 0,
+        "n_tok": 3375,
+        "pred": "start_response",
+        "gold": [
+          "WSGITransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "75a13a15",
+        "hit": 0,
+        "n_tok": 3499,
+        "pred": "ResponseNotRead",
+        "gold": [
+          "MockTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1ba3e2ad",
+        "hit": 0,
+        "n_tok": 3293,
+        "pred": "Response",
+        "gold": [
+          "BaseClient"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d5900cd4",
+        "hit": 1,
+        "n_tok": 3879,
+        "pred": "QueryParams",
+        "gold": [
+          "QueryParams",
+          "test_queryparam_types"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "550fff93",
+        "hit": 1,
+        "n_tok": 3215,
+        "pred": "RequestError",
+        "gold": [
+          "HTTPError",
+          "RequestError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c82885ac",
+        "hit": 0,
+        "n_tok": 3667,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "print_help"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "2814fd37",
+        "hit": 0,
+        "n_tok": 3545,
+        "pred": "validate_json",
+        "gold": [
+          "download_response",
+          "print_response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "321d4aa5",
+        "hit": 1,
+        "n_tok": 3160,
+        "pred": "Headers.update",
+        "gold": [
+          "Headers",
+          "echo_headers",
+          "test_header_update"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b7dc0c3d",
+        "hit": 0,
+        "n_tok": 3148,
+        "pred": "BoundSyncStream",
+        "gold": [
+          "AsyncIteratorByteStream",
+          "IteratorByteStream",
+          "test_post_byte_iterator"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "efc841a9",
+        "hit": 0,
+        "n_tok": 3581,
+        "pred": "_merge_url",
+        "gold": [
+          "BaseClient"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "4882e980",
+        "hit": 1,
+        "n_tok": 3522,
+        "pred": "Response",
+        "gold": [
+          "Response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee9250d6",
+        "hit": 0,
+        "n_tok": 3767,
+        "pred": "main",
+        "gold": [
+          "app",
+          "hello_world"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "0b4a8325",
+        "hit": 1,
+        "n_tok": 3284,
+        "pred": "WSGITransport",
+        "gold": [
+          "WSGITransport",
+          "raise_exc",
+          "test_wsgi_generator_empty"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "0d3fcc74",
+        "hit": 1,
+        "n_tok": 2974,
+        "pred": "WSGIByteStream",
+        "gold": [
+          "WSGIByteStream",
+          "application_factory"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "10b60d47",
+        "hit": 0,
+        "n_tok": 3399,
+        "pred": "iter_bytes",
+        "gold": [
+          "Response",
+          "test_iter_bytes_with_chunk_size"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "31765358",
+        "hit": 1,
+        "n_tok": 3565,
+        "pred": "RemoteProtocolError",
+        "gold": [
+          "RemoteProtocolError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee24e671",
+        "hit": 0,
+        "n_tok": 3628,
+        "pred": "TextDecoder",
+        "gold": [
+          "test_json_without_specified_encoding_decode_error",
+          "test_json_without_specified_encoding_value_error"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b1690131",
+        "hit": 1,
+        "n_tok": 2828,
+        "pred": "WSGITransport",
+        "gold": [
+          "WSGITransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b43af721",
+        "hit": 0,
+        "n_tok": 3660,
+        "pred": "create_ssl_context",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "SSLConfig",
+          "test_multipart_encode"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "69409bb8",
+        "hit": 0,
+        "n_tok": 3392,
+        "pred": "peek_filelike_length",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "52dd95fb",
+        "hit": 1,
+        "n_tok": 2838,
+        "pred": "AsyncHTTPTransport",
+        "gold": [
+          "AsyncHTTPTransport",
+          "test_all_mounted_transport",
+          "test_async_mock_transport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c75ddc26",
+        "hit": 0,
+        "n_tok": 3467,
+        "pred": "encode_multipart_data",
+        "gold": [
+          "DataField",
+          "FileField",
+          "test_multipart_encode"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "6cb16724",
+        "hit": 0,
+        "n_tok": 3560,
+        "pred": "_merge_url",
+        "gold": [
+          "BaseClient",
+          "URL",
+          "test_merge_relative_url_with_dotted_path",
+          "test_url_join"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9542a178",
+        "hit": 0,
+        "n_tok": 3635,
+        "pred": "validate_path",
+        "gold": [
+          "codes"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "86964054",
+        "hit": 1,
+        "n_tok": 3937,
+        "pred": "QueryParams",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "QueryParams",
+          "request"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "589c6e0f",
+        "hit": 1,
+        "n_tok": 3523,
+        "pred": "DataField",
+        "gold": [
+          "BaseClient",
+          "DataField",
+          "URL",
+          "test_multipart_invalid_key"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "2f54548d",
+        "hit": 1,
+        "n_tok": 3747,
+        "pred": "https_server",
+        "gold": [
+          "https_server"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "7fda99fc",
+        "hit": 0,
+        "n_tok": 3840,
+        "pred": "ParseResult",
+        "gold": [
+          "URL",
+          "test_url_with_url_encoded_path"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "666cbbdf",
+        "hit": 1,
+        "n_tok": 2757,
+        "pred": "Response",
+        "gold": [
+          "Response",
+          "test_response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "320bfe1d",
+        "hit": 0,
+        "n_tok": 3277,
+        "pred": "create_ssl_context",
+        "gold": [
+          "test_basic_auth_with_stream"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "befa57c6",
+        "hit": 0,
+        "n_tok": 2756,
+        "pred": "BoundSyncStream",
+        "gold": [
+          "AsyncClient",
+          "Client"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d25f2bfe",
+        "hit": 0,
+        "n_tok": 3403,
+        "pred": "send",
+        "gold": [
+          "BaseClient",
+          "StreamContextManager",
+          "test_basic_auth"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "e53f9959",
+        "hit": 1,
+        "n_tok": 3214,
+        "pred": "ASGITransport",
+        "gold": [
+          "ASGITransport",
+          "hello_world",
+          "test_asgi"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "54f7708e",
+        "hit": 0,
+        "n_tok": 3424,
+        "pred": "_send_handling_redirects",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client",
+          "test_client_timeout"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15187e7c",
+        "hit": 0,
+        "n_tok": 3053,
+        "pred": "_merge_cookies",
+        "gold": [
+          "test_multiple_set_cookie"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "42c66863",
+        "hit": 1,
+        "n_tok": 3137,
+        "pred": "URL",
+        "gold": [
+          "URL",
+          "test_url_invalid"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "642aabda",
+        "hit": 1,
+        "n_tok": 3706,
+        "pred": "HTTPError",
+        "gold": [
+          "HTTPError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15c1e42c",
+        "hit": 1,
+        "n_tok": 3422,
+        "pred": "BrotliDecoder",
+        "gold": [
+          "BrotliDecoder"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "19515e8a",
+        "hit": 1,
+        "n_tok": 3391,
+        "pred": "Request.prepare",
+        "gold": [
+          "Headers",
+          "Request",
+          "test_host_with_non_default_port_in_url"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a226c608",
+        "hit": 0,
+        "n_tok": 3610,
+        "pred": "__init__",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "head"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "8d9dfb54",
+        "hit": 1,
+        "n_tok": 3687,
+        "pred": "Client",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "test_get"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1da46f3d",
+        "hit": 1,
+        "n_tok": 3626,
+        "pred": "URL.join",
+        "gold": [
+          "BaseClient",
+          "URL"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d7aa6e01",
+        "hit": 0,
+        "n_tok": 3437,
+        "pred": "raise_for_status",
+        "gold": [
+          "HTTPStatusError",
+          "InvalidURL",
+          "RequestError",
+          "ResponseClosed"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9728d896",
+        "hit": 0,
+        "n_tok": 3129,
+        "pred": "netrc_info",
+        "gold": [
+          "NetRCInfo"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "20f4911e",
+        "hit": 1,
+        "n_tok": 3348,
+        "pred": "LineDecoder",
+        "gold": [
+          "LineDecoder",
+          "test_line_decoder_cr"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ad5e6eb8",
+        "hit": 1,
+        "n_tok": 3173,
+        "pred": "LineDecoder",
+        "gold": [
+          "LineDecoder",
+          "test_line_decoder_cr",
+          "test_line_decoder_crnl",
+          "test_line_decoder_nl"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "27b0dbc2",
+        "hit": 0,
+        "n_tok": 2932,
+        "pred": "raise_for_status",
+        "gold": [
+          "DecodingError",
+          "Response",
+          "test_raise_for_status"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fc518e41",
+        "hit": 0,
+        "n_tok": 3248,
+        "pred": "pause",
+        "gold": [
+          "Command",
+          "_check_nested_chain"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "f58ca3e8",
+        "hit": 1,
+        "n_tok": 3242,
+        "pred": "Sentinel",
+        "gold": [
+          "Sentinel",
+          "test_unset_sentinel"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3495fba1",
+        "hit": 0,
+        "n_tok": 3263,
+        "pred": "get_help_option_names",
+        "gold": [
+          "Command",
+          "test_basic_functionality",
+          "test_flag_group_competition_duplicate_option_name"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "07c909f2",
+        "hit": 1,
+        "n_tok": 3099,
+        "pred": "style",
+        "gold": [
+          "_interpret_color",
+          "style",
+          "test_styling"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bec59289",
+        "hit": 1,
+        "n_tok": 3565,
+        "pred": "version_option",
+        "gold": [
+          "test_help_invalid_default",
+          "version_option"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "762c97ee",
+        "hit": 0,
+        "n_tok": 3389,
+        "pred": "get_invalid_choice_message",
+        "gold": [
+          "Argument",
+          "test_choice_argument_none"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bff780ff",
+        "hit": 0,
+        "n_tok": 3367,
+        "pred": "FishComplete",
+        "gold": [
+          "get_pager_file"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "9f9ae453",
+        "hit": 0,
+        "n_tok": 3632,
+        "pred": "format_filename",
+        "gold": [
+          "test_file_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7eb57cff",
+        "hit": 0,
+        "n_tok": 3604,
+        "pred": "progressbar",
+        "gold": [
+          "_test_gen_func_fails",
+          "test_echo_via_pager",
+          "test_sys_streams_restored_after_exception"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "9a2d169f",
+        "hit": 1,
+        "n_tok": 3599,
+        "pred": "_NumberParamTypeBase",
+        "gold": [
+          "CompositeParamType",
+          "StringParamType",
+          "_NumberParamTypeBase"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "82f377c5",
+        "hit": 0,
+        "n_tok": 3400,
+        "pred": "_format_deprecated_label",
+        "gold": [
+          "Command",
+          "Option",
+          "test_deprecated_in_help_messages",
+          "test_deprecated_usage"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ddf20d06",
+        "hit": 0,
+        "n_tok": 3522,
+        "pred": "version_option",
+        "gold": [
+          "FishComplete",
+          "test_files_closed"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b7e5fd4c",
+        "hit": 1,
+        "n_tok": 3523,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c3535905",
+        "hit": 1,
+        "n_tok": 3523,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7d05a59b",
+        "hit": 0,
+        "n_tok": 3427,
+        "pred": "consume_value",
+        "gold": [
+          "Parameter",
+          "test_bool_flag_group_competition_with_default_map",
+          "test_default_map_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c6bf75fa",
+        "hit": 0,
+        "n_tok": 3629,
+        "pred": "launch",
+        "gold": [
+          "open_url"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "32ae2acd",
+        "hit": 0,
+        "n_tok": 3382,
+        "pred": "shell_complete",
+        "gold": [
+          "Choice",
+          "test_context_settings"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "0551bf53",
+        "hit": 1,
+        "n_tok": 3421,
+        "pred": "HelpFormatter.write_usage",
+        "gold": [
+          "HelpFormatter",
+          "test_write_usage_styled_prefix_keeps_options_on_one_line"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "2fdde683",
+        "hit": 0,
+        "n_tok": 3652,
+        "pred": "_detect_program_name",
+        "gold": [
+          "FishComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "0f71fe77",
+        "hit": 0,
+        "n_tok": 3360,
+        "pred": "consume_value",
+        "gold": [
+          "Context",
+          "Parameter",
+          "test_bool_flag_pair_default"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "a09c1c65",
+        "hit": 1,
+        "n_tok": 3492,
+        "pred": "prompt",
+        "gold": [
+          "prompt",
+          "test_flag_value_prompt"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fc6c7c47",
+        "hit": 1,
+        "n_tok": 3459,
+        "pred": "FuncParamType",
+        "gold": [
+          "FuncParamType",
+          "test_range_fail"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "19fd4d6e",
+        "hit": 1,
+        "n_tok": 3518,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c5cced7b",
+        "hit": 1,
+        "n_tok": 3663,
+        "pred": "open_url",
+        "gold": [
+          "open_url"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3a3e0350",
+        "hit": 0,
+        "n_tok": 3540,
+        "pred": "lookup_default",
+        "gold": [
+          "Parameter",
+          "test_default_map_with_callable_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1241abae",
+        "hit": 0,
+        "n_tok": 3427,
+        "pred": "NoArgsIsHelpError",
+        "gold": [
+          "UsageError",
+          "test_formatting_usage_custom_help"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "790ebd66",
+        "hit": 1,
+        "n_tok": 3389,
+        "pred": "make_default_short_help",
+        "gold": [
+          "make_default_short_help"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8762c775",
+        "hit": 1,
+        "n_tok": 3667,
+        "pred": "CliRunner",
+        "gold": [
+          "CliRunner",
+          "_NamedTextIOWrapper",
+          "test_pdb_init_restored_after_invoke"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c653ec82",
+        "hit": 0,
+        "n_tok": 3533,
+        "pred": "consume_value",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value",
+          "test_type_from_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4f9086bf",
+        "hit": 0,
+        "n_tok": 3412,
+        "pred": "_cli_runner_patched_pdb_init",
+        "gold": [
+          "CliRunner",
+          "test_isolation_flushes_unflushed_stderr"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "6de21215",
+        "hit": 0,
+        "n_tok": 3391,
+        "pred": "lookup_default",
+        "gold": [
+          "Context",
+          "Parameter",
+          "test_default_map_with_callable_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b1bc8c9c",
+        "hit": 0,
+        "n_tok": 3512,
+        "pred": "isolated_filesystem",
+        "gold": [
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d340b0c1",
+        "hit": 0,
+        "n_tok": 3630,
+        "pred": "_FixupStream",
+        "gold": [
+          "Option",
+          "test_show_default_string",
+          "test_show_default_with_empty_string"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "955ca492",
+        "hit": 0,
+        "n_tok": 3504,
+        "pred": "_pick_type",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value",
+          "test_flag_value_optional_behavior",
+          "test_flag_value_with_type_conversion"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "91de59c6",
+        "hit": 0,
+        "n_tok": 3536,
+        "pred": "process_value",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "437e1e32",
+        "hit": 1,
+        "n_tok": 3315,
+        "pred": "Parameter",
+        "gold": [
+          "Parameter",
+          "test_make_pass_meta_decorator_doc"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bd131e1a",
+        "hit": 1,
+        "n_tok": 3586,
+        "pred": "test_edit",
+        "gold": [
+          "test_edit"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "34723d12",
+        "hit": 0,
+        "n_tok": 3661,
+        "pred": "_resolve_pager_command",
+        "gold": [
+          "_pipepager",
+          "_tempfilepager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1c20dc6e",
+        "hit": 0,
+        "n_tok": 3393,
+        "pred": "get_default",
+        "gold": [
+          "Command",
+          "Parameter",
+          "test_flag_default_map"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d36de6fc",
+        "hit": 0,
+        "n_tok": 3283,
+        "pred": "Option",
+        "gold": [
+          "ColorInt",
+          "HashType",
+          "Letter",
+          "test_usage_show_choices"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c442c05c",
+        "hit": 0,
+        "n_tok": 3573,
+        "pred": "format_completion",
+        "gold": [
+          "Parameter"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "701b3131",
+        "hit": 0,
+        "n_tok": 3469,
+        "pred": "format_completion",
+        "gold": [
+          "FishComplete",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b9e4052e",
+        "hit": 0,
+        "n_tok": 3293,
+        "pred": "AliasedGroup",
+        "gold": [
+          "_pipepager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "812b8000",
+        "hit": 0,
+        "n_tok": 3697,
+        "pred": "_build_prompt",
+        "gold": [
+          "confirm",
+          "prompt",
+          "test_echo_writing_to_standard_error"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "cc3942a4",
+        "hit": 0,
+        "n_tok": 3468,
+        "pred": "Parameter",
+        "gold": [
+          "test_duplicate_names_warning",
+          "test_nargs_tup_composite"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "a1235aac",
+        "hit": 1,
+        "n_tok": 3631,
+        "pred": "ZshComplete",
+        "gold": [
+          "ZshComplete",
+          "test_full_complete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e37cad2a",
+        "hit": 1,
+        "n_tok": 3530,
+        "pred": "StreamMixer",
+        "gold": [
+          "StreamMixer"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3155dcac",
+        "hit": 1,
+        "n_tok": 3617,
+        "pred": "BadParameter",
+        "gold": [
+          "BadParameter",
+          "MissingParameter"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1b0e19f5",
+        "hit": 0,
+        "n_tok": 3205,
+        "pred": "get_error_hint",
+        "gold": [
+          "Option",
+          "test_missing_envvar"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "93c6966e",
+        "hit": 1,
+        "n_tok": 3757,
+        "pred": "CliRunner",
+        "gold": [
+          "CliRunner",
+          "_NamedTextIOWrapper",
+          "test_pipeline"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7559bb8f",
+        "hit": 0,
+        "n_tok": 3503,
+        "pred": "open_stream",
+        "gold": [
+          "test_file_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ac6a2acf",
+        "hit": 1,
+        "n_tok": 3513,
+        "pred": "_resolve_context",
+        "gold": [
+          "_resolve_context",
+          "test_group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4fd2fea0",
+        "hit": 0,
+        "n_tok": 3470,
+        "pred": "_pick_type",
+        "gold": [
+          "Option",
+          "test_invalid_flag_combinations",
+          "test_type_from_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "2fa500c1",
+        "hit": 0,
+        "n_tok": 3626,
+        "pred": "format_filename",
+        "gold": [
+          "test_filename_formatting"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bd7afd45",
+        "hit": 0,
+        "n_tok": 3293,
+        "pred": "AliasedGroup",
+        "gold": [
+          "Command"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "43988874",
+        "hit": 0,
+        "n_tok": 3513,
+        "pred": "format_completion",
+        "gold": [
+          "test_cat_with_path_specified"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ffd43e9d",
+        "hit": 0,
+        "n_tok": 3788,
+        "pred": "should_strip_ansi",
+        "gold": [
+          "CliRunner"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "70c673d3",
+        "hit": 0,
+        "n_tok": 3271,
+        "pred": "get_help_option",
+        "gold": [
+          "Command",
+          "iter_params_for_processing",
+          "test_group_add_command_name"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fde47b4b",
+        "hit": 0,
+        "n_tok": 3533,
+        "pred": "format_completion",
+        "gold": [
+          "ProgressBar",
+          "_FixupStream"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3b06e0b7",
+        "hit": 0,
+        "n_tok": 3417,
+        "pred": "echo_via_pager",
+        "gold": [
+          "_pipepager",
+          "_test_gen_func",
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4271fe28",
+        "hit": 0,
+        "n_tok": 3392,
+        "pred": "convert",
+        "gold": [
+          "Choice",
+          "test_invalid_path_with_esc_sequence"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c326df95",
+        "hit": 0,
+        "n_tok": 3410,
+        "pred": "exit",
+        "gold": [
+          "Context",
+          "test_close_before_pop"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1b524bb3",
+        "hit": 0,
+        "n_tok": 3344,
+        "pred": "get_error_hint",
+        "gold": [
+          "Option",
+          "test_missing_choice"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1a4d8c1b",
+        "hit": 0,
+        "n_tok": 3365,
+        "pred": "get_metavar",
+        "gold": [
+          "Choice",
+          "test_invalid_flag_combinations"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8fa833e3",
+        "hit": 0,
+        "n_tok": 3467,
+        "pred": "UsageError",
+        "gold": [
+          "Argument",
+          "Option"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8c842a43",
+        "hit": 0,
+        "n_tok": 3509,
+        "pred": "UsageError",
+        "gold": [
+          "ClickException",
+          "test_with_color"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "afc86c74",
+        "hit": 0,
+        "n_tok": 3469,
+        "pred": "click.style",
+        "gold": [
+          "echo",
+          "test_echo_color_flag",
+          "test_echo_custom_file",
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "61f8101f",
+        "hit": 0,
+        "n_tok": 3360,
+        "pred": "format_completion",
+        "gold": [
+          "Option",
+          "test_show_default_string"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3f91d215",
+        "hit": 0,
+        "n_tok": 3143,
+        "pred": "UsageError",
+        "gold": [
+          "Path",
+          "test_file_error_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "14968375",
+        "hit": 0,
+        "n_tok": 3444,
+        "pred": "format_completion",
+        "gold": [
+          "command",
+          "test_other_command_invoke_with_defaults",
+          "test_params_argument"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d9db70ca",
+        "hit": 0,
+        "n_tok": 3013,
+        "pred": "_check_version",
+        "gold": [
+          "BashComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "af2da1ef",
+        "hit": 0,
+        "n_tok": 3496,
+        "pred": "re.sub",
+        "gold": [
+          "ShellComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "20280d4f",
+        "hit": 1,
+        "n_tok": 3645,
+        "pred": "group",
+        "gold": [
+          "group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "422e2110",
+        "hit": 0,
+        "n_tok": 3114,
+        "pred": "confirm",
+        "gold": [
+          "BaseCommand",
+          "test_group_invoke_collects_used_option_prefixes"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e002dbc4",
+        "hit": 1,
+        "n_tok": 3561,
+        "pred": "add_completion_class",
+        "gold": [
+          "FishComplete",
+          "add_completion_class",
+          "test_choice_case_sensitive"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "eb1d760f",
+        "hit": 0,
+        "n_tok": 3292,
+        "pred": "make_context",
+        "gold": [
+          "BaseCommand"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "73d7de5f",
+        "hit": 0,
+        "n_tok": 3200,
+        "pred": "FishComplete",
+        "gold": [
+          "Path"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "92cebe90",
+        "hit": 0,
+        "n_tok": 3508,
+        "pred": "convert",
+        "gold": [
+          "Path"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e234cf95",
+        "hit": 0,
+        "n_tok": 3836,
+        "pred": "make_pass_decorator",
+        "gold": [
+          "Group",
+          "command",
+          "group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e0033315",
+        "hit": 0,
+        "n_tok": 3719,
+        "pred": "to_info_dict",
+        "gold": [
+          "ParamType",
+          "test_context"
+        ]
+      }
+    ],
+    "RAG3": [
+      {
+        "repo": "flask",
+        "sha": "7203feab",
+        "hit": 0,
+        "n_tok": 1325,
+        "pred": "run_simple",
+        "gold": [
+          "Flask",
+          "test_run_server_port"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "de8429ff",
+        "hit": 0,
+        "n_tok": 1279,
+        "pred": "save_session",
+        "gold": [
+          "FlaskClient",
+          "test_session_transactions"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3d03098a",
+        "hit": 0,
+        "n_tok": 1355,
+        "pred": "auto_find_instance_path",
+        "gold": [
+          "create_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c77a5203",
+        "hit": 0,
+        "n_tok": 1067,
+        "pred": "full_dispatch_request",
+        "gold": [
+          "App",
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "fb541598",
+        "hit": 0,
+        "n_tok": 1490,
+        "pred": "get_signing_serializer",
+        "gold": [
+          "SecureCookieSessionInterface",
+          "test_session_secret_key_fallbacks"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "54c3f87a",
+        "hit": 1,
+        "n_tok": 1060,
+        "pred": "FlaskCliRunner",
+        "gold": [
+          "FlaskCliRunner"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4995a775",
+        "hit": 0,
+        "n_tok": 1277,
+        "pred": "url_map.bind_to_environ",
+        "gold": [
+          "Flask",
+          "test_child_and_parent_subdomain",
+          "test_nesting_subdomains",
+          "test_request_locals"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a363642a",
+        "hit": 0,
+        "n_tok": 1228,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1af8f957",
+        "hit": 0,
+        "n_tok": 1294,
+        "pred": "super().__init__",
+        "gold": [
+          "SeparatedPathType",
+          "test_cli_empty"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "ecc057dd",
+        "hit": 0,
+        "n_tok": 1331,
+        "pred": "create_global_jinja_loader",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "8fdab74c",
+        "hit": 0,
+        "n_tok": 891,
+        "pred": "register_blueprint",
+        "gold": [
+          "stream_with_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1d5abfad",
+        "hit": 0,
+        "n_tok": 1252,
+        "pred": "from_envvar",
+        "gold": [
+          "_validate_key"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4104f299",
+        "hit": 1,
+        "n_tok": 1300,
+        "pred": "send_file",
+        "gold": [
+          "send_file"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "826514b8",
+        "hit": 0,
+        "n_tok": 1036,
+        "pred": "DebugFilesKeyError",
+        "gold": [
+          "test_session_special_types",
+          "test_teardown_request_handler_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c49ce2e1",
+        "hit": 0,
+        "n_tok": 1036,
+        "pred": "DebugFilesKeyError",
+        "gold": [
+          "test_session_special_types",
+          "test_teardown_request_handler_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bda295d3",
+        "hit": 1,
+        "n_tok": 1336,
+        "pred": "_find_package_path",
+        "gold": [
+          "_endpoint_from_view_func",
+          "_find_package_path",
+          "get_root_path"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0ec9192c",
+        "hit": 0,
+        "n_tok": 1069,
+        "pred": "locate_app",
+        "gold": [
+          "__getattr__"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "fc03d0df",
+        "hit": 0,
+        "n_tok": 1241,
+        "pred": "record",
+        "gold": [
+          "Blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a15da89d",
+        "hit": 0,
+        "n_tok": 891,
+        "pred": "register_blueprint",
+        "gold": [
+          "test_session_dynamic_cookie_name"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "261e4a6c",
+        "hit": 0,
+        "n_tok": 1357,
+        "pred": "DebugFilesKeyError",
+        "gold": [
+          "test_app_tearing_down_with_unhandled_exception",
+          "test_static_route_with_host_matching"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "cabda593",
+        "hit": 1,
+        "n_tok": 1332,
+        "pred": "Blueprint",
+        "gold": [
+          "Blueprint",
+          "test_child_overrides_parent_subdomain",
+          "test_nesting_subdomains"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "d7b6c1f6",
+        "hit": 0,
+        "n_tok": 1291,
+        "pred": "make_setup_state",
+        "gold": [
+          "Blueprint",
+          "test_nesting_url_prefixes"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bd26928f",
+        "hit": 0,
+        "n_tok": 1309,
+        "pred": "run_simple",
+        "gold": [
+          "SeparatedPathType",
+          "run_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4bc0e494",
+        "hit": 0,
+        "n_tok": 1318,
+        "pred": "debug",
+        "gold": [
+          "SeparatedPathType",
+          "run_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0d8c8ba7",
+        "hit": 0,
+        "n_tok": 1357,
+        "pred": "test_request_context",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "746455d1",
+        "hit": 0,
+        "n_tok": 1389,
+        "pred": "from_mapping",
+        "gold": [
+          "Config"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a6a7a573",
+        "hit": 0,
+        "n_tok": 1417,
+        "pred": "load_dotenv",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "095651be",
+        "hit": 1,
+        "n_tok": 1309,
+        "pred": "has_request_context",
+        "gold": [
+          "has_app_context",
+          "has_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "58f3536a",
+        "hit": 1,
+        "n_tok": 1291,
+        "pred": "render_template",
+        "gold": [
+          "render_template",
+          "render_template_string"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3351a867",
+        "hit": 0,
+        "n_tok": 1261,
+        "pred": "errorhandler",
+        "gold": [
+          "Blueprint",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "39f93632",
+        "hit": 1,
+        "n_tok": 1395,
+        "pred": "url_for",
+        "gold": [
+          "Flask",
+          "TestUrlFor",
+          "make_response",
+          "url_for"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1e5dd430",
+        "hit": 0,
+        "n_tok": 1252,
+        "pred": "register_error_handler",
+        "gold": [
+          "Scaffold",
+          "test_error_handler_no_match",
+          "test_error_handling"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "eede1a36",
+        "hit": 0,
+        "n_tok": 1430,
+        "pred": "loads",
+        "gold": [
+          "dump"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4eb5e945",
+        "hit": 0,
+        "n_tok": 1268,
+        "pred": "from_prefixed_env",
+        "gold": [
+          "Config",
+          "test_config_from_custom_prefixed_env",
+          "test_config_from_file",
+          "test_config_from_prefixed_env"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "08a283af",
+        "hit": 0,
+        "n_tok": 1331,
+        "pred": "from_prefixed_env",
+        "gold": [
+          "Config",
+          "test_config_from_file"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6578b493",
+        "hit": 0,
+        "n_tok": 1318,
+        "pred": "on_json_loading_failed",
+        "gold": [
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0a300d00",
+        "hit": 0,
+        "n_tok": 1192,
+        "pred": "DebugFilesKeyError",
+        "gold": [
+          "Request",
+          "attach_enctype_error_multidict"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c9a1f7ad",
+        "hit": 1,
+        "n_tok": 1327,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Flask",
+          "FormDataRoutingRedirect",
+          "test_before_first_request_functions_concurrent",
+          "test_routing_redirect_debugging"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "88863288",
+        "hit": 0,
+        "n_tok": 1262,
+        "pred": "errorhandler",
+        "gold": [
+          "Blueprint",
+          "Flask",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b707bf44",
+        "hit": 0,
+        "n_tok": 1243,
+        "pred": "response.delete_cookie",
+        "gold": [
+          "SecureCookieSessionInterface"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6f79cb8a",
+        "hit": 0,
+        "n_tok": 1328,
+        "pred": "app.session_interface",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b1a00ebc",
+        "hit": 1,
+        "n_tok": 1330,
+        "pred": "copy_current_request_context",
+        "gold": [
+          "after_this_request",
+          "copy_current_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "282d8621",
+        "hit": 0,
+        "n_tok": 1382,
+        "pred": "get_expiration_time",
+        "gold": [
+          "SessionInterface"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "e679a85b",
+        "hit": 1,
+        "n_tok": 1419,
+        "pred": "locate_app",
+        "gold": [
+          "locate_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b2b60450",
+        "hit": 0,
+        "n_tok": 1227,
+        "pred": "from_prefixed_env",
+        "gold": [
+          "test_scriptinfo"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "166a2a62",
+        "hit": 0,
+        "n_tok": 1286,
+        "pred": "preprocess_request",
+        "gold": [
+          "Flask",
+          "test_nested_blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "22933a8c",
+        "hit": 0,
+        "n_tok": 1286,
+        "pred": "test_client",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aa1d34dc",
+        "hit": 0,
+        "n_tok": 1259,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2305b056",
+        "hit": 0,
+        "n_tok": 1268,
+        "pred": "list_commands",
+        "gold": [
+          "test_click_7_deprecated",
+          "test_scriptinfo"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aa6dd09c",
+        "hit": 0,
+        "n_tok": 1298,
+        "pred": "list_commands",
+        "gold": [
+          "DispatchingApp",
+          "test_click_7_deprecated"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a44c7228",
+        "hit": 0,
+        "n_tok": 1321,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint",
+          "test_blueprint_renaming"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6a4e7e94",
+        "hit": 0,
+        "n_tok": 1265,
+        "pred": "errorhandler",
+        "gold": [
+          "Blueprint",
+          "Flask",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5205cd4e",
+        "hit": 0,
+        "n_tok": 891,
+        "pred": "register_blueprint",
+        "gold": [
+          "AsyncMethodView",
+          "_async_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "491ea328",
+        "hit": 0,
+        "n_tok": 1265,
+        "pred": "_find_error_handler",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a9602361",
+        "hit": 0,
+        "n_tok": 1279,
+        "pred": "before_request",
+        "gold": [
+          "Blueprint",
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3257b757",
+        "hit": 0,
+        "n_tok": 1251,
+        "pred": "Blueprint",
+        "gold": [
+          "BlueprintSetupState",
+          "test_self_registration"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "714b0a46",
+        "hit": 0,
+        "n_tok": 1248,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint",
+          "test_unique_blueprint_names"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c2920e2b",
+        "hit": 0,
+        "n_tok": 1278,
+        "pred": "register",
+        "gold": [
+          "Blueprint",
+          "test_nesting_url_prefixes"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "141fde1d",
+        "hit": 0,
+        "n_tok": 1326,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint",
+          "BlueprintSetupState",
+          "Flask",
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "99afbb27",
+        "hit": 1,
+        "n_tok": 1263,
+        "pred": "Blueprint",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint",
+          "test_nested_blueprint_url_prefix",
+          "test_nested_blueprint_url_prefix_only_parent_prefix"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bf982718",
+        "hit": 0,
+        "n_tok": 1019,
+        "pred": "FlaskGroup",
+        "gold": [
+          "Blueprint",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6fbdeb80",
+        "hit": 0,
+        "n_tok": 1302,
+        "pred": "add_url_rule",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint_url_prefix"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "e93704fb",
+        "hit": 1,
+        "n_tok": 1281,
+        "pred": "Blueprint",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "25884c43",
+        "hit": 0,
+        "n_tok": 1401,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "Flask",
+          "NullSession",
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2889da67",
+        "hit": 0,
+        "n_tok": 1360,
+        "pred": "ensure_sync",
+        "gold": [
+          "Flask",
+          "is_ip",
+          "test_async_runtime_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5c6a0f0c",
+        "hit": 0,
+        "n_tok": 1438,
+        "pred": "async_to_sync",
+        "gold": [
+          "Flask",
+          "_async_app",
+          "run_async"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c6c6408c",
+        "hit": 1,
+        "n_tok": 1460,
+        "pred": "run_async",
+        "gold": [
+          "_async_app",
+          "run_async",
+          "test_async_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "ef52e3e4",
+        "hit": 0,
+        "n_tok": 1282,
+        "pred": "remove_ctx",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "25ab05e6",
+        "hit": 0,
+        "n_tok": 1214,
+        "pred": "handle_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "64206c13",
+        "hit": 0,
+        "n_tok": 1177,
+        "pred": "handle_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "eb42655c",
+        "hit": 0,
+        "n_tok": 1322,
+        "pred": "handle_user_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2fab8a31",
+        "hit": 0,
+        "n_tok": 1228,
+        "pred": "handle_url_build_error",
+        "gold": [
+          "dump",
+          "dumps",
+          "load"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aff21fd8",
+        "hit": 1,
+        "n_tok": 1314,
+        "pred": "loads",
+        "gold": [
+          "loads"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5bfe236f",
+        "hit": 0,
+        "n_tok": 1350,
+        "pred": "ScriptInfo",
+        "gold": [
+          "shell_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1f1b65a6",
+        "hit": 0,
+        "n_tok": 964,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "7ba35c4d",
+        "hit": 0,
+        "n_tok": 1413,
+        "pred": "static_url_path",
+        "gold": [
+          "_PackageBoundObject",
+          "test_static_url_empty_path_default"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "846ee2c6",
+        "hit": 0,
+        "n_tok": 1222,
+        "pred": "_errorhandler",
+        "gold": [
+          "Flask",
+          "test_error_handler_no_match"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5da342e4",
+        "hit": 0,
+        "n_tok": 1355,
+        "pred": "FormDataRoutingRedirect",
+        "gold": [
+          "_AppCtxGlobals",
+          "test_routing_redirect_debugging"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "63b40254",
+        "hit": 0,
+        "n_tok": 1303,
+        "pred": "_check_setup_finished",
+        "gold": [
+          "test_explicit_instance_paths"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c367a86c",
+        "hit": 0,
+        "n_tok": 1308,
+        "pred": "test_client",
+        "gold": [
+          "TestSendfile"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "336204f0",
+        "hit": 0,
+        "n_tok": 1275,
+        "pred": "ProxyError",
+        "gold": [
+          "AsyncHTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "89599a95",
+        "hit": 1,
+        "n_tok": 1319,
+        "pred": "create_ssl_context",
+        "gold": [
+          "create_ssl_context"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a33c8785",
+        "hit": 0,
+        "n_tok": 1303,
+        "pred": "Client",
+        "gold": [
+          "Request",
+          "Response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ce7e14da",
+        "hit": 0,
+        "n_tok": 1392,
+        "pred": "__str__",
+        "gold": [
+          "create_ssl_context"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "49d74a2e",
+        "hit": 0,
+        "n_tok": 1274,
+        "pred": "ResponseNotRead",
+        "gold": [
+          "normalize_header_value",
+          "test_header_does_not_exist"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "7c0cda15",
+        "hit": 0,
+        "n_tok": 1303,
+        "pred": "InvalidURL",
+        "gold": [
+          "test_url_non_printing_character_in_component",
+          "test_url_non_printing_character_in_url",
+          "urlparse"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "88a81c5d",
+        "hit": 0,
+        "n_tok": 1376,
+        "pred": "create_ssl_context",
+        "gold": [
+          "AsyncHTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "6d852d31",
+        "hit": 1,
+        "n_tok": 1212,
+        "pred": "Client.send",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client",
+          "test_pool_timeout"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "99cba6ac",
+        "hit": 0,
+        "n_tok": 1425,
+        "pred": "_build_auth_header",
+        "gold": [
+          "DigestAuth",
+          "test_digest_auth_setting_cookie_in_request"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "3b9060ee",
+        "hit": 1,
+        "n_tok": 1430,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "get_environment_proxies",
+          "test_get_ssl_cert_file"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1e110964",
+        "hit": 0,
+        "n_tok": 1348,
+        "pred": "iter_text",
+        "gold": [
+          "LineDecoder",
+          "Response",
+          "TextChunker",
+          "test_text_decoder_empty_cases"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b471f01d",
+        "hit": 0,
+        "n_tok": 1327,
+        "pred": "URL",
+        "gold": [
+          "test_url_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "f653b2f0",
+        "hit": 0,
+        "n_tok": 1458,
+        "pred": "BrotliDecoder",
+        "gold": [
+          "test_brotli",
+          "test_decoding_errors",
+          "test_multi_with_identity"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "e63b6594",
+        "hit": 0,
+        "n_tok": 1463,
+        "pred": "encode_host",
+        "gold": [
+          "test_urlparse_normalized_host"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "59df8190",
+        "hit": 0,
+        "n_tok": 1213,
+        "pred": "encoding.setter",
+        "gold": [
+          "Response",
+          "test_response_force_encoding"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "88e84314",
+        "hit": 1,
+        "n_tok": 1362,
+        "pred": "DigestAuth",
+        "gold": [
+          "DigestAuth",
+          "test_digest_auth_with_401",
+          "test_digest_auth_with_401_nonce_counting"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b40c04df",
+        "hit": 0,
+        "n_tok": 1167,
+        "pred": "flush",
+        "gold": [
+          "test_ssl_config_support_for_keylog_file",
+          "test_timeout_repr"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "18d7721c",
+        "hit": 0,
+        "n_tok": 1308,
+        "pred": "raise_for_status",
+        "gold": [
+          "Response",
+          "test_raise_for_status"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "301b8fb0",
+        "hit": 1,
+        "n_tok": 1325,
+        "pred": "URLPattern",
+        "gold": [
+          "URLPattern"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "73359503",
+        "hit": 1,
+        "n_tok": 1347,
+        "pred": "HTTPTransport",
+        "gold": [
+          "AsyncHTTPTransport",
+          "HTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a682f6f1",
+        "hit": 1,
+        "n_tok": 1075,
+        "pred": "ASGITransport",
+        "gold": [
+          "ASGITransport",
+          "test_asgi_disconnect_after_response_complete"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee432c0d",
+        "hit": 1,
+        "n_tok": 1441,
+        "pred": "urlparse",
+        "gold": [
+          "test_copy_with",
+          "urlparse"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "32e25497",
+        "hit": 0,
+        "n_tok": 1366,
+        "pred": "urlparse",
+        "gold": [
+          "is_ipv4_hostname",
+          "is_ipv6_hostname"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "472597fb",
+        "hit": 0,
+        "n_tok": 1555,
+        "pred": "MultipartEncoder",
+        "gold": [
+          "FileField"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9ae170a9",
+        "hit": 1,
+        "n_tok": 1753,
+        "pred": "quote",
+        "gold": [
+          "percent_encode",
+          "quote",
+          "test_urlparse_leading_dot_prefix_on_relative_url"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15d09a3b",
+        "hit": 1,
+        "n_tok": 1487,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "URLPattern",
+          "get_environment_proxies",
+          "test_get_ssl_cert_file"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c1cc6b24",
+        "hit": 1,
+        "n_tok": 1396,
+        "pred": "NetRCAuth",
+        "gold": [
+          "NetRCAuth"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "f0fd9192",
+        "hit": 1,
+        "n_tok": 1300,
+        "pred": "MockTransport",
+        "gold": [
+          "ConsumeBodyTransport",
+          "MockTransport",
+          "test_async_mock_transport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a6af45ed",
+        "hit": 0,
+        "n_tok": 1068,
+        "pred": "urlencode",
+        "gold": [
+          "QueryParams",
+          "quote",
+          "test_url_with_empty_query"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "57daabf6",
+        "hit": 0,
+        "n_tok": 1781,
+        "pred": "urlparse",
+        "gold": [
+          "URL",
+          "test_asgi_raw_path",
+          "test_ipv6_url_from_raw_url",
+          "test_url_copywith_security"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "bddd774c",
+        "hit": 0,
+        "n_tok": 1326,
+        "pred": "urlparse",
+        "gold": [
+          "primitive_value_to_str",
+          "test_empty_query_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "4cbf13ec",
+        "hit": 0,
+        "n_tok": 1335,
+        "pred": "_merge_queryparams",
+        "gold": [
+          "primitive_value_to_str",
+          "test_empty_query_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a8dd079b",
+        "hit": 0,
+        "n_tok": 1341,
+        "pred": "__init__",
+        "gold": [
+          "encode_content",
+          "test_invalid_argument"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1ff67ea4",
+        "hit": 0,
+        "n_tok": 1245,
+        "pred": "start_response",
+        "gold": [
+          "WSGITransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "75a13a15",
+        "hit": 0,
+        "n_tok": 1334,
+        "pred": "ResponseNotRead",
+        "gold": [
+          "MockTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1ba3e2ad",
+        "hit": 0,
+        "n_tok": 1375,
+        "pred": "Response",
+        "gold": [
+          "BaseClient"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d5900cd4",
+        "hit": 1,
+        "n_tok": 1417,
+        "pred": "QueryParams",
+        "gold": [
+          "QueryParams",
+          "test_queryparam_types"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "550fff93",
+        "hit": 1,
+        "n_tok": 1122,
+        "pred": "RequestError",
+        "gold": [
+          "HTTPError",
+          "RequestError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c82885ac",
+        "hit": 0,
+        "n_tok": 1425,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "print_help"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "2814fd37",
+        "hit": 0,
+        "n_tok": 1281,
+        "pred": "validate_json",
+        "gold": [
+          "download_response",
+          "print_response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "321d4aa5",
+        "hit": 1,
+        "n_tok": 1013,
+        "pred": "Headers.update",
+        "gold": [
+          "Headers",
+          "echo_headers",
+          "test_header_update"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b7dc0c3d",
+        "hit": 0,
+        "n_tok": 1370,
+        "pred": "BoundSyncStream",
+        "gold": [
+          "AsyncIteratorByteStream",
+          "IteratorByteStream",
+          "test_post_byte_iterator"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "efc841a9",
+        "hit": 0,
+        "n_tok": 1289,
+        "pred": "_merge_url",
+        "gold": [
+          "BaseClient"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "4882e980",
+        "hit": 0,
+        "n_tok": 1439,
+        "pred": "URL",
+        "gold": [
+          "Response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee9250d6",
+        "hit": 0,
+        "n_tok": 1569,
+        "pred": "main",
+        "gold": [
+          "app",
+          "hello_world"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "0b4a8325",
+        "hit": 1,
+        "n_tok": 1458,
+        "pred": "WSGITransport",
+        "gold": [
+          "WSGITransport",
+          "raise_exc",
+          "test_wsgi_generator_empty"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "0d3fcc74",
+        "hit": 1,
+        "n_tok": 1387,
+        "pred": "WSGIByteStream",
+        "gold": [
+          "WSGIByteStream",
+          "application_factory"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "10b60d47",
+        "hit": 0,
+        "n_tok": 1325,
+        "pred": "encode_response",
+        "gold": [
+          "Response",
+          "test_iter_bytes_with_chunk_size"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "31765358",
+        "hit": 1,
+        "n_tok": 1348,
+        "pred": "RemoteProtocolError",
+        "gold": [
+          "RemoteProtocolError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee24e671",
+        "hit": 0,
+        "n_tok": 1362,
+        "pred": "TextDecoder",
+        "gold": [
+          "test_json_without_specified_encoding_decode_error",
+          "test_json_without_specified_encoding_value_error"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b1690131",
+        "hit": 1,
+        "n_tok": 1039,
+        "pred": "WSGITransport",
+        "gold": [
+          "WSGITransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b43af721",
+        "hit": 0,
+        "n_tok": 1541,
+        "pred": "create_ssl_context",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "SSLConfig",
+          "test_multipart_encode"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "69409bb8",
+        "hit": 0,
+        "n_tok": 1387,
+        "pred": "peek_filelike_length",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "52dd95fb",
+        "hit": 1,
+        "n_tok": 1047,
+        "pred": "AsyncHTTPTransport",
+        "gold": [
+          "AsyncHTTPTransport",
+          "test_all_mounted_transport",
+          "test_async_mock_transport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c75ddc26",
+        "hit": 0,
+        "n_tok": 1323,
+        "pred": "encode_multipart_data",
+        "gold": [
+          "DataField",
+          "FileField",
+          "test_multipart_encode"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "6cb16724",
+        "hit": 0,
+        "n_tok": 1315,
+        "pred": "_merge_url",
+        "gold": [
+          "BaseClient",
+          "URL",
+          "test_merge_relative_url_with_dotted_path",
+          "test_url_join"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9542a178",
+        "hit": 0,
+        "n_tok": 1632,
+        "pred": "validate_path",
+        "gold": [
+          "codes"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "86964054",
+        "hit": 1,
+        "n_tok": 1585,
+        "pred": "QueryParams",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "QueryParams",
+          "request"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "589c6e0f",
+        "hit": 1,
+        "n_tok": 1335,
+        "pred": "DataField",
+        "gold": [
+          "BaseClient",
+          "DataField",
+          "URL",
+          "test_multipart_invalid_key"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "2f54548d",
+        "hit": 1,
+        "n_tok": 1554,
+        "pred": "https_server",
+        "gold": [
+          "https_server"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "7fda99fc",
+        "hit": 0,
+        "n_tok": 1499,
+        "pred": "ParseResult",
+        "gold": [
+          "URL",
+          "test_url_with_url_encoded_path"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "666cbbdf",
+        "hit": 1,
+        "n_tok": 998,
+        "pred": "Response",
+        "gold": [
+          "Response",
+          "test_response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "320bfe1d",
+        "hit": 0,
+        "n_tok": 1450,
+        "pred": "create_ssl_context",
+        "gold": [
+          "test_basic_auth_with_stream"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "befa57c6",
+        "hit": 0,
+        "n_tok": 846,
+        "pred": "Response",
+        "gold": [
+          "AsyncClient",
+          "Client"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d25f2bfe",
+        "hit": 0,
+        "n_tok": 1295,
+        "pred": "send",
+        "gold": [
+          "BaseClient",
+          "StreamContextManager",
+          "test_basic_auth"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "e53f9959",
+        "hit": 1,
+        "n_tok": 1091,
+        "pred": "ASGITransport",
+        "gold": [
+          "ASGITransport",
+          "hello_world",
+          "test_asgi"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "54f7708e",
+        "hit": 1,
+        "n_tok": 1464,
+        "pred": "Client",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client",
+          "test_client_timeout"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15187e7c",
+        "hit": 0,
+        "n_tok": 1269,
+        "pred": "_merge_cookies",
+        "gold": [
+          "test_multiple_set_cookie"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "42c66863",
+        "hit": 1,
+        "n_tok": 1322,
+        "pred": "URL",
+        "gold": [
+          "URL",
+          "test_url_invalid"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "642aabda",
+        "hit": 1,
+        "n_tok": 1345,
+        "pred": "HTTPError",
+        "gold": [
+          "HTTPError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15c1e42c",
+        "hit": 1,
+        "n_tok": 1453,
+        "pred": "BrotliDecoder",
+        "gold": [
+          "BrotliDecoder"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "19515e8a",
+        "hit": 1,
+        "n_tok": 1264,
+        "pred": "Request.prepare",
+        "gold": [
+          "Headers",
+          "Request",
+          "test_host_with_non_default_port_in_url"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a226c608",
+        "hit": 0,
+        "n_tok": 1415,
+        "pred": "__init__",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "head"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "8d9dfb54",
+        "hit": 1,
+        "n_tok": 1367,
+        "pred": "Client",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "test_get"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1da46f3d",
+        "hit": 0,
+        "n_tok": 1373,
+        "pred": "join",
+        "gold": [
+          "BaseClient",
+          "URL"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d7aa6e01",
+        "hit": 0,
+        "n_tok": 1344,
+        "pred": "HTTPError",
+        "gold": [
+          "HTTPStatusError",
+          "InvalidURL",
+          "RequestError",
+          "ResponseClosed"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9728d896",
+        "hit": 0,
+        "n_tok": 1404,
+        "pred": "netrc_info",
+        "gold": [
+          "NetRCInfo"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "20f4911e",
+        "hit": 1,
+        "n_tok": 1195,
+        "pred": "LineDecoder",
+        "gold": [
+          "LineDecoder",
+          "test_line_decoder_cr"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ad5e6eb8",
+        "hit": 1,
+        "n_tok": 1114,
+        "pred": "LineDecoder",
+        "gold": [
+          "LineDecoder",
+          "test_line_decoder_cr",
+          "test_line_decoder_crnl",
+          "test_line_decoder_nl"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "27b0dbc2",
+        "hit": 0,
+        "n_tok": 1377,
+        "pred": "raise_for_status",
+        "gold": [
+          "DecodingError",
+          "Response",
+          "test_raise_for_status"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fc518e41",
+        "hit": 0,
+        "n_tok": 1041,
+        "pred": "main",
+        "gold": [
+          "Command",
+          "_check_nested_chain"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "f58ca3e8",
+        "hit": 1,
+        "n_tok": 1263,
+        "pred": "Sentinel",
+        "gold": [
+          "Sentinel",
+          "test_unset_sentinel"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3495fba1",
+        "hit": 0,
+        "n_tok": 1244,
+        "pred": "get_help_option",
+        "gold": [
+          "Command",
+          "test_basic_functionality",
+          "test_flag_group_competition_duplicate_option_name"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "07c909f2",
+        "hit": 1,
+        "n_tok": 1314,
+        "pred": "style",
+        "gold": [
+          "_interpret_color",
+          "style",
+          "test_styling"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bec59289",
+        "hit": 1,
+        "n_tok": 1338,
+        "pred": "version_option",
+        "gold": [
+          "test_help_invalid_default",
+          "version_option"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "762c97ee",
+        "hit": 0,
+        "n_tok": 1324,
+        "pred": "get_invalid_choice_message",
+        "gold": [
+          "Argument",
+          "test_choice_argument_none"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bff780ff",
+        "hit": 0,
+        "n_tok": 1285,
+        "pred": "format_completion",
+        "gold": [
+          "get_pager_file"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "9f9ae453",
+        "hit": 0,
+        "n_tok": 1398,
+        "pred": "Like",
+        "gold": [
+          "test_file_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7eb57cff",
+        "hit": 0,
+        "n_tok": 1364,
+        "pred": "_PagerWriter",
+        "gold": [
+          "_test_gen_func_fails",
+          "test_echo_via_pager",
+          "test_sys_streams_restored_after_exception"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "9a2d169f",
+        "hit": 1,
+        "n_tok": 1406,
+        "pred": "_NumberParamTypeBase",
+        "gold": [
+          "CompositeParamType",
+          "StringParamType",
+          "_NumberParamTypeBase"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "82f377c5",
+        "hit": 0,
+        "n_tok": 1379,
+        "pred": "_format_deprecated_label",
+        "gold": [
+          "Command",
+          "Option",
+          "test_deprecated_in_help_messages",
+          "test_deprecated_usage"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ddf20d06",
+        "hit": 0,
+        "n_tok": 1429,
+        "pred": "version_option",
+        "gold": [
+          "FishComplete",
+          "test_files_closed"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b7e5fd4c",
+        "hit": 1,
+        "n_tok": 1437,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c3535905",
+        "hit": 1,
+        "n_tok": 1437,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7d05a59b",
+        "hit": 0,
+        "n_tok": 1342,
+        "pred": "handle_parse_result",
+        "gold": [
+          "Parameter",
+          "test_bool_flag_group_competition_with_default_map",
+          "test_default_map_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c6bf75fa",
+        "hit": 0,
+        "n_tok": 1372,
+        "pred": "launch",
+        "gold": [
+          "open_url"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "32ae2acd",
+        "hit": 0,
+        "n_tok": 1347,
+        "pred": "shell_complete",
+        "gold": [
+          "Choice",
+          "test_context_settings"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "0551bf53",
+        "hit": 1,
+        "n_tok": 1302,
+        "pred": "HelpFormatter.write_usage",
+        "gold": [
+          "HelpFormatter",
+          "test_write_usage_styled_prefix_keeps_options_on_one_line"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "2fdde683",
+        "hit": 0,
+        "n_tok": 1437,
+        "pred": "_detect_program_name",
+        "gold": [
+          "FishComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "0f71fe77",
+        "hit": 0,
+        "n_tok": 1290,
+        "pred": "handle_parse_result",
+        "gold": [
+          "Context",
+          "Parameter",
+          "test_bool_flag_pair_default"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "a09c1c65",
+        "hit": 1,
+        "n_tok": 1383,
+        "pred": "prompt",
+        "gold": [
+          "prompt",
+          "test_flag_value_prompt"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fc6c7c47",
+        "hit": 1,
+        "n_tok": 1316,
+        "pred": "FuncParamType",
+        "gold": [
+          "FuncParamType",
+          "test_range_fail"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "19fd4d6e",
+        "hit": 1,
+        "n_tok": 1382,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c5cced7b",
+        "hit": 1,
+        "n_tok": 1342,
+        "pred": "open_url",
+        "gold": [
+          "open_url"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3a3e0350",
+        "hit": 0,
+        "n_tok": 1330,
+        "pred": "type_cast_value",
+        "gold": [
+          "Parameter",
+          "test_default_map_with_callable_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1241abae",
+        "hit": 1,
+        "n_tok": 1422,
+        "pred": "UsageError",
+        "gold": [
+          "UsageError",
+          "test_formatting_usage_custom_help"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "790ebd66",
+        "hit": 1,
+        "n_tok": 1290,
+        "pred": "make_default_short_help",
+        "gold": [
+          "make_default_short_help"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8762c775",
+        "hit": 0,
+        "n_tok": 1456,
+        "pred": "_CliRunner",
+        "gold": [
+          "CliRunner",
+          "_NamedTextIOWrapper",
+          "test_pdb_init_restored_after_invoke"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c653ec82",
+        "hit": 0,
+        "n_tok": 1421,
+        "pred": "get_default",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value",
+          "test_type_from_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4f9086bf",
+        "hit": 0,
+        "n_tok": 1409,
+        "pred": "_cli_runner_patching_pdb",
+        "gold": [
+          "CliRunner",
+          "test_isolation_flushes_unflushed_stderr"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "6de21215",
+        "hit": 0,
+        "n_tok": 1403,
+        "pred": "lookup_default",
+        "gold": [
+          "Context",
+          "Parameter",
+          "test_default_map_with_callable_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b1bc8c9c",
+        "hit": 0,
+        "n_tok": 1209,
+        "pred": "isolated_filesystem",
+        "gold": [
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d340b0c1",
+        "hit": 0,
+        "n_tok": 1484,
+        "pred": "_FixupStream",
+        "gold": [
+          "Option",
+          "test_show_default_string",
+          "test_show_default_with_empty_string"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "955ca492",
+        "hit": 0,
+        "n_tok": 1346,
+        "pred": "consume_value",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value",
+          "test_flag_value_optional_behavior",
+          "test_flag_value_with_type_conversion"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "91de59c6",
+        "hit": 0,
+        "n_tok": 1381,
+        "pred": "process_value",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "437e1e32",
+        "hit": 1,
+        "n_tok": 1247,
+        "pred": "Parameter",
+        "gold": [
+          "Parameter",
+          "test_make_pass_meta_decorator_doc"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bd131e1a",
+        "hit": 1,
+        "n_tok": 1419,
+        "pred": "test_edit",
+        "gold": [
+          "test_edit"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "34723d12",
+        "hit": 0,
+        "n_tok": 1428,
+        "pred": "_resolve_pager_command",
+        "gold": [
+          "_pipepager",
+          "_tempfilepager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1c20dc6e",
+        "hit": 0,
+        "n_tok": 1404,
+        "pred": "get_default",
+        "gold": [
+          "Command",
+          "Parameter",
+          "test_flag_default_map"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d36de6fc",
+        "hit": 0,
+        "n_tok": 1308,
+        "pred": "Enum",
+        "gold": [
+          "ColorInt",
+          "HashType",
+          "Letter",
+          "test_usage_show_choices"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c442c05c",
+        "hit": 0,
+        "n_tok": 1457,
+        "pred": "format_completion",
+        "gold": [
+          "Parameter"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "701b3131",
+        "hit": 1,
+        "n_tok": 1425,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b9e4052e",
+        "hit": 0,
+        "n_tok": 1326,
+        "pred": "AliasedGroup",
+        "gold": [
+          "_pipepager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "812b8000",
+        "hit": 1,
+        "n_tok": 1523,
+        "pred": "confirm",
+        "gold": [
+          "confirm",
+          "prompt",
+          "test_echo_writing_to_standard_error"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "cc3942a4",
+        "hit": 0,
+        "n_tok": 1352,
+        "pred": "Parameter",
+        "gold": [
+          "test_duplicate_names_warning",
+          "test_nargs_tup_composite"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "a1235aac",
+        "hit": 1,
+        "n_tok": 1465,
+        "pred": "ZshComplete",
+        "gold": [
+          "ZshComplete",
+          "test_full_complete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e37cad2a",
+        "hit": 1,
+        "n_tok": 1316,
+        "pred": "StreamMixer",
+        "gold": [
+          "StreamMixer"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3155dcac",
+        "hit": 1,
+        "n_tok": 1399,
+        "pred": "BadParameter",
+        "gold": [
+          "BadParameter",
+          "MissingParameter"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1b0e19f5",
+        "hit": 0,
+        "n_tok": 1294,
+        "pred": "get_help_extra",
+        "gold": [
+          "Option",
+          "test_missing_envvar"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "93c6966e",
+        "hit": 1,
+        "n_tok": 1550,
+        "pred": "CliRunner",
+        "gold": [
+          "CliRunner",
+          "_NamedTextIOWrapper",
+          "test_pipeline"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7559bb8f",
+        "hit": 1,
+        "n_tok": 1487,
+        "pred": "test_file_surrogates",
+        "gold": [
+          "test_file_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ac6a2acf",
+        "hit": 1,
+        "n_tok": 1386,
+        "pred": "_resolve_context",
+        "gold": [
+          "_resolve_context",
+          "test_group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4fd2fea0",
+        "hit": 0,
+        "n_tok": 1316,
+        "pred": "_pick_type",
+        "gold": [
+          "Option",
+          "test_invalid_flag_combinations",
+          "test_type_from_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "2fa500c1",
+        "hit": 0,
+        "n_tok": 1379,
+        "pred": "Like",
+        "gold": [
+          "test_filename_formatting"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bd7afd45",
+        "hit": 0,
+        "n_tok": 1326,
+        "pred": "AliasedGroup",
+        "gold": [
+          "Command"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "43988874",
+        "hit": 0,
+        "n_tok": 1285,
+        "pred": "format_completion",
+        "gold": [
+          "test_cat_with_path_specified"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ffd43e9d",
+        "hit": 0,
+        "n_tok": 1454,
+        "pred": "should_strip_ansi",
+        "gold": [
+          "CliRunner"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "70c673d3",
+        "hit": 0,
+        "n_tok": 1306,
+        "pred": "get_help_option",
+        "gold": [
+          "Command",
+          "iter_params_for_processing",
+          "test_group_add_command_name"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fde47b4b",
+        "hit": 0,
+        "n_tok": 1422,
+        "pred": "format_completion",
+        "gold": [
+          "ProgressBar",
+          "_FixupStream"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3b06e0b7",
+        "hit": 0,
+        "n_tok": 1416,
+        "pred": "echo_via_pager",
+        "gold": [
+          "_pipepager",
+          "_test_gen_func",
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4271fe28",
+        "hit": 0,
+        "n_tok": 1342,
+        "pred": "convert",
+        "gold": [
+          "Choice",
+          "test_invalid_path_with_esc_sequence"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c326df95",
+        "hit": 0,
+        "n_tok": 1333,
+        "pred": "exit",
+        "gold": [
+          "Context",
+          "test_close_before_pop"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1b524bb3",
+        "hit": 0,
+        "n_tok": 1301,
+        "pred": "get_error_hint",
+        "gold": [
+          "Option",
+          "test_missing_choice"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1a4d8c1b",
+        "hit": 0,
+        "n_tok": 1307,
+        "pred": "get_metavar",
+        "gold": [
+          "Choice",
+          "test_invalid_flag_combinations"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8fa833e3",
+        "hit": 0,
+        "n_tok": 1323,
+        "pred": "UsageError",
+        "gold": [
+          "Argument",
+          "Option"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8c842a43",
+        "hit": 0,
+        "n_tok": 1437,
+        "pred": "UsageError",
+        "gold": [
+          "ClickException",
+          "test_with_color"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "afc86c74",
+        "hit": 1,
+        "n_tok": 1187,
+        "pred": "click.echo",
+        "gold": [
+          "echo",
+          "test_echo_color_flag",
+          "test_echo_custom_file",
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "61f8101f",
+        "hit": 0,
+        "n_tok": 1295,
+        "pred": "format_completion",
+        "gold": [
+          "Option",
+          "test_show_default_string"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3f91d215",
+        "hit": 0,
+        "n_tok": 1322,
+        "pred": "UsageError",
+        "gold": [
+          "Path",
+          "test_file_error_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "14968375",
+        "hit": 0,
+        "n_tok": 1373,
+        "pred": "format_completion",
+        "gold": [
+          "command",
+          "test_other_command_invoke_with_defaults",
+          "test_params_argument"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d9db70ca",
+        "hit": 0,
+        "n_tok": 1208,
+        "pred": "_check_version",
+        "gold": [
+          "BashComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "af2da1ef",
+        "hit": 0,
+        "n_tok": 1339,
+        "pred": "get_default",
+        "gold": [
+          "ShellComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "20280d4f",
+        "hit": 1,
+        "n_tok": 1422,
+        "pred": "group",
+        "gold": [
+          "group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "422e2110",
+        "hit": 0,
+        "n_tok": 1282,
+        "pred": "confirm",
+        "gold": [
+          "BaseCommand",
+          "test_group_invoke_collects_used_option_prefixes"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e002dbc4",
+        "hit": 1,
+        "n_tok": 1472,
+        "pred": "add_completion_class",
+        "gold": [
+          "FishComplete",
+          "add_completion_class",
+          "test_choice_case_sensitive"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "eb1d760f",
+        "hit": 0,
+        "n_tok": 1336,
+        "pred": "make_context",
+        "gold": [
+          "BaseCommand"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "73d7de5f",
+        "hit": 0,
+        "n_tok": 1409,
+        "pred": "FishComplete",
+        "gold": [
+          "Path"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "92cebe90",
+        "hit": 0,
+        "n_tok": 1327,
+        "pred": "convert",
+        "gold": [
+          "Path"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e234cf95",
+        "hit": 0,
+        "n_tok": 1501,
+        "pred": "make_pass_decorator",
+        "gold": [
+          "Group",
+          "command",
+          "group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e0033315",
+        "hit": 0,
+        "n_tok": 1418,
+        "pred": "to_info_dict",
+        "gold": [
+          "ParamType",
+          "test_context"
+        ]
+      }
+    ],
+    "FAST3": [
+      {
+        "repo": "flask",
+        "sha": "7203feab",
+        "hit": 0,
+        "n_tok": 417,
+        "pred": "show_server_banner",
+        "gold": [
+          "Flask",
+          "test_run_server_port"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "de8429ff",
+        "hit": 0,
+        "n_tok": 1206,
+        "pred": "session_transaction",
+        "gold": [
+          "FlaskClient",
+          "test_session_transactions"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3d03098a",
+        "hit": 0,
+        "n_tok": 1638,
+        "pred": "__init__",
+        "gold": [
+          "create_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c77a5203",
+        "hit": 0,
+        "n_tok": 714,
+        "pred": "full_dispatch_request",
+        "gold": [
+          "App",
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "fb541598",
+        "hit": 0,
+        "n_tok": 720,
+        "pred": "get_signing_serializer",
+        "gold": [
+          "SecureCookieSessionInterface",
+          "test_session_secret_key_fallbacks"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "54c3f87a",
+        "hit": 0,
+        "n_tok": 443,
+        "pred": "invoke",
+        "gold": [
+          "FlaskCliRunner"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4995a775",
+        "hit": 0,
+        "n_tok": 1200,
+        "pred": "create_url_adapter",
+        "gold": [
+          "Flask",
+          "test_child_and_parent_subdomain",
+          "test_nesting_subdomains",
+          "test_request_locals"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a363642a",
+        "hit": 0,
+        "n_tok": 1269,
+        "pred": "handle_url_build_error",
+        "gold": [
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1af8f957",
+        "hit": 0,
+        "n_tok": 743,
+        "pred": "convert",
+        "gold": [
+          "SeparatedPathType",
+          "test_cli_empty"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "ecc057dd",
+        "hit": 0,
+        "n_tok": 345,
+        "pred": "_jiter_loaders",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "8fdab74c",
+        "hit": 0,
+        "n_tok": 894,
+        "pred": "update",
+        "gold": [
+          "stream_with_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1d5abfad",
+        "hit": 0,
+        "n_tok": 1153,
+        "pred": "from_prefixed_env",
+        "gold": [
+          "_validate_key"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4104f299",
+        "hit": 0,
+        "n_tok": 592,
+        "pred": "send_static_file",
+        "gold": [
+          "send_file"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "826514b8",
+        "hit": 0,
+        "n_tok": 697,
+        "pred": "on_json_loading_failed",
+        "gold": [
+          "test_session_special_types",
+          "test_teardown_request_handler_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c49ce2e1",
+        "hit": 0,
+        "n_tok": 697,
+        "pred": "on_json_loading_failed",
+        "gold": [
+          "test_session_special_types",
+          "test_teardown_request_handler_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bda295d3",
+        "hit": 1,
+        "n_tok": 868,
+        "pred": "_find_package_path",
+        "gold": [
+          "_endpoint_from_view_func",
+          "_find_package_path",
+          "get_root_path"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0ec9192c",
+        "hit": 0,
+        "n_tok": 105,
+        "pred": "to_python",
+        "gold": [
+          "__getattr__"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "fc03d0df",
+        "hit": 0,
+        "n_tok": 672,
+        "pred": "_setupmethod",
+        "gold": [
+          "Blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a15da89d",
+        "hit": 0,
+        "n_tok": 894,
+        "pred": "update",
+        "gold": [
+          "test_session_dynamic_cookie_name"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "261e4a6c",
+        "hit": 0,
+        "n_tok": 283,
+        "pred": "raise_any",
+        "gold": [
+          "test_app_tearing_down_with_unhandled_exception",
+          "test_static_route_with_host_matching"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "cabda593",
+        "hit": 0,
+        "n_tok": 2019,
+        "pred": "url_for",
+        "gold": [
+          "Blueprint",
+          "test_child_overrides_parent_subdomain",
+          "test_nesting_subdomains"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "d7b6c1f6",
+        "hit": 0,
+        "n_tok": 1566,
+        "pred": "register",
+        "gold": [
+          "Blueprint",
+          "test_nesting_url_prefixes"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bd26928f",
+        "hit": 0,
+        "n_tok": 1388,
+        "pred": "run",
+        "gold": [
+          "SeparatedPathType",
+          "run_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4bc0e494",
+        "hit": 0,
+        "n_tok": 455,
+        "pred": "_set_debug",
+        "gold": [
+          "SeparatedPathType",
+          "run_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0d8c8ba7",
+        "hit": 0,
+        "n_tok": 1103,
+        "pred": "test_request_context",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "746455d1",
+        "hit": 0,
+        "n_tok": 2853,
+        "pred": "from_mapping",
+        "gold": [
+          "Config"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a6a7a573",
+        "hit": 0,
+        "n_tok": 1004,
+        "pred": "get_load_dotenv",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "095651be",
+        "hit": 0,
+        "n_tok": 803,
+        "pred": "AppContext",
+        "gold": [
+          "has_app_context",
+          "has_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "58f3536a",
+        "hit": 1,
+        "n_tok": 733,
+        "pred": "render_template",
+        "gold": [
+          "render_template",
+          "render_template_string"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3351a867",
+        "hit": 0,
+        "n_tok": 645,
+        "pred": "app_errorhandler",
+        "gold": [
+          "Blueprint",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "39f93632",
+        "hit": 1,
+        "n_tok": 1919,
+        "pred": "url_for",
+        "gold": [
+          "Flask",
+          "TestUrlFor",
+          "make_response",
+          "url_for"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1e5dd430",
+        "hit": 0,
+        "n_tok": 821,
+        "pred": "register_error_handler",
+        "gold": [
+          "Scaffold",
+          "test_error_handler_no_match",
+          "test_error_handling"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "eede1a36",
+        "hit": 0,
+        "n_tok": 406,
+        "pred": "loads",
+        "gold": [
+          "dump"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "4eb5e945",
+        "hit": 0,
+        "n_tok": 988,
+        "pred": "from_prefixed_env",
+        "gold": [
+          "Config",
+          "test_config_from_custom_prefixed_env",
+          "test_config_from_file",
+          "test_config_from_prefixed_env"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "08a283af",
+        "hit": 1,
+        "n_tok": 1160,
+        "pred": "Config",
+        "gold": [
+          "Config",
+          "test_config_from_file"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6578b493",
+        "hit": 0,
+        "n_tok": 561,
+        "pred": "on_json_loading_failed",
+        "gold": [
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "0a300d00",
+        "hit": 0,
+        "n_tok": 396,
+        "pred": "newcls",
+        "gold": [
+          "Request",
+          "attach_enctype_error_multidict"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c9a1f7ad",
+        "hit": 0,
+        "n_tok": 543,
+        "pred": "raise_routing_exception",
+        "gold": [
+          "Flask",
+          "FormDataRoutingRedirect",
+          "test_before_first_request_functions_concurrent",
+          "test_routing_redirect_debugging"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "88863288",
+        "hit": 0,
+        "n_tok": 646,
+        "pred": "app_errorhandler",
+        "gold": [
+          "Blueprint",
+          "Flask",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b707bf44",
+        "hit": 0,
+        "n_tok": 623,
+        "pred": "save_session",
+        "gold": [
+          "SecureCookieSessionInterface"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6f79cb8a",
+        "hit": 0,
+        "n_tok": 783,
+        "pred": "SessionInterface",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b1a00ebc",
+        "hit": 1,
+        "n_tok": 797,
+        "pred": "copy_current_request_context",
+        "gold": [
+          "after_this_request",
+          "copy_current_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "282d8621",
+        "hit": 1,
+        "n_tok": 1079,
+        "pred": "SessionInterface",
+        "gold": [
+          "SessionInterface"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "e679a85b",
+        "hit": 0,
+        "n_tok": 739,
+        "pred": "prepare_import",
+        "gold": [
+          "locate_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "b2b60450",
+        "hit": 0,
+        "n_tok": 524,
+        "pred": "_lazy_sha1",
+        "gold": [
+          "test_scriptinfo"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "166a2a62",
+        "hit": 0,
+        "n_tok": 841,
+        "pred": "preprocess_request",
+        "gold": [
+          "Flask",
+          "test_nested_blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "22933a8c",
+        "hit": 0,
+        "n_tok": 784,
+        "pred": "test_client",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aa1d34dc",
+        "hit": 0,
+        "n_tok": 729,
+        "pred": "handle_url_build_error",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2305b056",
+        "hit": 0,
+        "n_tok": 432,
+        "pred": "add_app_template_test",
+        "gold": [
+          "test_click_7_deprecated",
+          "test_scriptinfo"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aa6dd09c",
+        "hit": 0,
+        "n_tok": 807,
+        "pred": "full_dispatch_request",
+        "gold": [
+          "DispatchingApp",
+          "test_click_7_deprecated"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a44c7228",
+        "hit": 0,
+        "n_tok": 936,
+        "pred": "__init__",
+        "gold": [
+          "Blueprint",
+          "test_blueprint_renaming"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6a4e7e94",
+        "hit": 0,
+        "n_tok": 649,
+        "pred": "app_errorhandler",
+        "gold": [
+          "Blueprint",
+          "Flask",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5205cd4e",
+        "hit": 0,
+        "n_tok": 894,
+        "pred": "update",
+        "gold": [
+          "AsyncMethodView",
+          "_async_app"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "491ea328",
+        "hit": 0,
+        "n_tok": 1087,
+        "pred": "_find_error_handler",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "a9602361",
+        "hit": 0,
+        "n_tok": 792,
+        "pred": "before_request",
+        "gold": [
+          "Blueprint",
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "3257b757",
+        "hit": 0,
+        "n_tok": 1139,
+        "pred": "__init__",
+        "gold": [
+          "BlueprintSetupState",
+          "test_self_registration"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "714b0a46",
+        "hit": 0,
+        "n_tok": 1464,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint",
+          "test_unique_blueprint_names"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c2920e2b",
+        "hit": 0,
+        "n_tok": 1389,
+        "pred": "register",
+        "gold": [
+          "Blueprint",
+          "test_nesting_url_prefixes"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "141fde1d",
+        "hit": 0,
+        "n_tok": 1407,
+        "pred": "register",
+        "gold": [
+          "Blueprint",
+          "BlueprintSetupState",
+          "Flask",
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "99afbb27",
+        "hit": 0,
+        "n_tok": 1579,
+        "pred": "register",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint",
+          "test_nested_blueprint_url_prefix",
+          "test_nested_blueprint_url_prefix_only_parent_prefix"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "bf982718",
+        "hit": 0,
+        "n_tok": 1255,
+        "pred": "add_url_rule",
+        "gold": [
+          "Blueprint",
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "6fbdeb80",
+        "hit": 1,
+        "n_tok": 1249,
+        "pred": "Blueprint",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint_url_prefix"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "e93704fb",
+        "hit": 0,
+        "n_tok": 1230,
+        "pred": "__init__",
+        "gold": [
+          "Blueprint",
+          "test_nested_blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "25884c43",
+        "hit": 0,
+        "n_tok": 361,
+        "pred": "Annotations",
+        "gold": [
+          "Flask",
+          "NullSession",
+          "Request"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2889da67",
+        "hit": 0,
+        "n_tok": 865,
+        "pred": "ensure_sync",
+        "gold": [
+          "Flask",
+          "is_ip",
+          "test_async_runtime_error"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5c6a0f0c",
+        "hit": 0,
+        "n_tok": 976,
+        "pred": "ensure_sync",
+        "gold": [
+          "Flask",
+          "_async_app",
+          "run_async"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c6c6408c",
+        "hit": 1,
+        "n_tok": 771,
+        "pred": "run_async",
+        "gold": [
+          "_async_app",
+          "run_async",
+          "test_async_request_context"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "ef52e3e4",
+        "hit": 0,
+        "n_tok": 187,
+        "pred": "__exit__",
+        "gold": [
+          "Scaffold"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "25ab05e6",
+        "hit": 0,
+        "n_tok": 1224,
+        "pred": "handle_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "64206c13",
+        "hit": 0,
+        "n_tok": 686,
+        "pred": "handle_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "eb42655c",
+        "hit": 0,
+        "n_tok": 715,
+        "pred": "handle_user_exception",
+        "gold": [
+          "Flask"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "2fab8a31",
+        "hit": 0,
+        "n_tok": 679,
+        "pred": "_merge_blueprint_funcs",
+        "gold": [
+          "dump",
+          "dumps",
+          "load"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "aff21fd8",
+        "hit": 1,
+        "n_tok": 623,
+        "pred": "loads",
+        "gold": [
+          "loads"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5bfe236f",
+        "hit": 1,
+        "n_tok": 753,
+        "pred": "shell_command",
+        "gold": [
+          "shell_command"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "1f1b65a6",
+        "hit": 0,
+        "n_tok": 1769,
+        "pred": "register_blueprint",
+        "gold": [
+          "Blueprint"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "7ba35c4d",
+        "hit": 0,
+        "n_tok": 1983,
+        "pred": "static_url_path",
+        "gold": [
+          "_PackageBoundObject",
+          "test_static_url_empty_path_default"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "846ee2c6",
+        "hit": 0,
+        "n_tok": 647,
+        "pred": "register_error_handler",
+        "gold": [
+          "Flask",
+          "test_error_handler_no_match"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "5da342e4",
+        "hit": 0,
+        "n_tok": 447,
+        "pred": "__init__",
+        "gold": [
+          "_AppCtxGlobals",
+          "test_routing_redirect_debugging"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "63b40254",
+        "hit": 0,
+        "n_tok": 1509,
+        "pred": "test_client",
+        "gold": [
+          "test_explicit_instance_paths"
+        ]
+      },
+      {
+        "repo": "flask",
+        "sha": "c367a86c",
+        "hit": 0,
+        "n_tok": 1227,
+        "pred": "test_send_from_directory_bad_request",
+        "gold": [
+          "TestSendfile"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "336204f0",
+        "hit": 0,
+        "n_tok": 135,
+        "pred": "ProxyError",
+        "gold": [
+          "AsyncHTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "89599a95",
+        "hit": 1,
+        "n_tok": 1259,
+        "pred": "create_ssl_context",
+        "gold": [
+          "create_ssl_context"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a33c8785",
+        "hit": 0,
+        "n_tok": 616,
+        "pred": "__setstate__",
+        "gold": [
+          "Request",
+          "Response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ce7e14da",
+        "hit": 1,
+        "n_tok": 1796,
+        "pred": "create_ssl_context",
+        "gold": [
+          "create_ssl_context"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "49d74a2e",
+        "hit": 0,
+        "n_tok": 267,
+        "pred": "_normalize_header_value",
+        "gold": [
+          "normalize_header_value",
+          "test_header_does_not_exist"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "7c0cda15",
+        "hit": 0,
+        "n_tok": 1688,
+        "pred": "InvalidURL",
+        "gold": [
+          "test_url_non_printing_character_in_component",
+          "test_url_non_printing_character_in_url",
+          "urlparse"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "88a81c5d",
+        "hit": 0,
+        "n_tok": 632,
+        "pred": "_init_proxy_transport",
+        "gold": [
+          "AsyncHTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "6d852d31",
+        "hit": 0,
+        "n_tok": 805,
+        "pred": "send",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client",
+          "test_pool_timeout"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "99cba6ac",
+        "hit": 0,
+        "n_tok": 916,
+        "pred": "_build_auth_header",
+        "gold": [
+          "DigestAuth",
+          "test_digest_auth_setting_cookie_in_request"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "3b9060ee",
+        "hit": 1,
+        "n_tok": 1214,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "get_environment_proxies",
+          "test_get_ssl_cert_file"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1e110964",
+        "hit": 0,
+        "n_tok": 301,
+        "pred": "iter_text",
+        "gold": [
+          "LineDecoder",
+          "Response",
+          "TextChunker",
+          "test_text_decoder_empty_cases"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b471f01d",
+        "hit": 0,
+        "n_tok": 1640,
+        "pred": "password",
+        "gold": [
+          "test_url_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "f653b2f0",
+        "hit": 0,
+        "n_tok": 597,
+        "pred": "BrotliDecoder",
+        "gold": [
+          "test_brotli",
+          "test_decoding_errors",
+          "test_multi_with_identity"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "e63b6594",
+        "hit": 0,
+        "n_tok": 2396,
+        "pred": "encode_host",
+        "gold": [
+          "test_urlparse_normalized_host"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "59df8190",
+        "hit": 0,
+        "n_tok": 689,
+        "pred": "encoding",
+        "gold": [
+          "Response",
+          "test_response_force_encoding"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "88e84314",
+        "hit": 0,
+        "n_tok": 506,
+        "pred": "auth_flow",
+        "gold": [
+          "DigestAuth",
+          "test_digest_auth_with_401",
+          "test_digest_auth_with_401_nonce_counting"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b40c04df",
+        "hit": 0,
+        "n_tok": 535,
+        "pred": "ClientState",
+        "gold": [
+          "test_ssl_config_support_for_keylog_file",
+          "test_timeout_repr"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "18d7721c",
+        "hit": 0,
+        "n_tok": 1152,
+        "pred": "raise_for_status",
+        "gold": [
+          "Response",
+          "test_raise_for_status"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "301b8fb0",
+        "hit": 1,
+        "n_tok": 691,
+        "pred": "URLPattern",
+        "gold": [
+          "URLPattern"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "73359503",
+        "hit": 1,
+        "n_tok": 891,
+        "pred": "HTTPTransport",
+        "gold": [
+          "AsyncHTTPTransport",
+          "HTTPTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a682f6f1",
+        "hit": 1,
+        "n_tok": 1019,
+        "pred": "ASGITransport",
+        "gold": [
+          "ASGITransport",
+          "test_asgi_disconnect_after_response_complete"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee432c0d",
+        "hit": 0,
+        "n_tok": 389,
+        "pred": "__repr__",
+        "gold": [
+          "test_copy_with",
+          "urlparse"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "32e25497",
+        "hit": 0,
+        "n_tok": 154,
+        "pred": "HTTPStatusError",
+        "gold": [
+          "is_ipv4_hostname",
+          "is_ipv6_hostname"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "472597fb",
+        "hit": 0,
+        "n_tok": 906,
+        "pred": "__init__",
+        "gold": [
+          "FileField"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9ae170a9",
+        "hit": 0,
+        "n_tok": 400,
+        "pred": "percent_encoded",
+        "gold": [
+          "percent_encode",
+          "quote",
+          "test_urlparse_leading_dot_prefix_on_relative_url"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15d09a3b",
+        "hit": 1,
+        "n_tok": 1340,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "URLPattern",
+          "get_environment_proxies",
+          "test_get_ssl_cert_file"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c1cc6b24",
+        "hit": 0,
+        "n_tok": 304,
+        "pred": "__init__",
+        "gold": [
+          "NetRCAuth"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "f0fd9192",
+        "hit": 1,
+        "n_tok": 368,
+        "pred": "MockTransport",
+        "gold": [
+          "ConsumeBodyTransport",
+          "MockTransport",
+          "test_async_mock_transport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a6af45ed",
+        "hit": 1,
+        "n_tok": 510,
+        "pred": "quote",
+        "gold": [
+          "QueryParams",
+          "quote",
+          "test_url_with_empty_query"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "57daabf6",
+        "hit": 0,
+        "n_tok": 3580,
+        "pred": "urlparse",
+        "gold": [
+          "URL",
+          "test_asgi_raw_path",
+          "test_ipv6_url_from_raw_url",
+          "test_url_copywith_security"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "bddd774c",
+        "hit": 0,
+        "n_tok": 884,
+        "pred": "__init__",
+        "gold": [
+          "primitive_value_to_str",
+          "test_empty_query_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "4cbf13ec",
+        "hit": 0,
+        "n_tok": 893,
+        "pred": "__init__",
+        "gold": [
+          "primitive_value_to_str",
+          "test_empty_query_params"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a8dd079b",
+        "hit": 1,
+        "n_tok": 907,
+        "pred": "encode_content",
+        "gold": [
+          "encode_content",
+          "test_invalid_argument"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1ff67ea4",
+        "hit": 0,
+        "n_tok": 981,
+        "pred": "handle_request",
+        "gold": [
+          "WSGITransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "75a13a15",
+        "hit": 0,
+        "n_tok": 234,
+        "pred": "__delitem__",
+        "gold": [
+          "MockTransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1ba3e2ad",
+        "hit": 0,
+        "n_tok": 229,
+        "pred": "__setstate__",
+        "gold": [
+          "BaseClient"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d5900cd4",
+        "hit": 0,
+        "n_tok": 564,
+        "pred": "__init__",
+        "gold": [
+          "QueryParams",
+          "test_queryparam_types"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "550fff93",
+        "hit": 1,
+        "n_tok": 235,
+        "pred": "HTTPError",
+        "gold": [
+          "HTTPError",
+          "RequestError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c82885ac",
+        "hit": 0,
+        "n_tok": 817,
+        "pred": "get_environment_proxies",
+        "gold": [
+          "print_help"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "2814fd37",
+        "hit": 1,
+        "n_tok": 481,
+        "pred": "download_response",
+        "gold": [
+          "download_response",
+          "print_response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "321d4aa5",
+        "hit": 0,
+        "n_tok": 273,
+        "pred": "update",
+        "gold": [
+          "Headers",
+          "echo_headers",
+          "test_header_update"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b7dc0c3d",
+        "hit": 0,
+        "n_tok": 166,
+        "pred": "ByteStream",
+        "gold": [
+          "AsyncIteratorByteStream",
+          "IteratorByteStream",
+          "test_post_byte_iterator"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "efc841a9",
+        "hit": 0,
+        "n_tok": 1673,
+        "pred": "urlparse",
+        "gold": [
+          "BaseClient"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "4882e980",
+        "hit": 0,
+        "n_tok": 696,
+        "pred": "_redirect_url",
+        "gold": [
+          "Response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee9250d6",
+        "hit": 0,
+        "n_tok": 1327,
+        "pred": "main",
+        "gold": [
+          "app",
+          "hello_world"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "0b4a8325",
+        "hit": 1,
+        "n_tok": 974,
+        "pred": "WSGITransport",
+        "gold": [
+          "WSGITransport",
+          "raise_exc",
+          "test_wsgi_generator_empty"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "0d3fcc74",
+        "hit": 1,
+        "n_tok": 703,
+        "pred": "WSGIByteStream",
+        "gold": [
+          "WSGIByteStream",
+          "application_factory"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "10b60d47",
+        "hit": 0,
+        "n_tok": 483,
+        "pred": "iter_bytes",
+        "gold": [
+          "Response",
+          "test_iter_bytes_with_chunk_size"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "31765358",
+        "hit": 1,
+        "n_tok": 874,
+        "pred": "RemoteProtocolError",
+        "gold": [
+          "RemoteProtocolError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ee24e671",
+        "hit": 0,
+        "n_tok": 589,
+        "pred": "to_str",
+        "gold": [
+          "test_json_without_specified_encoding_decode_error",
+          "test_json_without_specified_encoding_value_error"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b1690131",
+        "hit": 0,
+        "n_tok": 734,
+        "pred": "handle_request",
+        "gold": [
+          "WSGITransport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "b43af721",
+        "hit": 0,
+        "n_tok": 1459,
+        "pred": "create_ssl_context",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "SSLConfig",
+          "test_multipart_encode"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "69409bb8",
+        "hit": 0,
+        "n_tok": 1018,
+        "pred": "peek_filelike_length",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "52dd95fb",
+        "hit": 1,
+        "n_tok": 584,
+        "pred": "AsyncHTTPTransport",
+        "gold": [
+          "AsyncHTTPTransport",
+          "test_all_mounted_transport",
+          "test_async_mock_transport"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "c75ddc26",
+        "hit": 0,
+        "n_tok": 324,
+        "pred": "get_content_length",
+        "gold": [
+          "DataField",
+          "FileField",
+          "test_multipart_encode"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "6cb16724",
+        "hit": 0,
+        "n_tok": 382,
+        "pred": "_merge_url",
+        "gold": [
+          "BaseClient",
+          "URL",
+          "test_merge_relative_url_with_dotted_path",
+          "test_url_join"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9542a178",
+        "hit": 0,
+        "n_tok": 2244,
+        "pred": "normalize_path",
+        "gold": [
+          "codes"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "86964054",
+        "hit": 0,
+        "n_tok": 763,
+        "pred": "__init__",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "QueryParams",
+          "request"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "589c6e0f",
+        "hit": 1,
+        "n_tok": 761,
+        "pred": "DataField",
+        "gold": [
+          "BaseClient",
+          "DataField",
+          "URL",
+          "test_multipart_invalid_key"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "2f54548d",
+        "hit": 1,
+        "n_tok": 470,
+        "pred": "https_server",
+        "gold": [
+          "https_server"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "7fda99fc",
+        "hit": 0,
+        "n_tok": 3647,
+        "pred": "encode_host",
+        "gold": [
+          "URL",
+          "test_url_with_url_encoded_path"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "666cbbdf",
+        "hit": 0,
+        "n_tok": 576,
+        "pred": "__init__",
+        "gold": [
+          "Response",
+          "test_response"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "320bfe1d",
+        "hit": 0,
+        "n_tok": 1296,
+        "pred": "is_error",
+        "gold": [
+          "test_basic_auth_with_stream"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "befa57c6",
+        "hit": 0,
+        "n_tok": 215,
+        "pred": "elapsed",
+        "gold": [
+          "AsyncClient",
+          "Client"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d25f2bfe",
+        "hit": 0,
+        "n_tok": 837,
+        "pred": "stream",
+        "gold": [
+          "BaseClient",
+          "StreamContextManager",
+          "test_basic_auth"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "e53f9959",
+        "hit": 1,
+        "n_tok": 498,
+        "pred": "ASGITransport",
+        "gold": [
+          "ASGITransport",
+          "hello_world",
+          "test_asgi"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "54f7708e",
+        "hit": 0,
+        "n_tok": 549,
+        "pred": "_event_hooks",
+        "gold": [
+          "AsyncClient",
+          "BaseClient",
+          "Client",
+          "test_client_timeout"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15187e7c",
+        "hit": 0,
+        "n_tok": 247,
+        "pred": "update",
+        "gold": [
+          "test_multiple_set_cookie"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "42c66863",
+        "hit": 0,
+        "n_tok": 948,
+        "pred": "__init__",
+        "gold": [
+          "URL",
+          "test_url_invalid"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "642aabda",
+        "hit": 0,
+        "n_tok": 544,
+        "pred": "HTTPStatusError",
+        "gold": [
+          "HTTPError"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "15c1e42c",
+        "hit": 1,
+        "n_tok": 592,
+        "pred": "BrotliDecoder",
+        "gold": [
+          "BrotliDecoder"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "19515e8a",
+        "hit": 0,
+        "n_tok": 880,
+        "pred": "_prepare",
+        "gold": [
+          "Headers",
+          "Request",
+          "test_host_with_non_default_port_in_url"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "a226c608",
+        "hit": 0,
+        "n_tok": 2949,
+        "pred": "is_error",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "head"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "8d9dfb54",
+        "hit": 1,
+        "n_tok": 1360,
+        "pred": "Client",
+        "gold": [
+          "AsyncClient",
+          "Client",
+          "test_get"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "1da46f3d",
+        "hit": 0,
+        "n_tok": 781,
+        "pred": "join",
+        "gold": [
+          "BaseClient",
+          "URL"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "d7aa6e01",
+        "hit": 0,
+        "n_tok": 242,
+        "pred": "HTTPError",
+        "gold": [
+          "HTTPStatusError",
+          "InvalidURL",
+          "RequestError",
+          "ResponseClosed"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "9728d896",
+        "hit": 0,
+        "n_tok": 773,
+        "pred": "netloc",
+        "gold": [
+          "NetRCInfo"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "20f4911e",
+        "hit": 0,
+        "n_tok": 682,
+        "pred": "decode",
+        "gold": [
+          "LineDecoder",
+          "test_line_decoder_cr"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "ad5e6eb8",
+        "hit": 0,
+        "n_tok": 638,
+        "pred": "decode",
+        "gold": [
+          "LineDecoder",
+          "test_line_decoder_cr",
+          "test_line_decoder_crnl",
+          "test_line_decoder_nl"
+        ]
+      },
+      {
+        "repo": "httpx",
+        "sha": "27b0dbc2",
+        "hit": 0,
+        "n_tok": 514,
+        "pred": "raise_for_status",
+        "gold": [
+          "DecodingError",
+          "Response",
+          "test_raise_for_status"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fc518e41",
+        "hit": 0,
+        "n_tok": 2635,
+        "pred": "main",
+        "gold": [
+          "Command",
+          "_check_nested_chain"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "f58ca3e8",
+        "hit": 1,
+        "n_tok": 169,
+        "pred": "Sentinel",
+        "gold": [
+          "Sentinel",
+          "test_unset_sentinel"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3495fba1",
+        "hit": 0,
+        "n_tok": 748,
+        "pred": "get_params",
+        "gold": [
+          "Command",
+          "test_basic_functionality",
+          "test_flag_group_competition_duplicate_option_name"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "07c909f2",
+        "hit": 1,
+        "n_tok": 1451,
+        "pred": "style",
+        "gold": [
+          "_interpret_color",
+          "style",
+          "test_styling"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bec59289",
+        "hit": 0,
+        "n_tok": 1508,
+        "pred": "callback",
+        "gold": [
+          "test_help_invalid_default",
+          "version_option"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "762c97ee",
+        "hit": 0,
+        "n_tok": 288,
+        "pred": "__repr__",
+        "gold": [
+          "Argument",
+          "test_choice_argument_none"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bff780ff",
+        "hit": 0,
+        "n_tok": 780,
+        "pred": "show_version",
+        "gold": [
+          "get_pager_file"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "9f9ae453",
+        "hit": 0,
+        "n_tok": 669,
+        "pred": "convert",
+        "gold": [
+          "test_file_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7eb57cff",
+        "hit": 0,
+        "n_tok": 527,
+        "pred": "get_pager_file",
+        "gold": [
+          "_test_gen_func_fails",
+          "test_echo_via_pager",
+          "test_sys_streams_restored_after_exception"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "9a2d169f",
+        "hit": 0,
+        "n_tok": 248,
+        "pred": "convert",
+        "gold": [
+          "CompositeParamType",
+          "StringParamType",
+          "_NumberParamTypeBase"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "82f377c5",
+        "hit": 0,
+        "n_tok": 317,
+        "pred": "_format_deprecated_label",
+        "gold": [
+          "Command",
+          "Option",
+          "test_deprecated_in_help_messages",
+          "test_deprecated_usage"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ddf20d06",
+        "hit": 0,
+        "n_tok": 455,
+        "pred": "show_help",
+        "gold": [
+          "FishComplete",
+          "test_files_closed"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b7e5fd4c",
+        "hit": 1,
+        "n_tok": 494,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c3535905",
+        "hit": 1,
+        "n_tok": 494,
+        "pred": "FishComplete",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7d05a59b",
+        "hit": 0,
+        "n_tok": 1397,
+        "pred": "handle_parse_result",
+        "gold": [
+          "Parameter",
+          "test_bool_flag_group_competition_with_default_map",
+          "test_default_map_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c6bf75fa",
+        "hit": 1,
+        "n_tok": 616,
+        "pred": "open_url",
+        "gold": [
+          "open_url"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "32ae2acd",
+        "hit": 0,
+        "n_tok": 660,
+        "pred": "shell_complete",
+        "gold": [
+          "Choice",
+          "test_context_settings"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "0551bf53",
+        "hit": 1,
+        "n_tok": 409,
+        "pred": "HelpFormatter.write_usage",
+        "gold": [
+          "HelpFormatter",
+          "test_write_usage_styled_prefix_keeps_options_on_one_line"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "2fdde683",
+        "hit": 0,
+        "n_tok": 760,
+        "pred": "custom_version_option",
+        "gold": [
+          "FishComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "0f71fe77",
+        "hit": 0,
+        "n_tok": 973,
+        "pred": "_match_long_opt",
+        "gold": [
+          "Context",
+          "Parameter",
+          "test_bool_flag_pair_default"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "a09c1c65",
+        "hit": 0,
+        "n_tok": 1217,
+        "pred": "prompt_func",
+        "gold": [
+          "prompt",
+          "test_flag_value_prompt"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fc6c7c47",
+        "hit": 1,
+        "n_tok": 310,
+        "pred": "FuncParamType",
+        "gold": [
+          "FuncParamType",
+          "test_range_fail"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "19fd4d6e",
+        "hit": 0,
+        "n_tok": 470,
+        "pred": "format_completion",
+        "gold": [
+          "FishComplete",
+          "test_files_closed",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c5cced7b",
+        "hit": 1,
+        "n_tok": 755,
+        "pred": "open_url",
+        "gold": [
+          "open_url"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3a3e0350",
+        "hit": 0,
+        "n_tok": 843,
+        "pred": "consume_value",
+        "gold": [
+          "Parameter",
+          "test_default_map_with_callable_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1241abae",
+        "hit": 0,
+        "n_tok": 713,
+        "pred": "show",
+        "gold": [
+          "UsageError",
+          "test_formatting_usage_custom_help"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "790ebd66",
+        "hit": 1,
+        "n_tok": 1630,
+        "pred": "make_default_short_help",
+        "gold": [
+          "make_default_short_help"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8762c775",
+        "hit": 0,
+        "n_tok": 472,
+        "pred": "fileno",
+        "gold": [
+          "CliRunner",
+          "_NamedTextIOWrapper",
+          "test_pdb_init_restored_after_invoke"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c653ec82",
+        "hit": 0,
+        "n_tok": 1631,
+        "pred": "_get_resolve_lazy_default",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value",
+          "test_type_from_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4f9086bf",
+        "hit": 1,
+        "n_tok": 928,
+        "pred": "CliRunner",
+        "gold": [
+          "CliRunner",
+          "test_isolation_flushes_unflushed_stderr"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "6de21215",
+        "hit": 0,
+        "n_tok": 1168,
+        "pred": "_default_map_has",
+        "gold": [
+          "Context",
+          "Parameter",
+          "test_default_map_with_callable_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b1bc8c9c",
+        "hit": 0,
+        "n_tok": 1167,
+        "pred": "_tempfilepager",
+        "gold": [
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d340b0c1",
+        "hit": 0,
+        "n_tok": 248,
+        "pred": "_check_iter",
+        "gold": [
+          "Option",
+          "test_show_default_string",
+          "test_show_default_with_empty_string"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "955ca492",
+        "hit": 0,
+        "n_tok": 1017,
+        "pred": "flag_activation_value",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value",
+          "test_flag_value_optional_behavior",
+          "test_flag_value_with_type_conversion"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "91de59c6",
+        "hit": 0,
+        "n_tok": 1369,
+        "pred": "_resolve_lazy_default",
+        "gold": [
+          "Option",
+          "test_custom_type_frozenset_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "437e1e32",
+        "hit": 0,
+        "n_tok": 1543,
+        "pred": "process_value",
+        "gold": [
+          "Parameter",
+          "test_make_pass_meta_decorator_doc"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bd131e1a",
+        "hit": 0,
+        "n_tok": 802,
+        "pred": "edit",
+        "gold": [
+          "test_edit"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "34723d12",
+        "hit": 0,
+        "n_tok": 697,
+        "pred": "_resolve_pager_command",
+        "gold": [
+          "_pipepager",
+          "_tempfilepager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1c20dc6e",
+        "hit": 0,
+        "n_tok": 1590,
+        "pred": "get_default",
+        "gold": [
+          "Command",
+          "Parameter",
+          "test_flag_default_map"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d36de6fc",
+        "hit": 0,
+        "n_tok": 943,
+        "pred": "format_completion",
+        "gold": [
+          "ColorInt",
+          "HashType",
+          "Letter",
+          "test_usage_show_choices"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c442c05c",
+        "hit": 0,
+        "n_tok": 1323,
+        "pred": "format_completion",
+        "gold": [
+          "Parameter"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "701b3131",
+        "hit": 0,
+        "n_tok": 238,
+        "pred": "get_completion_args",
+        "gold": [
+          "FishComplete",
+          "test_full_source"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "b9e4052e",
+        "hit": 0,
+        "n_tok": 533,
+        "pred": "commit",
+        "gold": [
+          "_pipepager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "812b8000",
+        "hit": 1,
+        "n_tok": 1568,
+        "pred": "prompt",
+        "gold": [
+          "confirm",
+          "prompt",
+          "test_echo_writing_to_standard_error"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "cc3942a4",
+        "hit": 0,
+        "n_tok": 2167,
+        "pred": "Parameter.__init__",
+        "gold": [
+          "test_duplicate_names_warning",
+          "test_nargs_tup_composite"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "a1235aac",
+        "hit": 0,
+        "n_tok": 372,
+        "pred": "format_completion",
+        "gold": [
+          "ZshComplete",
+          "test_full_complete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e37cad2a",
+        "hit": 1,
+        "n_tok": 377,
+        "pred": "StreamMixer",
+        "gold": [
+          "StreamMixer"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3155dcac",
+        "hit": 1,
+        "n_tok": 661,
+        "pred": "BadParameter",
+        "gold": [
+          "BadParameter",
+          "MissingParameter"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1b0e19f5",
+        "hit": 0,
+        "n_tok": 497,
+        "pred": "get_error_hint",
+        "gold": [
+          "Option",
+          "test_missing_envvar"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "93c6966e",
+        "hit": 0,
+        "n_tok": 1401,
+        "pred": "confirm",
+        "gold": [
+          "CliRunner",
+          "_NamedTextIOWrapper",
+          "test_pipeline"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "7559bb8f",
+        "hit": 0,
+        "n_tok": 1236,
+        "pred": "format_filename",
+        "gold": [
+          "test_file_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ac6a2acf",
+        "hit": 0,
+        "n_tok": 519,
+        "pred": "complete",
+        "gold": [
+          "_resolve_context",
+          "test_group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4fd2fea0",
+        "hit": 0,
+        "n_tok": 837,
+        "pred": "_infer_flag_kind",
+        "gold": [
+          "Option",
+          "test_invalid_flag_combinations",
+          "test_type_from_flag_value"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "2fa500c1",
+        "hit": 0,
+        "n_tok": 1158,
+        "pred": "format_filename",
+        "gold": [
+          "test_filename_formatting"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "bd7afd45",
+        "hit": 0,
+        "n_tok": 533,
+        "pred": "commit",
+        "gold": [
+          "Command"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "43988874",
+        "hit": 0,
+        "n_tok": 391,
+        "pred": "format_completion",
+        "gold": [
+          "test_cat_with_path_specified"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "ffd43e9d",
+        "hit": 0,
+        "n_tok": 724,
+        "pred": "should_strip_ansi",
+        "gold": [
+          "CliRunner"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "70c673d3",
+        "hit": 0,
+        "n_tok": 600,
+        "pred": "get_help_option_names",
+        "gold": [
+          "Command",
+          "iter_params_for_processing",
+          "test_group_add_command_name"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "fde47b4b",
+        "hit": 0,
+        "n_tok": 399,
+        "pred": "format_completion",
+        "gold": [
+          "ProgressBar",
+          "_FixupStream"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3b06e0b7",
+        "hit": 0,
+        "n_tok": 553,
+        "pred": "echo_via_pager",
+        "gold": [
+          "_pipepager",
+          "_test_gen_func",
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "4271fe28",
+        "hit": 0,
+        "n_tok": 431,
+        "pred": "convert",
+        "gold": [
+          "Choice",
+          "test_invalid_path_with_esc_sequence"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "c326df95",
+        "hit": 0,
+        "n_tok": 558,
+        "pred": "exit",
+        "gold": [
+          "Context",
+          "test_close_before_pop"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1b524bb3",
+        "hit": 0,
+        "n_tok": 409,
+        "pred": "get_error_hint",
+        "gold": [
+          "Option",
+          "test_missing_choice"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "1a4d8c1b",
+        "hit": 0,
+        "n_tok": 550,
+        "pred": "get_metavar",
+        "gold": [
+          "Choice",
+          "test_invalid_flag_combinations"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8fa833e3",
+        "hit": 0,
+        "n_tok": 621,
+        "pred": "get_error_hint",
+        "gold": [
+          "Argument",
+          "Option"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "8c842a43",
+        "hit": 0,
+        "n_tok": 344,
+        "pred": "show",
+        "gold": [
+          "ClickException",
+          "test_with_color"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "afc86c74",
+        "hit": 1,
+        "n_tok": 1011,
+        "pred": "echo",
+        "gold": [
+          "echo",
+          "test_echo_color_flag",
+          "test_echo_custom_file",
+          "test_echo_via_pager"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "61f8101f",
+        "hit": 1,
+        "n_tok": 1528,
+        "pred": "Option",
+        "gold": [
+          "Option",
+          "test_show_default_string"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "3f91d215",
+        "hit": 0,
+        "n_tok": 276,
+        "pred": "format_message",
+        "gold": [
+          "Path",
+          "test_file_error_surrogates"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "14968375",
+        "hit": 0,
+        "n_tok": 324,
+        "pred": "get_default_prog_name",
+        "gold": [
+          "command",
+          "test_other_command_invoke_with_defaults",
+          "test_params_argument"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "d9db70ca",
+        "hit": 0,
+        "n_tok": 1097,
+        "pred": "_check_version",
+        "gold": [
+          "BashComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "af2da1ef",
+        "hit": 0,
+        "n_tok": 756,
+        "pred": "_mask_hidden_input",
+        "gold": [
+          "ShellComplete"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "20280d4f",
+        "hit": 1,
+        "n_tok": 247,
+        "pred": "group",
+        "gold": [
+          "group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "422e2110",
+        "hit": 0,
+        "n_tok": 564,
+        "pred": "confirm",
+        "gold": [
+          "BaseCommand",
+          "test_group_invoke_collects_used_option_prefixes"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e002dbc4",
+        "hit": 1,
+        "n_tok": 632,
+        "pred": "add_completion_class",
+        "gold": [
+          "FishComplete",
+          "add_completion_class",
+          "test_choice_case_sensitive"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "eb1d760f",
+        "hit": 0,
+        "n_tok": 897,
+        "pred": "make_context",
+        "gold": [
+          "BaseCommand"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "73d7de5f",
+        "hit": 0,
+        "n_tok": 171,
+        "pred": "cli",
+        "gold": [
+          "Path"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "92cebe90",
+        "hit": 1,
+        "n_tok": 597,
+        "pred": "Path",
+        "gold": [
+          "Path"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e234cf95",
+        "hit": 0,
+        "n_tok": 298,
+        "pred": "decorator",
+        "gold": [
+          "Group",
+          "command",
+          "group"
+        ]
+      },
+      {
+        "repo": "click",
+        "sha": "e0033315",
+        "hit": 0,
+        "n_tok": 494,
+        "pred": "to_info_dict",
+        "gold": [
+          "ParamType",
+          "test_context"
+        ]
+      }
+    ]
+  }
+}

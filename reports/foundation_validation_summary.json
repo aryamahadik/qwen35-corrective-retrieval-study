@@ -1,0 +1,66 @@
+{
+  "checked_utc": "2026-09-15T19:40:51.336911+00:00",
+  "workspace": "/Users/aryamahadik/Documents/ECHO Architecture/Modal/MODAL",
+  "phase": "LOCAL_DATASET_FOUNDATION_MODAL_DEFERRED",
+  "task_counts": {
+    "train": 128,
+    "development": 41,
+    "final_test": 160
+  },
+  "frozen_task_membership_changed": false,
+  "deferred_modal_files_unchanged": {
+    "modal_app.py": true,
+    "train_worker.py": true,
+    "checkpoint_utils.py": true,
+    "budget_control.py": true,
+    "config/modal.json": true,
+    "config/training.json": true,
+    "requirements-train.txt": true,
+    "scripts/launch.py": true,
+    "scripts/checkpoint_transfer.py": true
+  },
+  "training_collection_tasks": 128,
+  "training_workflow_groups": 105,
+  "training_required_checks": 754,
+  "training_seed_files": 39,
+  "tokenizer_files": 3,
+  "local_unit_tests": {
+    "status": "PASS",
+    "count": 55,
+    "log": "reports/foundation_tests.txt"
+  },
+  "tokenizer_smoke": {
+    "checked_utc": "2026-09-15T19:39:13.718702+00:00",
+    "status": "PASS",
+    "scope": "Synthetic local tokenizer/mask check only",
+    "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "versions": {
+      "transformers": "5.5.0",
+      "tokenizers": "0.22.2",
+      "jinja2": "3.1.6"
+    },
+    "processed_tokens": 361,
+    "supervised_tokens": 46,
+    "first_token_masked": true,
+    "network_used": false,
+    "model_weights_loaded": false,
+    "gpu_used": false,
+    "sft_dataset_written": false,
+    "real_demonstrations_generated": 0
+  },
+  "verified_training_demonstrations": 0,
+  "prepared_training_rows": 0,
+  "runtime_backends_running": false,
+  "semantic_scorer_holds": 1,
+  "modal_jobs_started": 0,
+  "teacher_generation_api_jobs_started": 0,
+  "foundation_files_ready": true,
+  "training_ready": false,
+  "still_required": [
+    "Live local backend tool-catalog/reset/verifier validation",
+    "128 real complete accepted training workflows and bound receipts",
+    "Token preparation from those actual workflows",
+    "Retained final-test scorer hold review before final evaluation"
+  ],
+  "scope_limit": "Foundation integrity and validator tests are complete; actual successful enterprise executions are not yet supplied."
+}
